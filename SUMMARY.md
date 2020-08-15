@@ -1,11 +1,12 @@
 # Table of contents
 
 * [Home](README.md)
+* [General Reading List](general-reading-list.md)
 
 ## Introductory Materials
 
 * [What is Blockchain Governance](introductory-materials/untitled.md)
-* [On Chain Governance TEST](introductory-materials/on-chain-governance.md)
+* [On-Chain Governance](introductory-materials/on-chain-governance.md)
 
 ## DeFi Governance
 
