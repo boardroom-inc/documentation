@@ -1,10 +1,10 @@
 ---
 description: >-
-  iEarn allows users to take advantage of multiple DeFi protocols with one
+  yEarn allows users to take advantage of multiple DeFi protocols with one
   access point, similarly to DeFiZap.
 ---
 
-# iEarn
+# yEarn
 
 ### **yEarn Governance Flow** <a id="4ce3"></a>
 

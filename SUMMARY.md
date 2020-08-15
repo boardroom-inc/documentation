@@ -13,7 +13,7 @@
 * [Compound](defi-governance/compound.md)
 * [Aave](defi-governance/aave.md)
 * [Kyber](defi-governance/kyber.md)
-* [iEarn](defi-governance/iearn.md)
+* [yEarn](defi-governance/yearn.md)
 
 ## Layer 1 Governance
 
