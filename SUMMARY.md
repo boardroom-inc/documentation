@@ -11,9 +11,10 @@
 ## DeFi Governance
 
 * [Compound](defi-governance/compound.md)
+* [yEarn](defi-governance/yearn/README.md)
+  * [How To Vote with YFI](defi-governance/yearn/how-to-vote-with-yfi.md)
 * [Aave](defi-governance/aave.md)
 * [Kyber](defi-governance/kyber.md)
-* [yEarn](defi-governance/yearn.md)
 
 ## Layer 1 Governance
 
@@ -38,4 +39,11 @@
 
 * [Futarchy](other-topics/futarchy.md)
 * [Quadratic Voting](other-topics/quadratic-voting.md)
+
+## REST API <a id="api"></a>
+
+* [GET](api/get-accounts.md)
+* [POST](api/post.md)
+* [DELETE](api/delete.md)
+* [PUT](api/put.md)
 
