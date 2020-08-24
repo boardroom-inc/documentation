@@ -11,7 +11,7 @@
 ## DeFi Governance
 
 * [Compound](defi-governance/compound.md)
-* [yEarn](defi-governance/yearn/README.md)
+* [yEarn Finance](defi-governance/yearn/README.md)
   * [How To Vote with YFI](defi-governance/yearn/how-to-vote-with-yfi.md)
 * [Aave](defi-governance/aave.md)
 * [Kyber](defi-governance/kyber.md)

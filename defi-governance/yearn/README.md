@@ -1,10 +1,12 @@
 ---
 description: >-
-  yEarn allows users to take advantage of multiple DeFi protocols with one
-  access point, similarly to DeFiZap.
+  yEarn is an automated liquidity aggregator offering a number of yield farming
+  opportunities
 ---
 
-# yEarn
+# yEarn Finance
+
+![](../../.gitbook/assets/image%20%287%29.png)
 
 ### **yEarn Governance Flow** <a id="4ce3"></a>
 
