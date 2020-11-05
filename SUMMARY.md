@@ -25,21 +25,6 @@
 * [What are Protocol Politicians](protocol-politicians/what-are-protocol-politicians.md)
 * [Proposal Farming](protocol-politicians/proposal-farming.md)
 
-## DAO Governance
-
-* [Moloch](dao-governance/untitled.md)
-* [Aragon](dao-governance/aragon.md)
-* [MetaCartel](dao-governance/metacartel.md)
-
-## Marketplace Governance
-
-* [Rarible](marketplace-governance/rarible.md)
-
-## Other Topics
-
-* [Futarchy](other-topics/futarchy.md)
-* [Quadratic Voting](other-topics/quadratic-voting.md)
-
 ## REST API <a id="api"></a>
 
 * [GET](api/get-accounts.md)
