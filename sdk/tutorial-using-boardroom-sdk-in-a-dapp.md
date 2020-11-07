@@ -60,7 +60,7 @@ In case you wish to implement your own classes, writing your own queries and mut
 
 ```typescript
 import { ApolloClient, gql, InMemoryCache } from 'apollo-boost'
-import { resolvers, typeDefs } from '@dgov-sdk/sdk'
+import { resolvers, typeDefs } from '@boardroom-sdk/sdk'
 
 const apolloClient = new ApolloClient({
   cache: new InMemoryCache(),
