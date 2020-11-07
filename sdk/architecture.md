@@ -4,7 +4,7 @@ The Boardroom SDK's architecture consists of a base package that contains common
 
 ![](../.gitbook/assets/boardroom-sdk-3-.jpg)
 
-To achieve the aforementioned architecture, the package is organized as a monorepo. Below is a list of the Core Packages  and a brief explanation of each.
+To achieve the aforementioned architecture, the package is organized as a monorepo. Below is a list of the Core Packages and a brief explanation of each.
 
 #### **Core Packages**:
 
@@ -58,6 +58,4 @@ The Cli package contains all "global" scripts that manipulate data across the mo
 These packages should contain protocol-specific logic only. They consist of GraphQL types definitions for each entity that could be fetched \(or manipulated in future stages\) from the protocol, and resolvers to write or read data from the protocol's data sources \(smart contracts, subgraphs, APIs, Snapshot\).
 
 If you'd like to learn more about what requirements protocol packages have, see this section below
-
-
 

@@ -3,6 +3,7 @@
 ## Short term
 
 * Add support for Apollo/GraphQL arbitrary data filtering through a `where` object.
+* Add support for all packages supported on [Boardroom Dashboard](https://app.boardroom.info/)
 
 ## Mid term
 

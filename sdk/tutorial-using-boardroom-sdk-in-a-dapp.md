@@ -25,8 +25,6 @@ In the example above, we are importing the `Compound` class, we declare our func
 
 Some methods require the user to pass certain arguments in order to perform the read/write operation. This is done by simply passing the required parameters, Typescript's compiler will complain if a required argument isn't passed, since all classes, methods and data is typesafe.
 
-
-
 ```typescript
 import { Snapshot } from '@boardroom-sdk/sdk';
 
@@ -52,7 +50,7 @@ const getCompoundProposals: Promise<Proposal[]> = async () => {
 }
 ```
 
-In this example, we are getting open proposals across all protocols and then we are taking Compound proposals only,  by destructuring the `proposalsByProtocol` object.
+In this example, we are getting open proposals across all protocols and then we are taking Compound proposals only, by destructuring the `proposalsByProtocol` object.
 
 ## Querying through an Apollo Client
 
@@ -141,7 +139,7 @@ import { unnamespacedResolvers, typeDefs } from '@boardroom-sdk/compound'
 
 const apolloClient = new ApolloClient({
   cache: new InMemoryCache(),
-  resolvers,
+  resolvers: unnamespacedResolvers,
   typeDefs
 })
 
