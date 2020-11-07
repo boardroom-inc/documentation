@@ -26,12 +26,12 @@ The protocol packages list will grow as support for more protocols is added to t
 
 ### @boardroom-sdk/sdk:
 
-The `@dgov-sdk/sdk` package contains all interfaces and classes to perform read and write operations on the supported governance protocols, that can be imported in an application.
+The `@boardroom-sdk/sdk` package contains all interfaces and classes to perform read and write operations on the supported governance protocols, that can be imported in an application.
 
 These classes and interfaces allow application developers to have the following developer experience:
 
 ```typescript
-import { Yearn, YearnProposal } from '@dgov-sdk/sdk';
+import { Yearn, YearnProposal } from '@boardroom-sdk/sdk';
 
 export const getYearnProposals: Promise<YearnProposal[]> = async () => {
   const yearn = new Yearn()
