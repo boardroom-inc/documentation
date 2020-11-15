@@ -52,6 +52,36 @@ const getCompoundProposals: Promise<Proposal[]> = async () => {
 
 In this example, we are getting open proposals across all protocols and then we are taking Compound proposals only, by destructuring the `proposalsByProtocol` object.
 
+## Step 3: Filtering data
+
+```typescript
+import { Compound, CompoundProposal } from '@boardroom-sdk/sdk';
+
+const getCompoundProposals = async () => {
+  
+  // Query for Compound proposals with id === '1'
+  const aProposals = await compound.getProposals({ where: { id: '1' }})
+  
+  // Query for Compound proposals with againstVotes === '0' AND author === null
+  const bProposals = await compound.getProposals({ where: {
+    againstVotes: '0',
+    author: null
+  }, conditionType: 'AND' })
+  
+  // Query for Compound proposals with againstVotes === '0' OR author === null
+  const cProposals = await compound.getProposals({ where: {
+    againstVotes: '0',
+    author: null
+  }, conditionType: 'OR' })
+
+  return proposals
+}
+```
+
+Currently, Boardroom SDK supports basic data filtering, by passing a filter argument.  It contains a `where` object that holds the properties and values the returned entities should match, and a `conditionType` boolean that can be either `'OR'` or `'AND'` \(if undefined, will default to `'AND'`\).
+
+If `conditionType` is `'AND'`, then the returned entities must match all properties and values in the `where` object. If`'OR'` then it needs to match only one of them.
+
 ## Querying through an Apollo Client
 
 In case you wish to implement your own classes, writing your own queries and mutations, you can do so by importing aggregated resolvers and type definitions to instantiate an `ApolloClient`:
