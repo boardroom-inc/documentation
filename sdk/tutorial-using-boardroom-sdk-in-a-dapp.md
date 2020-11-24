@@ -52,35 +52,52 @@ const getCompoundProposals: Promise<Proposal[]> = async () => {
 
 In this example, we are getting open proposals across all protocols and then we are taking Compound proposals only, by destructuring the `proposalsByProtocol` object.
 
-## Step 3: Filtering data
+## Step 3: Filtering and paginating data
 
 ```typescript
-import { Compound, CompoundProposal } from '@boardroom-sdk/sdk';
+  // Defaults to page 1, pageSize 2000 and no filter
+  const aProposals = await compound.getProposals()
 
-const getCompoundProposals = async () => {
+  // Defaults to page 1, pageSize 2000 and filter by Id, so this will only yield 1 proposal
+  const bProposals = await compound.getProposals(
+    null, null, { where: { id: '1' }}
+  )
+
+  // Defaults to page 1, pageSize 50 and no filter  
+  const cProposals = await compound.getProposals(
+    null, 50
+  )
+
+  // Defaults to page 2, pageSize 2000 and no filter
+  const dProposals = await compound.getProposals(2)
+
+  // Page 2, pageSize 100 and filter by no votes against
+  const eProposals = await compound.getProposals(
+    2, 100, { where: { againstVotes: '0' }}
+  )
   
-  // Query for Compound proposals with id === '1'
-  const aProposals = await compound.getProposals({ where: { id: '1' }})
-  
+  // Defaults to page 1, pageSize 2000
   // Query for Compound proposals with againstVotes === '0' AND author === null
-  const bProposals = await compound.getProposals({ where: {
+  const fProposals = await compound.getProposals(null, null, { where: {
     againstVotes: '0',
     author: null
   }, conditionType: 'AND' })
   
+  // Defaults to page 1, pageSize 2000
   // Query for Compound proposals with againstVotes === '0' OR author === null
-  const cProposals = await compound.getProposals({ where: {
+  const gProposals = await compound.getProposals(null, null, { where: {
     againstVotes: '0',
     author: null
   }, conditionType: 'OR' })
-
-  return proposals
-}
 ```
 
 Currently, Boardroom SDK supports basic data filtering, by passing a filter argument.  It contains a `where` object that holds the properties and values the returned entities should match, and a `conditionType` boolean that can be either `'OR'` or `'AND'` \(if undefined, will default to `'AND'`\).
 
 If `conditionType` is `'AND'`, then the returned entities must match all properties and values in the `where` object. If`'OR'` then it needs to match only one of them.
+
+{% hint style="info" %}
+Not all queries support pagination. If the query you are invoking support pagination, typesafety will indicate it.
+{% endhint %}
 
 ## Querying through an Apollo Client
 
