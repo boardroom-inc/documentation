@@ -26,11 +26,11 @@ In the example above, we are importing the `Compound` class, we declare our func
 Some methods require the user to pass certain arguments in order to perform the read/write operation. This is done by simply passing the required parameters, Typescript's compiler will complain if a required argument isn't passed, since all classes, methods and data is typesafe.
 
 ```typescript
-import { Snapshot } from '@boardroom-sdk/sdk';
+import { Maker } from '@boardroom-sdk/sdk';
 
-const snapshot = new Snapshot()
+const maker = new Maker()
 
-const yearnVoters = await snapshot.getVoters('yearn', 'QmVzvqJwnnEhnJGxDoKZNNkeRXvrmscrhwpLbZrQxw1mkf')
+const makerProposalTally = await maker.getProposalTally(350)
 ```
 
 ## Step 2: Query data from different protocols
