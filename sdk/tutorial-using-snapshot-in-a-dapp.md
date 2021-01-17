@@ -4,6 +4,8 @@
 
 The Snapshot package is protocol agnostic. You can use it with any protocol that has Snapshot support by passing the correct arguments. The list of supported protocols can be found on [https://snapshot.page](https://snapshot.page/#/)
 
+Many of these require passing the name of the protocol to query. The correct name to use is the one corresponding to the name of the Snapshot space. The simplest way to find this is to go to the protocol's page from [https://snapshot.page](https://snapshot.page/#/) and get the name used in the url (i.e. `cream-finance.eth` for Cream protocol). In some cases the SDK can accept multiple names, for instance `yam` or `yam.eth` will both work for Yam protocol.
+
 ### Proposals
 
 ```typescript
@@ -12,7 +14,7 @@ import { Snapshot } from '@boardroom-sdk/sdk';
 const snapshot = new Snapshot()
 
 const aaveProposals = await snapshot.getProposals("aave");
-const yamProposals = await snapshot.getProposals("yam");
+const yamProposals = await snapshot.getProposals("yam.eth");
 ```
 
 ### Voters
@@ -22,8 +24,14 @@ import { Snapshot } from '@boardroom-sdk/sdk';
 
 const snapshot = new Snapshot()
 
-const yamProposals = await snapshot.getVoters(
-      "yam",
+// All Yam voters
+const allYamVoters = await snapshot.getSnapshotVoters(
+      "yam.eth",
+    );
+    
+// Voters for the specified poll
+const yamVotersByPoll = await snapshot.getSnapshotVotersByPoll(
+      "yam.eth",
       "QmPsDrBwJYEb6Row6aqruxHZJGqr58HpmqMD7jsGpbUdTu"
     );
 ```
@@ -88,3 +96,26 @@ returns:
 */
 ```
 
+### Governance Stats
+
+Fetch total proposals, total voters, total ballots and a list of scoring strategies for a given protocol.
+
+```typescript
+import { Snapshot } from '@boardroom-sdk/sdk';
+const snapshot = new Snapshot(ETH_PROVIDER_URL);
+
+const data = await snapshot.getSnapshotGovernance(
+      "rarible",
+    );
+/*
+returns:
+{
+  totalProposals: 34,
+  totalVoters: 924,
+  totalVotes: 4620,
+  snapshotSpace: 'rarible',
+  strategies: [ 'erc20-balance-of' ],
+  __typename: 'SnapshotGovernance'
+}
+*/
+```
