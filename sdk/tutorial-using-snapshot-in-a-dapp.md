@@ -119,3 +119,26 @@ returns:
 }
 */
 ```
+
+### Posting a Signal
+
+You can post a signal on a poll through the SDK. In the example a signer is obtained from an injected Web3 instance such as Metamask and used to vote choice 2 for proposal `QmY6FRFwnHugEugA3KQqi3xyNCzncTpZPcFJTXkPHeAg4a` on Akropolis.
+
+```typescript
+import { Snapshot } from '@boardroom-sdk/sdk';
+
+const postSnapshotSignal = async () => {
+  await (window as any).ethereum.enable();
+  const signer = new Web3Provider((window as any).ethereum).getSigner();
+
+  const snapshot = new Snapshot(undefined, { signer });
+  const address = await signer.getAddress();
+
+  const mutationResult = await snapshot.castVote(
+    address,                                          // user address
+    "QmY6FRFwnHugEugA3KQqi3xyNCzncTpZPcFJTXkPHeAg4a", // proposal Id
+    "akropolis-delphi",                               // protocol name (Snapshot space)
+    2                                                 // proposal choice
+  );
+};
+```
