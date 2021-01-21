@@ -132,13 +132,36 @@ const postSnapshotSignal = async () => {
   const signer = new Web3Provider((window as any).ethereum).getSigner();
 
   const snapshot = new Snapshot(undefined, { signer });
-  const address = await signer.getAddress();
 
   const mutationResult = await snapshot.castVote(
-    address,                                          // user address
     "QmY6FRFwnHugEugA3KQqi3xyNCzncTpZPcFJTXkPHeAg4a", // proposal Id
     "akropolis-delphi",                               // protocol name (Snapshot space)
     2                                                 // proposal choice
+  );
+};
+```
+
+### Creating a new Poll
+
+You can create new Snapshot polls via the SDK. In the example a signer is obtained from an injected Web3 instance such as Metamask and used to create a new poll on Akropolis.
+
+```typescript
+import { Snapshot } from '@boardroom-sdk/sdk';
+
+const postSnapshotSignal = async () => {
+  await (window as any).ethereum.enable();
+  const signer = new Web3Provider((window as any).ethereum).getSigner();
+  const ETH_PROVIDER_URL = "https://mainnet.infura.io/v3/..."
+
+  const snapshot = new Snapshot(ETH_PROVIDER_URL, { signer });
+
+  const mutationResult = await snapshot.createPoll(
+    "akropolis-delphi",                               // protocol name (Snapshot space)
+    "New Discord Channel",                            // title of new proposal
+    "I'd like a new DeFi discussion channel.",        // description text for new proposal
+    ["Yes!", "No thank you"],                         // possible voting choices
+    1611259200,                                       // unix timestamp to start voting
+    1611864000                                        // unix timestamp to end voting
   );
 };
 ```
