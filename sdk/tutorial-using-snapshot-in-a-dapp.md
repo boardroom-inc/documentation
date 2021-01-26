@@ -167,6 +167,10 @@ const postSnapshotSignal = async () => {
 ```
 
 {% hint style="info" %}
-All Snapshot methods that return collections support filtering, sorting and pagination just like On-Chain governance protocol packages. To see how sorting, filtering and pagination works, please go to the [Tutorial: using Boardroom SDK in a dApp](tutorial-using-boardroom-sdk-in-a-dapp.md) section.
+All Snapshot methods that return collections support filtering, and sorting just like On-Chain governance protocol packages. To see how sorting, filtering and pagination works, please go to the [Tutorial: using Boardroom SDK in a dApp](tutorial-using-boardroom-sdk-in-a-dapp.md) section.
+{% endhint %}
+
+{% hint style="warning" %}
+Snapshot currently does not support pagination, even if the `paginate` object can be passed into `fetchOptions` argument. If passed, there will be no pagination performed, and no error thrown.
 {% endhint %}
 

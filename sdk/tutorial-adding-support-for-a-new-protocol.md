@@ -128,6 +128,45 @@ export const getProposalsResolver = async (root: any, args: any, context: any) =
 };
 ```
 
+Certain resolvers are common for all protocols. Their signature is defined in `@boardroom/sdk/src/classes.ts`:
+
+```typescript
+export abstract class BoardroomProtocol {
+  public client = new ApolloClient({
+    cache: new InMemoryCache(),
+    resolvers,
+    typeDefs,
+  })
+
+  constructor(public ethereumApiUrl?: string, public config?: ProviderConfig) {}
+
+  abstract getProposals(...args: any[]): Promise<Proposal[] | SnapshotProposal[]>
+  abstract getVoters(...args: any[]): Promise<Voter[] | SnapshotVoter[]>
+  abstract getVoteReceiptsByProposal(...args: any[]): Promise<VoteReceipt[] | SnapshotPollVote[]>
+  abstract getVoteReceiptsByVoter(...args: any[]): Promise<VoteReceipt[] | SnapshotHarvesterVoteReceipt[]>
+  abstract getGovernanceData(...args: any[]): Promise<Governance | SnapshotGovernance>
+}
+
+export abstract class OnChainProtocol extends BoardroomProtocol {
+  abstract getProposals(fetchOptions?: FetchOptions): Promise<Proposal[]>
+  abstract getVoters(fetchOptions?: FetchOptions): Promise<Voter[]>
+  abstract getVoteReceiptsByProposal(proposalId: string, fetchOptions?: FetchOptions): Promise<VoteReceipt[]>
+  abstract getVoteReceiptsByVoter(voterAddress: string, fetchOptions?: FetchOptions): Promise<VoteReceipt[]>
+  abstract getGovernanceData(): Promise<Governance>
+}
+
+```
+
+#### When implementing one of these resolvers, the name and signature should match its definition exactly.
+
+{% hint style="danger" %}
+If the new protocol that you are adding support for, contains one of the methods above and the signature in the protocol specific package does not match the one above, the `@boardroom/sdk` build will fail
+{% endhint %}
+
+{% hint style="info" %}
+All OnChain protocols are abstracted under the `OnChainProtocol` abstract class
+{% endhint %}
+
 ## Step 8: Export TypeDefs and Resolvers
 
 Export the resolvers from `resolvers.ts` like so:
@@ -160,37 +199,109 @@ type Query {
 
 Copying the same `index.ts` that the other packages use in the `src` folder of your package is sufficient.
 
-## Step 9: Add filters to queries
+## Step 9: Add filtering and sorting to queries
 
-To add filters to a query, simply declare a `filter` argument of type `String` in the query schema definition file:
+Currently, filtering and sorting are performed on the client side; this means that a query to a datasource is executed \(a subgraph query, for example\) and after receiving the results the filters are applied.
+
+This implies that filtering and sorting DO NOT impact performance. But pagination alters the amount of results fetched from each datasource, so pagination arguments DO impact performance.
+
+To add filters/sorting to a query, simply declare a `fetchOptions` argument of type `String` in the query schema definition file:
 
 ```graphql
 type Query {
-  getProposals(filter: String): [Proposal]
-  getVoters(filter: String): [Voter]
-  getReceipts(filter: String): [Receipt]
-  getTokenHolders(filter: String): [TokenHolder]
+  getProposals(fetchOptions: String): [Proposal]
+  getVoters(fetchOptions: String): [Voter]
+  getReceipts(fetchOptions: String): [Receipt]
+  getTokenHolders(fetchOptions: String): [TokenHolder]
   getTokenHolder(id: String!): TokenHolder
 }
 ```
 
-Then, wrap the queries that will support filtering with the `addFilter` function from the base package.
+Then, wrap the queries that will support filtering with the `addFilter` and `addSorting`functions from the base package.
 
 ```typescript
 import { addFilter } @boardroom-sdk/base
 
 export const resolvers = {
   Query: {
-    getProposals: addFilter(getProposalResolver),
-    getVoters: addFilter(getVotersResolver),
-    getReceipts: addFilter(getReceiptsResolver),
-    getTokenHolders: addFilter(getTokenHoldersResolver),
-    getTokenHolder: addFilter(getTokenHolderResolver)
+    getProposals: addSorting(addFilter(getProposalResolver)),
+    getVoters: addSorting(addFilter(getVotersResolver)),
+    getReceipts: addSorting(addFilter(getReceiptsResolver)),
+    getTokenHolders: addSorting(addFilter(getTokenHoldersResolver)),
+    getTokenHolder: addSorting(addFilter(getTokenHolderResolver))
   }
 }
 ```
 
-Additionally, you can define your own addFilter function with your own custom filtering logic
+Additionally, you can define your own addFilter or addSorting function with your own custom filtering/sorting logic.
+
+{% hint style="danger" %}
+Adding `addSorting` or `addFilter` to a query that does not return an array will result in a build error when building the @boardroom/sdk package
+{% endhint %}
+
+## Step 10: Add pagination to queries
+
+Pagination is added differently from sorting and filtering. Since pagination alters the request being sent to the datasource, and many different datasources are used in the SDK, it has to be implemented manually for each case. In some cases, pagination is not possible since the datasource does not support it \(like Snapshot\). However, subgraphs, which are widely used for OnChain governance data fetching supports pagination with the same syntax.  
+  
+An example would be:
+
+```typescript
+import { GraphqlFetcher, getPaginationArgsForSubgraph } from '@boardroom/base'
+
+export const getProposalsResolver = async (_: any, args: any, context: any) => {
+  const { first, skip } = getPaginationArgsForSubgraph(args, 100)
+  
+  const query = gql`
+    {
+      proposals(first: ${first}, skip: ${skip}, orderBy: id, orderDirection: desc) {
+        id
+        proposer {
+          id
+        }
+        startBlock
+        endBlock
+        description
+        status
+        targets
+        calldatas
+        values
+        executionETA
+        votes {
+          id
+        }
+      }
+    }
+  `;
+  const { proposals } = await graphQLFetcher.query(query)
+```
+
+Note that `getPaginationArgsForSubgraph` is an utility function imported from the base package that automatically parses the resolver's `args` parameter and transforms its `paginate` object \(if it exists\) into a subgraph's `first`and `skip` arguments. These are embedded in the subgraph query as shown above and pagination is performed. `getPaginationArgsForSubgraph`'s second argument is a number which indicates the default page size. This argument exists because different objects may have different default page sizes based on their size \(proposals's default page size should be lower than vote receipts's page size\)
+
+However, other protocols, like Compound have their own API which supports their own pagination arguments. Therefore, implementation should adapt accordingly, as stated before, in a per-case basis.
+
+Pagination for Compound:
+
+```typescript
+const addPaginationToUrl = (url: string, args: any) => {
+  if(args) {
+    const fetchOptions = args.fetchOptions && JSON.parse(args.fetchOptions)
+    const paginate = fetchOptions && fetchOptions.paginate
+
+    const page = paginate?.page;
+    const pageSize = paginate?.pageSize;
+
+    return `${url}?page_size=${pageSize || 200}&page_number=${page || 1}`;
+  }
+
+  return url;
+};
+
+export const getProposalsResolver = async (_: any, args: any) => {
+  const { proposals } = await httpFetcher.get(
+    addPaginationToUrl("proposals", args)
+  );
+}
+```
 
 ## Step 10: Run protocol packages code generation
 
