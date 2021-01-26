@@ -166,3 +166,7 @@ const postSnapshotSignal = async () => {
 };
 ```
 
+{% hint style="info" %}
+All Snapshot methods that return collections support filtering, sorting and pagination just like On-Chain governance protocol packages. To see how sorting, filtering and pagination works, please go to the [Tutorial: using Boardroom SDK in a dApp](tutorial-using-boardroom-sdk-in-a-dapp.md) section.
+{% endhint %}
+

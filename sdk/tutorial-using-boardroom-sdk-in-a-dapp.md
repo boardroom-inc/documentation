@@ -57,7 +57,7 @@ const getProposals: Promise<Proposal[]> = async () => {
 
 In this example, we are getting proposals across Compound, Yearn and Powerpool protocols. Since all protocols share the same interface and `getProposals` is one of its methods, it can be invoked like this.
 
-## Step 3: Filtering and paginating data
+## Step 3: Filtering, sorting and paginating data
 
 ```typescript
   // Defaults to page 1, pageSize 2000 and no filter
