@@ -325,9 +325,11 @@ Schema type changes won't change the tests, if the actual data returned by a res
 
 ```typescript
 import ApolloClient, { gql } from 'apollo-boost'
+import nodeFetch from 'node-fetch'
+
 import protocol from '../src'
 import { getCompoundProposals } from '../src/generated/operations/annotatedQueries'
-import nodeFetch from 'node-fetch'
+
 
 jest.setTimeout(60000)
 

@@ -12,7 +12,7 @@ The @boardroom-sdk is a collection of governance protocols. All read & write ope
 
 ## What can it do?
 
-It can perform read operations that allow the consumer to get data from different governance protocols, either separately or in aggregate. The data provided by the SDK is sanitized at runtime and typesafe, ensuring data integrity for its users.
+It can perform read operations that allow the consumer to get data from different governance protocols, either separately or in aggregate. The data provided by the SDK is sanitized at runtime and type-safe, ensuring data integrity for its users.
 
 
 

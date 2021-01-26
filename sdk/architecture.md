@@ -9,8 +9,8 @@ To achieve the aforementioned architecture, the package is organized as a monore
 #### **Core Packages**:
 
 * Base
-* Cli
-* Sdk
+* CLI
+* SDK
 
 #### **Protocol Packages**:
 
@@ -47,7 +47,7 @@ This is the package an application developer would install from npm.
 
 ### @boardroom-sdk/base:
 
-The most essential aspect to be noted are the common interfaces, which allows all integrated protocols to be queried in a uniform way. For example, all protocols implement the base pakcage's Proposal interface.
+The most essential aspect to be noted are the common interfaces, which allows all integrated protocols to be queried in a uniform way. For example, all protocols implement the base package's Proposal interface.
 
 ### @boardroom-sdk/cli:
 
