@@ -4,7 +4,7 @@
 
 The Snapshot package is protocol agnostic. You can use it with any protocol that has Snapshot support by passing the correct arguments. The list of supported protocols can be found on [https://snapshot.page](https://snapshot.page/#/)
 
-Many of these require passing the name of the protocol to query. The correct name to use is the one corresponding to the name of the Snapshot space. The simplest way to find this is to go to the protocol's page from [https://snapshot.page](https://snapshot.page/#/) and get the name used in the url (i.e. `cream-finance.eth` for Cream protocol). In some cases the SDK can accept multiple names, for instance `yam` or `yam.eth` will both work for Yam protocol.
+Many of these require passing the name of the protocol to query. The correct name to use is the one corresponding to the name of the Snapshot space. The simplest way to find this is to go to the protocol's page from [https://snapshot.page](https://snapshot.page/#/) and get the name used in the url \(i.e. `cream-finance.eth` for Cream protocol\). In some cases the SDK can accept multiple names, for instance `yam` or `yam.eth` will both work for Yam protocol.
 
 ### Proposals
 
@@ -28,7 +28,7 @@ const snapshot = new Snapshot()
 const allYamVoters = await snapshot.getSnapshotVoters(
       "yam.eth",
     );
-    
+
 // Voters for the specified poll
 const yamVotersByPoll = await snapshot.getSnapshotVotersByPoll(
       "yam.eth",
@@ -165,3 +165,4 @@ const postSnapshotSignal = async () => {
   );
 };
 ```
+

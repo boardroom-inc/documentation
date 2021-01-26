@@ -26,31 +26,36 @@ In the example above, we are importing the `Compound` class, we declare our func
 Some methods require the user to pass certain arguments in order to perform the read/write operation. This is done by simply passing the required parameters, Typescript's compiler will complain if a required argument isn't passed, since all classes, methods and data is typesafe.
 
 ```typescript
-import { Maker } from '@boardroom-sdk/sdk';
+import { Compound } from '@boardroom-sdk/sdk';
 
-const maker = new Maker()
+const compound = new Compound()
 
-const makerProposalTally = await maker.getProposalTally(350)
+const proposalWithIdOne = await compound.getProposal("1")
 ```
 
 ## Step 2: Query data from different protocols
 
 ```typescript
-import { Base, Proposal } from '@boardroom-sdk/sdk';
+import { Proposal } from '@boardroom-sdk/sdk';
 
-const getCompoundProposals: Promise<Proposal[]> = async () => {
-  const base = new Base()
-  const proposalsByProtocol = await base.getProposals()
-
-  const proposals = Object.values(proposalsByProtocol).flat()
-
-  const { Compound: compoundProposals } = proposalsByProtocol
+const getProposals: Promise<Proposal[]> = async () => {
+  const protocols = [
+    { name: "compound", instance: new Compound()},
+    { name: "yearn", instance: new Yearn()},
+    { name: "powerpool", instance: new Powerpool()}
+  ];
+  
+  protocols.reduce(async (prev, current) => {
+    return {...prev, [current.name]: await current.getProposals() }
+  }, {})
+  
+  // { compound: [...], yearn: [...], powerpool: [...] }
 
   return proposals
 }
 ```
 
-In this example, we are getting open proposals across all protocols and then we are taking Compound proposals only, by destructuring the `proposalsByProtocol` object.
+In this example, we are getting proposals across Compound, Yearn and Powerpool protocols. Since all protocols share the same interface and `getProposals` is one of its methods, it can be invoked like this.
 
 ## Step 3: Filtering and paginating data
 
@@ -59,39 +64,46 @@ In this example, we are getting open proposals across all protocols and then we 
   const aProposals = await compound.getProposals()
 
   // Defaults to page 1, pageSize 2000 and filter by Id, so this will only yield 1 proposal
-  const bProposals = await compound.getProposals(
-    null, null, { where: { id: '1' }}
+  const bProposals = await compound.getProposals({ where: { id: '1' }}
   )
 
   // Defaults to page 1, pageSize 50 and no filter  
-  const cProposals = await compound.getProposals(
-    null, 50
-  )
+  const cProposals = await compound.getProposals({ paginate: { pageSize: 50 }})
 
   // Defaults to page 2, pageSize 2000 and no filter
-  const dProposals = await compound.getProposals(2)
+  const dProposals = await compound.getProposals({ paginate: { page: 2 }})
 
   // Page 2, pageSize 100 and filter by no votes against
   const eProposals = await compound.getProposals(
-    2, 100, { where: { againstVotes: '0' }}
+    { where: { againstVotes: '0' }, paginate: { pageSize: 100 }}
+  )
+  
+  // Proposals sorted by "isOpen" in ascendent direction
+  const fProposals = compound.getProposals(
+    { sort: { keys: ['isOpen'], direction: 'asc' }}
+  )
+  
+  // Proposals sorted first by 'isOpen' and then by 'title' in ascendent direction
+  const gProposals = compound.getProposals(
+    { sort: { keys: ['isOpen', 'title'], direction: 'asc' }}
   )
   
   // Defaults to page 1, pageSize 2000
   // Query for Compound proposals with againstVotes === '0' AND author === null
-  const fProposals = await compound.getProposals(null, null, { where: {
+  const hProposals = await compound.getProposals({ where: {
     againstVotes: '0',
     author: null
   }, conditionType: 'AND' })
   
   // Defaults to page 1, pageSize 2000
   // Query for Compound proposals with againstVotes === '0' OR author === null
-  const gProposals = await compound.getProposals(null, null, { where: {
+  const iProposals = await compound.getProposals({ where: {
     againstVotes: '0',
     author: null
   }, conditionType: 'OR' })
 ```
 
-Currently, Boardroom SDK supports basic data filtering, by passing a filter argument.  It contains a `where` object that holds the properties and values the returned entities should match, and a `conditionType` boolean that can be either `'OR'` or `'AND'` \(if undefined, will default to `'AND'`\).
+Currently, Boardroom SDK supports basic data filtering, sorting and pagination, by passing an options argument.  It contains a `where` object that holds the properties and values the returned entities should match, and a `conditionType` boolean that can be either `'OR'` or `'AND'` \(if undefined, will default to `'AND'`\). It also contains a `paginate` object and a `sort` object as shown above.
 
 If `conditionType` is `'AND'`, then the returned entities must match all properties and values in the `where` object. If`'OR'` then it needs to match only one of them.
 
