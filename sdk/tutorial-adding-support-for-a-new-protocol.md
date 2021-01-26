@@ -369,6 +369,10 @@ console.warn
 
 Then, you would modify `proposalMapper` to include `description` field and run the tests again.
 
+{% hint style="info" %}
+Mappers or resolvers files changes do not require re-running code generation or package building to re-test.
+{% endhint %}
+
 ## Step 12: Run SDK code generation
 
 At root level run 

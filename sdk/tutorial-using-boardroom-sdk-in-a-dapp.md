@@ -213,3 +213,76 @@ const query = gql`
 const { data: { getProposals: cProposals } } = await apolloClient.query({ query })
 ```
 
+## Invoking mutations
+
+### Step 1: Get signer
+
+The SDK is intented to be used with [ethers.js](https://github.com/ethers-io/ethers.js/). The following example uses Metamask:
+
+```typescript
+export const getSigner = async () => {
+  await (window as any).ethereum.enable();
+  const provider = new Web3Provider((window as any).ethereum)
+  const signer = provider.getSigner();
+  
+  return { provider, signer }
+}
+
+```
+
+### Step 2: Instantiate protocol class \(currently, only supported for Snapshot\)
+
+```typescript
+export const getSigner = async () => {
+  await (window as any).ethereum.enable();
+  const provider = new Web3Provider((window as any).ethereum)
+  const signer = provider.getSigner();
+  
+  return { provider, signer }
+}
+
+const getSnapshotInstance = async () => {
+  const { signer } = await getSigner();
+  const snapshot = new Snapshot(
+     infuraURL, // not required
+     { signer }
+  );
+  
+  return snapshot;
+}
+
+```
+
+### Step 3: Call mutation methods
+
+```typescript
+export const getSigner = async () => {
+  await (window as any).ethereum.enable();
+  const provider = new Web3Provider((window as any).ethereum)
+  const signer = provider.getSigner();
+  
+  return { provider, signer }
+}
+
+const getSnapshotInstance = async () => {
+  const { signer } = await getSigner();
+  const snapshot = new Snapshot(
+     infuraURL, // not required
+     { signer }
+  );
+  
+  return snapshot;
+}
+
+const castVote = async () => {
+   const snapshot = await getSnapshot()
+   const result = await snapshot.castVote(
+      "QmY6FRFwnHugEugA3KQqi3xyNCzncTpZPcFJTXkPHeAg4a",
+      "akropolis-delphi",
+      2
+    );
+     
+   return result
+}
+```
+

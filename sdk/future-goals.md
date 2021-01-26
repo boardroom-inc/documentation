@@ -2,11 +2,10 @@
 
 ## Short term
 
-* Add support for Apollo/GraphQL arbitrary data filtering through a `where` object.
-* Add support for all packages supported on [Boardroom Dashboard](https://app.boardroom.info/)
+* Standarize methods for Aave V1 and Aave V2 so that they can be supported
+* Add further mutations for OnChain governance protocols
 
 ## Mid term
 
 * Add support for circular references in type definitions and mappers, through the development of a custom directive.
-* Add support for GraphQL Mutations.
 
