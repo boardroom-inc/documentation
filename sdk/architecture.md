@@ -2,7 +2,7 @@
 
 The Boardroom SDK's architecture consists of a base package that contains common interfaces that abstract governance protocol entities; a collection of protocol specific packages that make use of these common interfaces; and a sdk package that aggregates all protocol specific types and resolvers and that can be easily consumed by a dApp.
 
-![](../.gitbook/assets/boardroom-sdk-3-%20%281%29.jpg)
+![](../.gitbook/assets/boardroom-sdk-5-.jpg)
 
 To achieve the aforementioned architecture, the package is organized as a monorepo. Below is a list of the Core Packages and a brief explanation of each.
 
