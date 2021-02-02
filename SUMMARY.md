@@ -12,7 +12,3 @@
 * [Tutorial: adding support for a new protocol](sdk/tutorial-adding-support-for-a-new-protocol.md)
 * [Future goals](sdk/future-goals.md)
 
-## Projects
-
-* [Uniswap](projects/uniswap.md)
-
