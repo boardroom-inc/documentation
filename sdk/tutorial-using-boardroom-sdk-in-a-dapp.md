@@ -57,6 +57,23 @@ const getProposals: Promise<Proposal[]> = async () => {
 
 In this example, we are getting proposals across Compound, Yearn and Powerpool protocols. Since all protocols share the same interface and `getProposals` is one of its methods, it can be invoked like this.
 
+## Step 3: Filtering data
+
+```text
+import { Base, Proposal } from '@boardroom-sdk/sdk';
+
+const getCompoundProposals: Promise<Proposal[]> = async () => {
+  const base = new Base()
+  const proposalsByProtocol = await base.getProposals()
+
+  const proposals = Object.values(proposalsByProtocol).flat()
+
+  const { Compound: compoundProposals } = proposalsByProtocol
+
+  return proposals
+}
+```
+
 ## Step 3: Filtering, sorting and paginating data
 
 ```typescript
