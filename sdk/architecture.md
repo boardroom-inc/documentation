@@ -1,6 +1,6 @@
 # Architecture
 
-The Boardroom SDK's architecture consists of a base package that contains common interfaces that abstract governance protocol entities; a collection of protocol specific packages that make use of these common interfaces; and a sdk package that aggregates all protocol specific types and resolvers and that can be easily consumed by a dApp.
+The Boardroom SDK's architecture consists of a base package that contains common interfaces that abstract governance protocol entities; a collection of protocol specific packages that make use of these common interfaces; and an sdk package that aggregates all protocol specific types and resolvers and that can be easily consumed by a dApp.
 
 ![](../.gitbook/assets/boardroom-sdk-5-.jpg)
 
