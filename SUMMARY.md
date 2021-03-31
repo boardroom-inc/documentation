@@ -12,3 +12,7 @@
 * [Tutorial: adding support for a new protocol](sdk/tutorial-adding-support-for-a-new-protocol.md)
 * [Future goals](sdk/future-goals.md)
 
+## Integrations
+
+* [Getting Started](integrations/getting-started.md)
+
