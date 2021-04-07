@@ -6,10 +6,13 @@
 
 * [Getting Started](integrations/getting-started.md)
 * [Adding Your Project](integrations/adding-your-project.md)
+* [Finance Tab](integrations/finance-tab.md)
 
 ## Contributors
 
-* [Untitled](contributors/untitled.md)
+* [Contributor Program](contributors/untitled.md)
+* [Weekly Updates](contributors/weekly-updates.md)
+* [Other Content](contributors/other-content.md)
 
 ## Boardroom SDK <a id="sdk"></a>
 
