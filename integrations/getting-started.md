@@ -20,18 +20,7 @@ If you're a person or team that wants to add a project to Boardroom and/or updat
 
 The Boardroom team will then review your pull request and merge if... \(INSERT\) 
 
-### What is Github? 
-
-Github is a code hosting platform for version control and collaboration. 
-
-If you're new to Github, check out these useful guides: 
-
-* [https://docs.github.com/en/github/getting-started-with-github](https://docs.github.com/en/github/getting-started-with-github)
-* [https://guides.github.com/activities/hello-world/](https://guides.github.com/activities/hello-world/)
-
-### Creating a Github Account
-
-To contribute to the Boardroom protocol -info repository on Github, you'll need to first make an account: [https://github.com/](https://github.com/) 
+### 
 
 ### 
 

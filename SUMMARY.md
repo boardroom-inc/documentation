@@ -2,17 +2,15 @@
 
 * [Home](README.md)
 
-## Integrations
+## Project Integrations <a id="integrations"></a>
 
 * [Getting Started](integrations/getting-started.md)
 * [Adding Your Project](integrations/adding-your-project.md)
-* [Structure](integrations/structure.md)
-* [Finance Tab](integrations/finance-tab.md)
-* [Global Protocol Changes](integrations/global-protocol-changes.md)
 
 ## Contributors
 
-* [Contributor Program](contributors/untitled.md)
+* [Getting Started](contributors/untitled.md)
+* [Protocol Metadata](contributors/protocol-metadata.md)
 * [Weekly Updates](contributors/weekly-updates.md)
 * [Adding Content](contributors/adding-content.md)
 * [Other Content](contributors/other-content.md)
