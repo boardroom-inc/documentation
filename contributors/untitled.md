@@ -1,25 +1,19 @@
 # Contributor Program
 
-## Getting Super Powers
+Once a project is added to Boardroom, teams can add and update the information displayed on their project's page in the governance portal. 
 
-Becoming a super hero is a fairly straight forward process:
+Including:
 
-```
-$ give me super-powers
-```
+* **Content Folders** - Add content to the Resources tab 
+* **Files** - 
+* **Calendar Events** - Populate the Calendar tab with events, governance calls, upcoming votes, and more. 
+* **Weekly Updates** - Summarize what members need to know about governance each week. These updates are housed in the Resources tab in the portal and included in Boardroom's weekly Rock the Vote newsletter on [Boardroom Insights](https://governance.substack.com/), our Substack. 
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+#### Want to Contribute? 
 
-Once you're strong enough, save the world:
+We pay weekly contributors to the protocol information repo $25 in DAI each week. Reach out to Kevin Nielsen or Tyler Whirty on the Boardroom Discord to learn more. 
 
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
+### Questions? 
 
-
+Join our Discord and post in the Boardroom Support Channel - [\#❓support](https://discord.gg/CEZ8WfuK8s) 
 
