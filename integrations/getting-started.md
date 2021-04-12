@@ -6,6 +6,8 @@ description: >-
 
 # Getting Started
 
+We're glad you want
+
 ## The Boardroom Project Information Repository 
 
 To get started on Boardroom, visit our Project Information Repository page on Github: [https://github.com/boardroom-inc/protocol-Info](https://github.com/boardroom-inc/protocol-Info).

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Home](README.md)
+* [Introduction](README.md)
 
 ## Project Integrations <a id="integrations"></a>
 
