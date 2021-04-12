@@ -15,3 +15,10 @@
 * [Adding Content](contributors/adding-content.md)
 * [Other Content](contributors/other-content.md)
 
+## Additional Resources
+
+---
+
+* [Join Our Discord](https://discord.com/invite/CEZ8WfuK8s)
+* [Feature Requests](https://roadmap.boardroom.info)
+

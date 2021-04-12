@@ -1,12 +1,18 @@
 ---
-description: >-
-  The Boardroom protocol-info repository is the one-stop shop to add and update
-  information about your project.
+description: These docs outline how to integrate a new project into the Boardroom Portal UI
 ---
 
 # Getting Started
 
-We're glad you want
+![](../.gitbook/assets/copy-of-blue-and-pink-customer-support-flowchart.png)
+
+### Supported Governance Frameworks
+
+* Snapshot
+* Compound Governor Bravo
+* Aave Governance V2
+
+## 
 
 ## The Boardroom Project Information Repository 
 

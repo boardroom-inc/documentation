@@ -1,8 +1,8 @@
 ---
 description: >-
-  Boardroom is a platform improving distributed decision-making across
-  stakeholder-owned crypto networks - an infrastructure layer simplifying
-  complex interactions with crypto governance frameworks.
+  The Boardroom platform helps improve distributed decision-making across
+  stakeholder-owned crypto networks by simplifying data from complex
+  interactions with crypto governance frameworks.
 ---
 
 # Introduction
