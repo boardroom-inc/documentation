@@ -4,9 +4,7 @@ description: These docs outline how to integrate a new project into the Boardroo
 
 # Getting Started
 
-![](../.gitbook/assets/copy-of-blue-and-pink-customer-support-flowchart.png)
-
-### Supported Governance Frameworks
+Supported Governance Frameworks
 
 * Snapshot
 * Compound Governor Bravo
