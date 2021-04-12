@@ -2,12 +2,12 @@
 
 * [Introduction](README.md)
 
-## Project Integrations <a id="integrations"></a>
+## 📲 Project Integrations <a id="integrations"></a>
 
 * [Getting Started](integrations/getting-started.md)
 * [Adding Your Project](integrations/adding-your-project.md)
 
-## Contributors
+## 👥 Contributors
 
 * [Getting Started](contributors/untitled.md)
 * [Protocol Metadata](contributors/protocol-metadata.md)
@@ -15,7 +15,7 @@
 * [Adding Content](contributors/adding-content.md)
 * [Other Content](contributors/other-content.md)
 
-## Additional Resources
+## 📚 Additional Resources
 
 ---
 
