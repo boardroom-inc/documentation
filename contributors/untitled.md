@@ -2,7 +2,7 @@
 description: >-
   The current structure of the Boardroom Portal enables core and community
   contributors to edit and add relevant project content and information, which
-  will update in real time on its frontend.
+  will update in real-time on its frontend.
 ---
 
 # Getting Started
@@ -23,7 +23,7 @@ The Boardroom contributor program allows community members to add relevant and p
 
 ### Protocol Information Repository 
 
-All these updates occur in the public Boardroom 'Protocol Information' repository. In order to submit and update with an edit or an addition for the project   
+All these updates occur in the public Boardroom 'Protocol Information' repository. In order to submit and update with an edit or an addition for the project.
 
 ### What is Github? 
 
