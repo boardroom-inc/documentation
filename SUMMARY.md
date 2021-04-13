@@ -5,15 +5,19 @@
 ## 📲 Project Integrations <a id="integrations"></a>
 
 * [Getting Started](integrations/getting-started.md)
-* [Adding Your Project](integrations/adding-your-project.md)
+* [Adding Your Project](integrations/adding-your-project/README.md)
+  * [Protocol Information](integrations/adding-your-project/protocol-information.md)
+  * [Treasury Information](integrations/adding-your-project/treasury-information.md)
 
 ## 👥 Contributors
 
 * [Getting Started](contributors/untitled.md)
-* [Protocol Metadata](contributors/protocol-metadata.md)
-* [Weekly Updates](contributors/weekly-updates.md)
-* [Adding Content](contributors/adding-content.md)
-* [Other Content](contributors/other-content.md)
+* [Editing Project Data](contributors/editing-metadata/README.md)
+  * [Protocol Metadata](contributors/editing-metadata/protocol-metadata.md)
+  * [Untitled](contributors/editing-metadata/untitled.md)
+* [Adding Resources](contributors/weekly-updates/README.md)
+  * [Adding Content](contributors/weekly-updates/adding-content.md)
+  * [Other Content](contributors/weekly-updates/other-content.md)
 
 ## 📚 Additional Resources
 
