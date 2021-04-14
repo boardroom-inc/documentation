@@ -1,3 +1,9 @@
+---
+description: >-
+  You can submit a PR suggesting changes to project metadata and fields outlined
+  below
+---
+
 # Protocol Metadata
 
 ## Protocol Information
@@ -34,5 +40,5 @@ unique_protocol_key: {
 
 4\) These changes should be reflected on the Boardroom portal a few days after the changes have been merged.
 
-We have a codesandbox instance [https://codesandbox.io/s/boardroombranding-q3u9z](https://codesandbox.io/s/boardroombranding-q3u9z) to visualize branding changes. Change the corresponding color variable in index.js file to have a sense of how the protocol pages will look after the updates. 
+We have a code sandbox instance [https://codesandbox.io/s/boardroombranding-q3u9z](https://codesandbox.io/s/boardroombranding-q3u9z) to visualize branding changes. Change the corresponding color variable in the index.js file to have a sense of how the protocol pages will look after the updates. 
 
