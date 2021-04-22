@@ -1,29 +1,8 @@
----
-description: >-
-  The current structure of the Boardroom Portal enables core and community
-  contributors to edit and add relevant project content and information, which
-  will update in real-time on its frontend.
----
-
 # Getting Started
 
 ### Contributor Program
 
-The Boardroom contributor program allows community members to add relevant and pertinent information to a project's hub in the Boardroom Portal. We currently  support the following types of updates:
 
-*  Changes to the **Project's Metadata**
-  * Project Name
-  * Description
-  * Avatar and Header logo
-  * etc...
-* **Resources**
-* **Calendar Events**
-
-![A Project&apos;s Navigation Sidebar on the Boardroom Portal](../.gitbook/assets/image%20%286%29.png)
-
-### Protocol Information Repository 
-
-All these updates occur in the public Boardroom 'Protocol Information' repository. In order to submit and update with an edit or an addition for the project.
 
 ### What is Github? 
 
