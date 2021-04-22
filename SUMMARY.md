@@ -7,6 +7,7 @@
 * [Getting Started](integrations/getting-started.md)
 * [Adding Your Project](integrations/adding-your-project/README.md)
   * [Protocol Information](integrations/adding-your-project/protocol-information.md)
+  * [Unlocking the Hub](integrations/adding-your-project/unlocking-the-hub.md)
   * [Treasury Information](integrations/adding-your-project/treasury-information.md)
 
 ## 👥 Contributors
@@ -20,8 +21,6 @@
   * [Other Content](contributors/weekly-updates/other-content.md)
 
 ## 📚 Additional Resources
-
----
 
 * [Join Our Discord](https://discord.com/invite/CEZ8WfuK8s)
 * [Feature Requests](https://roadmap.boardroom.info)
