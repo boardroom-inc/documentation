@@ -13,7 +13,14 @@
   * [Treasury Adapter](sdk/adapters/treasury-adapter.md)
   * [Token Adapter](sdk/adapters/token-adapter.md)
   * [Icon Adapter](sdk/adapters/icon-adapter.md)
-* [Governance Frameworks](sdk/governance-frameworks.md)
+* [Frameworks](sdk/governance-frameworks/README.md)
+  * [Snapshot](sdk/governance-frameworks/snapshot.md)
+  * [Compound Governor Alpha](sdk/governance-frameworks/compound-governor-alpha.md)
+  * [Compound Governor Beta](sdk/governance-frameworks/compound-governor-beta.md)
+  * [CoinGecko](sdk/governance-frameworks/coingecko.md)
+  * [Parcel](sdk/governance-frameworks/parcel.md)
+  * [DeFi SDK](sdk/governance-frameworks/defi-sdk.md)
+* [Error Handling](sdk/error-handling.md)
 
 ## Boardroom API
 

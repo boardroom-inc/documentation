@@ -10,12 +10,12 @@ description: High-level Boardroom architectural overview.
 
 ## The Governance SDK
 
-## The Boardroom API
-
 * gov-lib
 * gov-adapters
 * gov-protocols
 * gov-sdk
+
+## The Boardroom API
 
 ## Client Integrations
 

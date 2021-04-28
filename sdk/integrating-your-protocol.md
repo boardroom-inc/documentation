@@ -1,7 +1,5 @@
 ---
-description: >-
-  Our Governance SDK is fully open source with protocol integrations lead by the
-  community.
+description: How to add support for a new protocol to the Governance SDK.
 ---
 
 # Integrating Your Protocol

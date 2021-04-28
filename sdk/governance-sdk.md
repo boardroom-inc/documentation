@@ -16,6 +16,12 @@ If you are wanting to build applications or experiences on top of read-only or a
 
 ## Integrate Your Protocol
 
+If you are looking to add support for your protocol to the Governance SDK, you'll need to create a new Protocol Integration that implements one or more [Adapters](adapters/).
+
+{% page-ref page="integrating-your-protocol.md" %}
+
+
+
 
 
 
