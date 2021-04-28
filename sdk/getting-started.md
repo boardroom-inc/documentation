@@ -21,7 +21,7 @@ If you are wanting to build applications or experiences on top of read-only or a
 ## Creating the SDK Instance
 
 ```typescript
-import { GovSDK } from '@boardroom-labs/gov-skd';
+import { GovSDK } from '@boardroom-labs/gov-sdk';
 
 const sdk = new GovSDK();
 ```

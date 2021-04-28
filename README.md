@@ -14,7 +14,7 @@ With this ownership comes a responsibility to steward governance, communication,
 
 If you are looking to add support for your protocol within Boardroom, you'll need to create a protocol integration in [The Goverance SDK](sdk/governance-sdk.md). Integrated protocols within the Governance SDK will be included in the aggregated data served by the [Boardroom API](boardroom-api/boardroom-api.md) and accessible in the Boardroom Portal.
 
-{% page-ref page="sdk/integrating-your-protocol/" %}
+{% page-ref page="sdk/integrating-your-protocol.md" %}
 
 ## Integrate Governance Data In Your Application
 
@@ -22,7 +22,7 @@ Boardroom provides [The Boardroom API](boardroom-api/boardroom-api.md) as a open
 
 #### Directly Integrate with the Governance SDK
 
-The [Boardroom API](boardroom-api/boardroom-api.md) provides the fastest and most flexible way to begin integrating governance data in your applications. However, if you are looking to allow client-side governance interactions such as submitting on-chain proposals or votes or signalling on off-chain platforms like Snapshot, you can directly use the [Governance SDK](sdk/governance-sdk.md) in your browser-based dApp.
+The [Boardroom API](boardroom-api/boardroom-api.md) provides the fastest and simplest way to begin integrating governance data in your applications. However, if you are looking to allow client-side governance interactions such as submitting on-chain proposals or votes or signalling on off-chain platforms like Snapshot, you can directly use the [Governance SDK](sdk/governance-sdk.md) in your browser-based dApp.
 
 {% page-ref page="sdk/getting-started.md" %}
 

@@ -57,7 +57,7 @@ Raise a new pull request by following the steps below:
 
 4\) For each Proposal or Discussion, add a Markdown Table with the Title, Category, and Link:
 
-![](../.gitbook/assets/weekly-update-example.png)
+![](../../.gitbook/assets/weekly-update-example.png)
 
 Choose from the following categories: 
 

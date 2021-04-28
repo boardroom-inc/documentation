@@ -13,7 +13,7 @@ The Protocol Information repository allows **anyone** to make changes to the con
 Content files will be sorted by date. Add the date \(**dd-mm-yy**\) to the file name you are creating. This date will be hidden on the Boardroom portal but will sort the files by most recent.
 {% endhint %}
 
-![These tabs can be found in every project&apos;s navigation sidebar](../.gitbook/assets/image%20%285%29.png)
+![These tabs can be found in every project&apos;s navigation sidebar](../../.gitbook/assets/image%20%285%29.png)
 
 ## New Calendar Events
 
