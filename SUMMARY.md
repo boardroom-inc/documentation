@@ -17,6 +17,7 @@
   * [Snapshot](sdk/governance-frameworks/snapshot.md)
   * [Compound Governor Alpha](sdk/governance-frameworks/compound-governor-alpha.md)
   * [Compound Governor Beta](sdk/governance-frameworks/compound-governor-beta.md)
+  * [Aave Governance v2](sdk/governance-frameworks/aave-governance-v2.md)
   * [CoinGecko](sdk/governance-frameworks/coingecko.md)
   * [Parcel](sdk/governance-frameworks/parcel.md)
   * [DeFi SDK](sdk/governance-frameworks/defi-sdk.md)
