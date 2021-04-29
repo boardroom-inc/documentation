@@ -14,8 +14,6 @@ Protocols "register" with the SDK by implementing a `ProtocolRegistrationFunctio
 
 Protocol integrations are imperative functions that define some basic data for a protocol and register multiple adapter implementations that implement specific interfaces for querying governance data or enabling governance interactions.
 
-{% page-ref page="../reference/system-architecture.md" %}
-
 ### Example - Index Coop
 
 Index Coop uses Snapshot for signed off-chain signalling of proposals, and is listed on CoinGecko. We can use the [prebuilt adapters](governance-frameworks/) to quickly integrate this protocol with the Governance SDK:

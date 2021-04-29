@@ -29,7 +29,6 @@
 
 ## Reference
 
-* [System Architecture](reference/system-architecture.md)
 * [Archive](reference/archive/README.md)
   * [Other Content](reference/archive/other-content.md)
   * [Adding Content](reference/archive/adding-content.md)
