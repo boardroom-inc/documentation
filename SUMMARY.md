@@ -3,6 +3,10 @@
 * [Introduction](README.md)
 * [Boardroom Overview](boardroom-overview.md)
 
+## 📲 Project Integrations
+
+* [Getting Started](project-integrations/getting-started.md)
+
 ## Governance SDK <a id="sdk"></a>
 
 * [Governance SDK](sdk/governance-sdk.md)
