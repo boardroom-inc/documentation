@@ -15,17 +15,17 @@ Adapter responses are validated at run-time to ensure the implementation is corr
 While a protocol can always implement an adapter from scratch to handle any custom mapping logic, often times it can simply use one of the SDK's provided [Governance Frameworks](../governance-frameworks/) that implement adapters for most of the common use cases.
 
 {% hint style="info" %}
-A Governance SDK protocol integration is composed of one or more adapter implementations that map downstream datasources and interactions into a standardized interface.
+A Governance SDK protocol integration is composed of one or more adapter implementations that map downstream data sources and interactions into a standardized interface.
 {% endhint %}
 
 ## Transports
 
-Adapter implementations are the only part of the Governance SDK stack that directly interact with downstream datasources. Transport interfaces are defined by the SDK, which also ships standard implementations that can be used. Custom transport implementations can be passed to the SDK during instantiation to override their behavior
+Adapter implementations are the only part of the Governance SDK stack that directly interact with downstream data sources. Transport interfaces are defined by the SDK, which also ships standard implementations that can be used. Custom transport implementations can be passed to the SDK during instantiation to override their behavior
 
 The following transports are passed to the protocol registration function and should be used when accessing external resources to facilitate testing and ensure external requests happen in a standardized way
 
 * `ipfs` - Request files from the IPFS network
-* `jsonRpc` - Interact an Ethereum-compatable blockchain over an RPC node
+* `jsonRpc` - Interact with an Ethereum-compatable blockchain over an RPC node
 * `http` - Make standard HTTP requests
 * `graph` - Make GraphQL requests \(over HTTP\)
 

@@ -12,10 +12,10 @@ The Governance SDK is a NodeJS module that can be installed via npm or yarn:
 npm i @boardroom-labs/gov-sdk
 ```
 
-The Governance SDK will work both in server-side NodeJS environments as well as the Browser with a compilation tool like webpack or Babel. 
+The Governance SDK will work both in server-side NodeJS environments as well as the Browser with a compilation tool like webpack or Babel.
 
 {% hint style="info" %}
-If you are wanting to build applications or experiences on top of read-only or aggegated governance data, or are not building for a NodeJS or browser environment, check out the [Boardroom API](../boardroom-api/boardroom-api.md) for integrating data sourced by the Governance SDK.
+If you are wanting to build applications or experiences on top of read-only or aggregate governance data, or are not building for a NodeJS or browser environment, check out the [Boardroom API](../boardroom-api/boardroom-api.md) for integrating data sourced by the Governance SDK.
 {% endhint %}
 
 ## Creating the SDK Instance
@@ -53,7 +53,7 @@ All protocol interaction happens via "adapters", which are bound units of govern
 // this will throw if the protocol does not implement a TreasuryAdapter
 const proposals = protocol.adapter('proposals');
 
-// you can introspect the protocol to check if it implements 
+// you can introspect the protocol to check if it implements
 // a specific adapter first
 if (protocol.hasAdapter('proposals')) {
   console.log(await protocol.adapter('proposals').getProposals({ limit: 5 }));
