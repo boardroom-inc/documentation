@@ -25,7 +25,7 @@ Adapter implementations are the only part of the Governance SDK stack that direc
 The following transports are passed to the protocol registration function and should be used when accessing external resources to facilitate testing and ensure external requests happen in a standardized way
 
 * `ipfs` - Request files from the IPFS network
-* `jsonRpc` - Interact with an Ethereum-compatable blockchain over an RPC node
+* `jsonRpc` - Interact with an Ethereum-compatible blockchain over an RPC node
 * `http` - Make standard HTTP requests
 * `graph` - Make GraphQL requests \(over HTTP\)
 
