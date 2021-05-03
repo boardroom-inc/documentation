@@ -42,7 +42,7 @@
   * [Protocol Metadata](reference/archive/protocol-metadata.md)
   * [Getting Started](reference/archive/untitled.md)
 
----
+## 📚 Additional Resources
 
 * [Boardroom Portal](https://app.boardroom.info)
 * [Discord](https://discord.gg/UBqtEddhsC)
