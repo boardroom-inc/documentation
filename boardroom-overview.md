@@ -10,7 +10,7 @@ The following diagram illustrates the major components of the Boardroom system a
 
 ![](.gitbook/assets/screen-shot-2021-04-27-at-6.46.31-pm.png)
 
-#### Boardroom Portal
+### Boardroom Portal
 
 Our governance aggregation portal. Powered by the Boardroom API \(for aggregated read-only data\) and the Governance SDK \(for client-side interactions transactions\). Portal Users are protocol stakeholders that want to engage in protocol governance across any of our supported protocols.
 
@@ -18,31 +18,31 @@ Our governance aggregation portal. Powered by the Boardroom API \(for aggregated
 Checkout the Boardroom Portal [here](https://app.boardroom.info).
 {% endhint %}
 
-#### Third-party Experience
+### Third-party Experience
 
 External applications or experiences built on top of the Boardroom API. These can be apps, platforms, or dApps that want to integrate information or aggregated data about protocol governance for their end users.
 
 Third-party applications can also use the Governance SDK to query data and submit transactions via a normalized programmatic interface that directly access external data sources.
 
-#### Boardroom API
+### Boardroom API
 
 A free and publicly accessible REST API that surfaces information and aggregated governance data for all protocols integrated with the Governance SDK.
 
-#### Governance SDK
+### Governance SDK
 
 An open-source governance interoperability framework. Powers the Boardroom API which uses it to query governance data, and can be used by clients to directly access governance data from downstream data sources.
 
-#### Protocol Integrations
+### Protocol Integrations
 
 Open-source and community-maintained integrations that add support for a protocol to the Governance SDK. Protocol integrations enable querying of governance data and client-side integrations with a protocol's governance framework.
 
 {% page-ref page="sdk/integrating-your-protocol.md" %}
 
-#### External Data Sources
+### External Data Sources
 
 Protocol integrations communicate with external data sources such as blockchain networks, traditional web services, TheGraph, IPFS, etc.
 
-#### Documentation
+### Documentation
 
 You are here! Our documentation is open-source.
 
@@ -55,6 +55,4 @@ Because of the large volume of data, and some of the challenges involved with di
 {% hint style="info" %}
 Decentralization is important to us at Boardroom, and we're always looking for ways to make our system more open and resilient as decentralized tech offerings mature in the space.
 {% endhint %}
-
-
 

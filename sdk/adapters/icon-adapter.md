@@ -8,5 +8,3 @@ A protocol integration can implement an adapter with the `IconAdapter` interface
 
 ## Frameworks
 
-
-

@@ -20,11 +20,9 @@ If you are looking to add support for your protocol within Boardroom, you'll nee
 
 Boardroom provides [The Boardroom API](boardroom-api/boardroom-api.md) as a open, public resource for anybody looking to leverage our aggregated governance data \(provided by the [Governance SDK](sdk/governance-sdk.md)\) in their client or server applications. Use our REST API to fetch governance data for specific protocols or aggregated across multiple protocols that we support.
 
-#### Directly Integrate with the Governance SDK
+### Directly Integrate with the Governance SDK
 
 The [Boardroom API](boardroom-api/boardroom-api.md) provides the fastest and simplest way to begin integrating governance data in your applications. However, if you are looking to allow client-side governance interactions such as submitting on-chain proposals or votes or signalling on off-chain platforms like Snapshot, you can directly use the [Governance SDK](sdk/governance-sdk.md) in your browser-based dApp.
 
 {% page-ref page="sdk/getting-started.md" %}
-
-
 

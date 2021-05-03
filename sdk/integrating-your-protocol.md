@@ -38,8 +38,5 @@ export const register: ProtocolRegistrationFunction = (register, transports) => 
     },
   });
 };
-
 ```
-
-
 
