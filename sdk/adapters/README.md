@@ -10,7 +10,7 @@ description: 'Reference, integration, and usage information for adapters and tra
 
 Adapter Interfaces can be implemented by **Adapter Implementations** that each protocol must announce during protocol registration. A protocol can implement several adapters, even multiple instances of the same type.
 
-Adapter responses are validated at run-time to ensure the implementation is correctly adhering to the spec defined by the SDK. This mapping logic can be tested by writing unit tests with mocked transports.
+**Adapter responses are validated at run-time** to ensure the implementation is correctly adhering to the spec defined by the SDK. This mapping logic can be tested by writing unit tests with mocked transports.
 
 While a protocol can always implement an adapter from scratch to handle any custom mapping logic, often times it can simply use one of the SDK's provided [Governance Frameworks](../governance-frameworks/) that implement adapters for most of the common use cases.
 

@@ -14,6 +14,14 @@ Protocols "register" with the SDK by implementing a `ProtocolRegistrationFunctio
 
 Protocol integrations are imperative functions that define some basic data for a protocol and register multiple adapter implementations that implement specific interfaces for querying governance data or enabling governance interactions.
 
+Every protocol registration function _could_ potentially register multiple protocols at the same time -- this may make sense in some situations, but generally each protocol integration will have its own file. For instance, the Uniswap integration can be found at:
+
+* `./packages/gov-protocols/src/uniswap.ts`
+
+You can see all integration files here:
+
+* [https://github.com/boardroom-inc/governance-sdk/tree/main/packages/gov-protocols/src](https://github.com/boardroom-inc/governance-sdk/tree/main/packages/gov-protocols/src)
+
 ### Example - Index Coop
 
 Index Coop uses Snapshot for signed off-chain signaling of proposals, and is listed on CoinGecko. We can use the [prebuilt adapters](governance-frameworks/) to quickly integrate this protocol with the Governance SDK:
@@ -41,6 +49,7 @@ export const register: ProtocolRegistrationFunction = (register, transports) => 
 ```
 
 * All registration functions should have a `ProtocolRegistrationFunction` type. This will correctly enforce return types and provide typings for the function parameters.
-* The `register` function can be called multiple times to register multiple protocols in the same registration function, though unrelated protocols should still be implemented in seperate modules.
-* A protocol must, at minimum, specify the `cname` and `name` for that protocol
+* The `register` function can be called multiple times to register multiple protocols in the same registration function, though unrelated protocols should still be implemented in separate modules.
+* A protocol must, at minimum, specify the `cname` and `name` for that protocol. All other fields are optional
+* Ensure that the `index.ts` file in `./packages/gov-protocols/src` is updated if a new integration file is added
 

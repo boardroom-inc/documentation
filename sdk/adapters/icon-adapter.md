@@ -37,3 +37,25 @@ The following pre-built adapters implement the `IconAdapter` interface:
 
 * [CoinGecko](../governance-frameworks/coingecko.md)
 
+## Integration
+
+If you are integration your protocol with the Governance SDK, you can chose to instead hard-code your icons if you'd rather manually provide them and not use an existing pre-built adapter:
+
+```typescript
+import { IconAdapter, IconInfo } from '@boardroom/gov-lib';
+
+export class HardcodedIconAdapter implements IconAdapter {
+
+  // function still needs to be async to implement the correct
+  // interface, but we can just hard-code values if needed
+  async getIcons(): Promise<IconInfo> {
+    return {
+      icons: [
+        { name: 'default', url: 'https://cdn.mysite.com/icon.png' }
+      ]
+    }
+  }
+  
+}
+```
+

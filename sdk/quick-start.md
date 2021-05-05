@@ -2,11 +2,11 @@
 description: Simple getting started guide for using the Governance SDK.
 ---
 
-# Quick Start
+# SDK Quick Start
 
 ## Installing the SDK
 
-The Governance SDK is a NodeJS module that can be installed via npm or yarn:
+The Governance SDK is a NodeJS module \(with native TypeScript types\) that can be installed via npm or yarn:
 
 ```bash
 npm i @boardroom/gov-sdk
@@ -15,7 +15,7 @@ npm i @boardroom/gov-sdk
 The Governance SDK will work both in server-side NodeJS environments as well as the Browser with a compilation tool like webpack or Babel.
 
 {% hint style="info" %}
-If you are wanting to build applications or experiences on top of read-only or aggregate governance data, or are not building for a NodeJS or browser environment, check out the [Boardroom API](../boardroom-api/boardroom-api.md) for integrating data sourced by the Governance SDK.
+If you are wanting to build applications or experiences on top of read-only or aggregate governance data, or are not building for a NodeJS or browser environment, check out the [Boardroom API](../boardroom-api/boardroom-api.md) for quickly integrating data sourced by the Governance SDK.
 {% endhint %}
 
 ## Creating the SDK Instance
@@ -47,7 +47,7 @@ const sdk = new GovernanceSDK({ transports: { jsonRpc } });
 {% hint style="info" %}
 **Transports are lazily resolved within the Governance SDK**, so you can instantiate the SDK without having to provide implementations for all transports. 
 
-If you attempt to call a method on an [Adapter](adapters/) that uses a transport that was not provided, you will get a runtime exception.
+If you attempt to call a method on an [Adapter](adapters/) that uses a transport that was not provided, **you will get a runtime exception.**
 {% endhint %}
 
 ## Protocol Iteration and Introspection
@@ -72,7 +72,7 @@ const withTreasuryInfo = protocols.filter(p => p.hasAdapter('treasury'));
 You can directly get a protocol by it's **cname**, which is an arbitrary string identifier used to reference a protocol:
 
 ```typescript
-// this will throw if aave is not registered with the SDK
+// this will throw if "aave" is not registered with the SDK
 const aave = sdk.getProtocol('aave');
 
 const info = await aave.adapter('token').getInfo('usd');
