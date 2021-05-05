@@ -20,7 +20,7 @@ import { UniswapV2Adapter } from '@boardroom/gov-adapters';
 
 export const register: ProtocolRegistrationFunction = (register, transports) => {
   register({
-    cname: 'rarible',
+    cname: 'aave',
     name: 'Aave',
     adapters: (adapters) => {
       const uniswap = new UniswapV2Adapter(
