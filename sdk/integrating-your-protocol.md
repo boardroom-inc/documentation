@@ -4,7 +4,7 @@ description: How to add support for a new protocol to the Governance SDK.
 
 # Integrating Your Protocol
 
-Support for a protocol can be added by submitting a pull request for a new protocol integration in the Boardroom SDK.
+Support for a protocol can be added by submitting a pull request for a new protocol integration in the [Governance SDK monorepo](https://github.com/boardroom-inc/governance-sdk).
 
 Protocols that use common governance frameworks or services will require very little code to integrate, but if a protocol does require some special mapping logic or has unique downstream data sources, completely custom protocol integrations can be authored.
 
@@ -16,7 +16,7 @@ Protocol integrations are imperative functions that define some basic data for a
 
 ### Example - Index Coop
 
-Index Coop uses Snapshot for signed off-chain signalling of proposals, and is listed on CoinGecko. We can use the [prebuilt adapters](governance-frameworks/) to quickly integrate this protocol with the Governance SDK:
+Index Coop uses Snapshot for signed off-chain signaling of proposals, and is listed on CoinGecko. We can use the [prebuilt adapters](governance-frameworks/) to quickly integrate this protocol with the Governance SDK:
 
 ```typescript
 import { ProtocolRegistrationFunction } from '@boardroom-labs/gov-lib';
@@ -39,4 +39,8 @@ export const register: ProtocolRegistrationFunction = (register, transports) => 
   });
 };
 ```
+
+* All registration functions should have a `ProtocolRegistrationFunction` type. This will correctly enforce return types and provide typings for the function parameters.
+* The `register` function can be called multiple times to register multiple protocols in the same registration function, though unrelated protocols should still be implemented in seperate modules.
+* A protocol must, at minimum, specify the `cname` and `name` for that protocol
 

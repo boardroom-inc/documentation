@@ -4,7 +4,43 @@ A protocol integration can implement an adapter with the `TokenAdapter` interfac
 
 ## Interface
 
+```typescript
+interface CurrencyAmount {
+  currency: string;
+  amount: string;
+}
+
+interface ContractAddress {
+  network: string;
+  address: string;
+}
+
+interface TokenInfo {
+  symbol: string;
+  contractAddress: ContractAddress;
+  currentMarketPrice: CurrencyAmount;
+}
+
+export interface TokenAdapter {
+  getInfo: (currency?: Currency, network?: Network) => Promise<TokenInfo>;
+}
+```
+
 ## Usage
 
+To [query](../quick-start.md#querying-protocol-data) this information from the Governance SDK:
+
+```typescript
+const protocol = sdk.getProtocol(cname);
+
+const info = await protocol.adapter('token').getInfo();
+
+console.log(info.currentMarketPrice);
+```
+
 ## Frameworks
+
+The following pre-built adapters implement the `TokenAdapter` interface:
+
+* [CoinGecko](../governance-frameworks/coingecko.md)
 

@@ -12,7 +12,7 @@ The following diagram illustrates the major components of the Boardroom system a
 
 ### Boardroom Portal
 
-Our governance aggregation portal. Powered by the Boardroom API \(for aggregated read-only data\) and the Governance SDK \(for client-side interactions transactions\). Portal Users are protocol stakeholders that want to engage in protocol governance across any of our supported protocols.
+Our governance aggregation portal. Powered by the [Boardroom API](boardroom-api/boardroom-api.md) \(for aggregated read-only data\) and the [Governance SDK](sdk/governance-sdk.md) \(for client-side interactions transactions\). Portal Users are protocol stakeholders that want to engage in protocol governance across any of our supported protocols.
 
 {% hint style="info" %}
 Checkout the Boardroom Portal [here](https://app.boardroom.info).
@@ -26,7 +26,7 @@ Third-party applications can also use the Governance SDK to query data and submi
 
 ### Boardroom API
 
-A free and publicly accessible REST API that surfaces information and aggregated governance data for all protocols integrated with the Governance SDK.
+A free and publicly accessible HTTP API that surfaces information and aggregated governance data for all protocols integrated with the Governance SDK.
 
 ### Governance SDK
 
@@ -50,7 +50,7 @@ You are here! Our documentation is open-source.
 
 The Governance SDK is fully open-source and relies on community contributions to support the growing number of protocols in the ecosystem. It's role is to provide abstractions for core governance concepts like proposals, voting, and finance so that client experiences can interact with protocols in a normalized way.
 
-Because of the large volume of data, and some of the challenges involved with directly communicating with the downstream data sources, we built the public and free [Boardroom API](boardroom-api/boardroom-api.md) that aggregates and index data in a way that can benefit anybody looking to explore or build experiences on governance data.
+Because of the large volume of data, and some of the challenges involved with directly communicating with the downstream data sources, we built the public and free [Boardroom API](boardroom-api/boardroom-api.md) that aggregates and indexes data in a way that can benefit anybody looking to explore or build experiences on governance data.
 
 {% hint style="info" %}
 Decentralization is important to us at Boardroom, and we're always looking for ways to make our system more open and resilient as decentralized tech offerings mature in the space.

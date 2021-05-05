@@ -12,9 +12,9 @@ We believe that free and open access to aggregated governance data is a crucial 
 We are working finalizing our interopability layer powered by the Governance SDK before making our REST API publicly available. If you are looking to integrate governance data into your application, get in touch with us on [Discord](https://discord.gg/UBqtEddhsC), we'd love to hear your ideas and talk about what we have in store 🚀
 {% endhint %}
 
-## List Integrated Protocols
+## List All Protocols
 
-## Get Protocol Information
+## Get Protocol Details
 
 ## List Protocol Proposals
 
