@@ -43,4 +43,5 @@ console.log(info.currentMarketPrice);
 The following pre-built adapters implement the `TokenAdapter` interface:
 
 * [CoinGecko](../governance-frameworks/coingecko.md)
+* [Uniswap V2](../governance-frameworks/uniswap-v2.md)
 

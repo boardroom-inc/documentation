@@ -21,6 +21,7 @@ As the crypto ecosystem evolves and new approaches and frameworks for governance
 * [Compound Governor Bravo](compound-governor-bravo.md) - Compound on-chain governance
 * [Aave Governance V2](aave-governance-v2.md) - Aave on-chain governance
 * [CoinGecko](coingecko.md) - Token info and market stats
+* [Uniswap V2](uniswap-v2.md) - Token market price
 
 {% hint style="info" %}
 We're always working to provide pre-built adapters for the most common frameworks, services, and governance contracts in the SDK. Reach out on [Discord](https://discord.gg/UBqtEddhsC) or consider contributing directly to the project if there's a framework you'd like to see supported.
