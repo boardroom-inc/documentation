@@ -23,7 +23,7 @@ If you are wanting to build applications or experiences on top of read-only or a
 ```typescript
 import { GovernanceSDK } from '@boardroom/gov-sdk';
 
-const sdk = new GovSDK();
+const sdk = new GovernanceSDK();
 ```
 
 The Governance SDK can be provided with transport-specific overrides to inject things like a custom JSON RPC provider for blockchain networks or a web3 provider / signer.
