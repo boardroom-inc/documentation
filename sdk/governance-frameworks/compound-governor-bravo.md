@@ -10,7 +10,7 @@ You can view the Compound governance contracts their [@compound-finance/compound
 
 The following are the relevant changes between Compound Alpha and Bravo governor contract:
 
-* **Abstaining on votes**. Voters can chose a third option, `ABSTAIN`, when voting on a proposal. This means all proposals read from a protocol with Governor Bravo contracts will have *three* options instead of the usual two.
+* **Abstaining on votes**. Voters can chose a third option, `ABSTAIN`, when voting on a proposal. This means all proposals read from a protocol with Governor Bravo contracts will have _three_ options instead of the usual two.
 
 {% hint style="info" %}
 To see a complete discussion of changes, see [Governor Bravo Development](https://www.comp.xyz/t/governor-bravo-development/942) on the Compound forums.
@@ -43,3 +43,4 @@ export const register: ProtocolRegistrationFunction = (register, transports) => 
 ```
 
 The Compound Governor Bravo adapter only implements the [Proposals Adapter](../adapters/proposals-adapter.md), so we announce a single adapter implementation to the SDK.
+

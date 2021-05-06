@@ -51,7 +51,6 @@ export interface ProposalsAdapter {
   getVotes: (proposalId: string, pagination?: PaginationOptions) => Promise<VotePage>;
   getExternalLink: () => Promise<ExternalLink>;
 }
-
 ```
 
 ## Usage
@@ -128,7 +127,6 @@ export const register: ProtocolRegistrationFunction = (register, transports) => 
     },
   });
 };
-
 ```
 
 Adapters will implement a default behavior for this, for on-chain governance contracts it will simply surface an Etherscan link if not customized like the above snippet.

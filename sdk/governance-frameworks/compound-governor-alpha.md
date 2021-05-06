@@ -33,3 +33,4 @@ export const register: ProtocolRegistrationFunction = (register, transports) => 
 ```
 
 The Compound Governor Alpha adapter only implements the [Proposals Adapter](../adapters/proposals-adapter.md), so we announce a single adapter implementation to the SDK.
+
