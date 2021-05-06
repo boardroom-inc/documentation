@@ -12,7 +12,7 @@ With this ownership comes a responsibility to steward governance, communication,
 
 ## Integrate Your Protocol with Boardroom
 
-If you are looking to add support for your protocol within Boardroom, you'll need to create a protocol integration in [The Governance SDK](sdk/governance-sdk.md). Integrated protocols within the Governance SDK will be included in the aggregated data served by the [Boardroom API](boardroom-api/boardroom-api.md) and accessible in the Boardroom Portal.
+If you are looking to add support for your protocol within Boardroom, you'll need to create an integration in [The Governance SDK](sdk/governance-sdk.md). Integrated protocols within the Governance SDK will be included in the aggregated data served by the [Boardroom API](boardroom-api/boardroom-api.md) and accessible in the Boardroom Portal.
 
 {% page-ref page="sdk/integrating-your-protocol.md" %}
 

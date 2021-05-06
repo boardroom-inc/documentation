@@ -1,7 +1,6 @@
-# Aave Governance V2
+# Aave Governance v2
 
 Aave has their own on-chain governance architecture, collectively referred to as the **Aave Governance V2** contracts.
-
 
 {% hint style="info" %}
 You can view Aave's architecture and documentation on their [@aave/governance-v2](https://github.com/aave/governance-v2) GitHub repo.
@@ -35,3 +34,4 @@ export const registerAave: ProtocolRegistrationFunction = (register, transports)
 ```
 
 The Aave Governance V2 adapter only implements the [Proposals Adapter](../adapters/proposals-adapter.md), so we announce a single adapter implementation to the SDK.
+
