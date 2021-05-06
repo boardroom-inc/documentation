@@ -26,7 +26,7 @@ export interface Proposal {
   choices: string[];
   blockNumber: number;
   startTime: Time;
-  endtTime: Time;
+  endTime: Time;
 }
 
 export interface Vote {
@@ -59,12 +59,39 @@ export interface ProposalsAdapter {
 To [query](../quick-start.md#querying-protocol-data) this information from the Governance SDK:
 
 ```typescript
+const protocol = sdk.getProtocol(cname);
 
+// fetch the first page of proposals
+const proposals = await protocol.adapter('proposals').getProposals();
+
+// fetch a page of proposals starting from a specific cursor
+const proposals = await protocol.adapter('proposals').getProposals({ cursor });
+
+// get the first page of votes for a specific proposal
+const votes = await protocol.adapter('proposals').getVotes(proposalId);
 ```
 
 ### Pagination
 
 The `getProposals` and `getVotes` methods are both paginated. Not all [pre-built adapters](../governance-frameworks/) actually implement pagination as it may not be possible with the downstream data source, but pagination options can always be passed in to the adapters safely.
+
+You can use some of the built-in utilities to stream or buffer any paginated methods in the SDK:
+
+```typescript
+import { bufferAsyncIterable, iteratePaginatedResponse } from '@boardroom/gov-sdk';
+
+// create an async iterator that will iterate through all items across all pages
+const proposals = iteratePaginatedResponse(
+  (cursor) => protocol.adapter('proposals', instance).getProposals({ cursor }));
+
+// stream all proposals for further processing
+for await (const proposal of proposals) {
+  // ... further processing
+}
+
+// or buffer all items into an array
+const allProposals = await bufferAsyncIterable(proposals);
+```
 
 ## Frameworks
 
