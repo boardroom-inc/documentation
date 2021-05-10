@@ -8,7 +8,7 @@ description: A high level overview of Boardroom system components and product of
 
 The following diagram illustrates the major components of the Boardroom system and relevant user personas:
 
-![](.gitbook/assets/screen-shot-2021-04-27-at-6.46.31-pm.png)
+![Click to expand](.gitbook/assets/boardroom-systemarch-overview-small.gif)
 
 ### Boardroom Portal
 
