@@ -14,6 +14,45 @@ We are working finalizing our interoperability layer powered by the Governance S
 
 ## List All Protocols
 
+{% api-method method="get" host="https://api.boardroom.com/v1/" path="protocols" %}
+{% api-method-summary %}
+Get All Protocols
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Get information about all integrated protocols
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+  items: [
+    {
+      cname: "compound",
+      "name": "Compound"
+    }
+  ]
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 ## Get Protocol Details
 
 ## List Protocol Proposals
