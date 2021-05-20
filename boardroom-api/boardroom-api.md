@@ -14,9 +14,9 @@ We are working finalizing our interoperability layer powered by the Governance S
 
 ## List All Protocols
 
-{% api-method method="get" host="https://api.boardroom.com/v1/" path="protocols" %}
+{% api-method method="get" host="https://api.boardroom.com/v1" path="/protocols" %}
 {% api-method-summary %}
-Get All Protocols
+Get a paginated list of all integrated protocols and basic stats
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -40,10 +40,22 @@ Get information about all integrated protocols
 
 ```
 {
-  items: [
+  "nextCursor": "ZGVjZW50cmFsZ2FtZXM6ZGVmYXVsdA==",
+  "items": [
     {
-      cname: "compound",
-      "name": "Compound"
+      "cname": "compound",
+      "name": "Compound",
+      "totalProposals": 46,
+      "totalVotesCast": 2633,
+      "tokens": [
+        {
+          "symbol": "COMP",
+          "contractAddress": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+          "marketPrice": [
+            { "currency": "usd", "amount": 561.13 }
+          ]
+        }
+      ]
     }
   ]
 }
