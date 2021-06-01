@@ -465,7 +465,7 @@ Proposal refId
 {% endapi-method-path-parameters %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="pinnedAddresses" type="string" required=false %}
+{% api-method-parameter name="pinned" type="string" required=false %}
 A CSV list of addresses that should be included at the top of the results
 {% endapi-method-parameter %}
 
