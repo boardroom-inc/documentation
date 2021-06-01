@@ -102,7 +102,7 @@ Get information about a specific protocol
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="cname" type="string" required=false %}
+{% api-method-parameter name="cname" type="string" required=true %}
 Protocol cname, e.v. "aave"
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -173,7 +173,7 @@ Get a protocol's proposals
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="cname" type="string" required=false %}
+{% api-method-parameter name="cname" type="string" required=true %}
 Protocol cname, e.g. "aave"
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -392,7 +392,7 @@ Get information about a specific proposal
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="refId" type="string" required=false %}
+{% api-method-parameter name="refId" type="string" required=true %}
 Proposal refId
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -459,13 +459,13 @@ Get all votes cast for a specific proposal
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="refId" type="string" required=false %}
+{% api-method-parameter name="refId" type="string" required=true %}
 Proposal refId
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="pinnedAddressess" type="string" required=false %}
+{% api-method-parameter name="pinnedAddresses" type="string" required=false %}
 A CSV list of addresses that should be included at the top of the results
 {% endapi-method-parameter %}
 
