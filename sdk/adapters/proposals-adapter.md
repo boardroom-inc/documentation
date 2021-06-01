@@ -7,7 +7,6 @@ A protocol integration can implement an adapter with the `ProposalsAdapter` inte
 ```typescript
 export interface PaginationOptions {
   cursor?: string;
-  limit?: number;
 }
 
 export interface ExternalLink {
@@ -31,9 +30,11 @@ export interface Proposal {
 
 export interface Vote {
   time: Time;
+  proposalId: string;
   address: string;
   choice: number;
   power: number;
+  reason?: string;
 }
 
 export interface ProposalPage {
@@ -48,7 +49,7 @@ export interface VotePage {
 
 export interface ProposalsAdapter {
   getProposals: (pagination?: PaginationOptions) => Promise<ProposalPage>;
-  getVotes: (proposalId: string, pagination?: PaginationOptions) => Promise<VotePage>;
+  getVotes: (pagination?: PaginationOptions) => Promise<VotePage>;
   getExternalLink: () => Promise<ExternalLink>;
 }
 ```
@@ -66,8 +67,8 @@ const proposals = await protocol.adapter('proposals').getProposals();
 // fetch a page of proposals starting from a specific cursor
 const proposals = await protocol.adapter('proposals').getProposals({ cursor });
 
-// get the first page of votes for a specific proposal
-const votes = await protocol.adapter('proposals').getVotes(proposalId);
+// get the first page of votes across all protocols
+const votes = await protocol.adapter('proposals').getVotes();
 ```
 
 ### Pagination
