@@ -447,5 +447,128 @@ Proposal refId
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="get" host="https://api.boardroom.com" path="/v1/proposals/:refId/votes" %}
+{% api-method-summary %}
+Get Proposal Votes
+{% endapi-method-summary %}
 
+{% api-method-description %}
+Get all votes cast for a specific proposal
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="refId" type="string" required=false %}
+Proposal refId
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="pinnedAddressess" type="string" required=false %}
+A CSV list of addresses that should be included at the top of the results
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="limit" type="number" required=false %}
+Max number of items to return
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="cursor" type="string" required=false %}
+Pagination cursor
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "data": [
+    {
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4ZDY4MTE0MTJlMzFmYmMwN2MyNmVjNGMxZjU2ZjhmNjdlMGU0N2Q2ZQ==",
+      "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0Ng==",
+      "protocol": "compound",
+      "adapter": "default",
+      "proposalId": "46",
+      "address": "0xd6811412E31fBc07C26Ec4C1f56F8F67e0E47D6E",
+      "power": 15007.64,
+      "reason": "",
+      "choice": 1,
+      "time": {
+        "blockNumber": 12464079
+      },
+      "timestamp": 1621417754
+    },
+    {
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4MWRkNzU3MjcwMjI5NWEzMDIwMWM0ZTQ4ZDE5YzQwYmY0ZWFlNTk2Mg==",
+      "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0Ng==",
+      "protocol": "compound",
+      "adapter": "default",
+      "proposalId": "46",
+      "address": "0x1dD7572702295a30201c4e48d19C40bF4EAe5962",
+      "power": 0.04958785,
+      "reason": "",
+      "choice": 1,
+      "time": {
+        "blockNumber": 12464079
+      },
+      "timestamp": 1621417754
+    },
+    {
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4ZTI1ZDVjODc2ZTI0YzUyZjA5Mzg5NjdmYjZlMTY0YmI3MGJiMjM2Mg==",
+      "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0Ng==",
+      "protocol": "compound",
+      "adapter": "default",
+      "proposalId": "46",
+      "address": "0xE25d5C876e24C52f0938967fb6e164bB70Bb2362",
+      "power": 0.007827868,
+      "reason": "",
+      "choice": 1,
+      "time": {
+        "blockNumber": 12463726
+      },
+      "timestamp": 1621412794
+    },
+    {
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4OWI2OGMxNGU5MzYxMDRlOWE3YTI0YzcxMmJlZWNkYzIyMDAwMjk4NA==",
+      "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0Ng==",
+      "protocol": "compound",
+      "adapter": "default",
+      "proposalId": "46",
+      "address": "0x9B68c14e936104e9a7a24c712BEecdc220002984",
+      "power": 10646.543,
+      "reason": "",
+      "choice": 1,
+      "time": {
+        "blockNumber": 12463230
+      },
+      "timestamp": 1621405865
+    },
+    {
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4NTRhMzdkOTNlNTdjNWRhNjU5ZjUwODA2OWNmNjVhMzgxYjYxZTE4OQ==",
+      "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0Ng==",
+      "protocol": "compound",
+      "adapter": "default",
+      "proposalId": "46",
+      "address": "0x54A37d93E57c5DA659F508069Cf65A381b61E189",
+      "power": 100075.9,
+      "reason": "",
+      "choice": 1,
+      "time": {
+        "blockNumber": 12461914
+      },
+      "timestamp": 1621387993
+    }
+  ],
+  "nextCursor": "eyJyZWZJZCI6ImRtOTBaVHBqYjIxd2IzVnVaRHBrWldaaGRXeDBPalEyT2pCNE5UUmhNemRrT1RObE5UZGpOV1JoTmpVNVpqVXdPREEyT1dObU5qVmhNemd4WWpZeFpURTRPUT09IiwidGltZXN0YW1wIjoxNjIxMzg3OTkzfQ=="
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
