@@ -179,6 +179,10 @@ Protocol cname, e.g. "aave"
 {% endapi-method-path-parameters %}
 
 {% api-method-query-parameters %}
+{% api-method-parameter name="states" type="string" required=false %}
+A CSV list of proposal states. Only proposals currently in one of the provided states will be returned. Valid states are: **pending**, **active**, **closed**, **canceled**, **queued**, **executed**
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="cursor" type="string" required=false %}
 Pagination cursor
 {% endapi-method-parameter %}
