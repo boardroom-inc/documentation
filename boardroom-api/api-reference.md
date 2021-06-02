@@ -16,6 +16,14 @@ Get information about all integrated protocols
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-query-parameters %}
+{% api-method-parameter name="pinned" type="string" required=false %}
+A CSV list of protocols to include at the top of the results
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="cnames" type="string" required=false %}
+A CSV list of protocol cnames to include. Other protocols will be filtered out
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="limit" type="number" required=false %}
 Max number of items to return
 {% endapi-method-parameter %}
