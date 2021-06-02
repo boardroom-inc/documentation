@@ -38,6 +38,7 @@ export interface Vote {
 }
 
 export interface ProposalEvent {
+  proposalId: string;
   event: 'queued' | 'canceled' | 'executed';
   time: Time;
 }
