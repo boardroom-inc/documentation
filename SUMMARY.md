@@ -7,6 +7,10 @@
 
 * [Getting Started](project-integrations/getting-started.md)
 
+## 🏛 Boardroom Portal
+
+* [Boardroom Portal](boardroom-portal/boardroom-portal.md)
+
 ## ⚙️ Governance SDK <a id="sdk"></a>
 
 * [Governance SDK](sdk/governance-sdk.md)
@@ -27,6 +31,8 @@
 ## 🌎 Boardroom API
 
 * [Boardroom API](boardroom-api/boardroom-api.md)
+* [HTTP Routes](boardroom-api/http-routes.md)
+* [Pagination](boardroom-api/pagination.md)
 
 ## Reference
 
