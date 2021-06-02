@@ -31,7 +31,7 @@
 ## 🌎 Boardroom API
 
 * [Boardroom API](boardroom-api/boardroom-api.md)
-* [HTTP Routes](boardroom-api/http-routes.md)
+* [API Reference](boardroom-api/api-reference.md)
 * [Pagination](boardroom-api/pagination.md)
 
 ## Reference

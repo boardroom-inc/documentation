@@ -1,9 +1,8 @@
 ---
-description: >-
-  HTTP API request and response reference.
+description: HTTP API request and response reference.
 ---
 
-# HTTP Routes
+# API Reference
 
 {% api-method method="get" host="https://api.boardroom.com" path="/v1/protocols" %}
 {% api-method-summary %}
