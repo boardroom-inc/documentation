@@ -37,6 +37,11 @@ export interface Vote {
   reason?: string;
 }
 
+export interface ProposalEvent {
+  event: 'queued' | 'canceled' | 'executed';
+  time: Time;
+}
+
 export interface ProposalPage {
   items: Proposal[];
   nextCursor?: string;
@@ -47,8 +52,14 @@ export interface VotePage {
   nextCursor?: string;
 }
 
+export interface ProposalEventPage {
+  items: ProposalEvent[];
+  nextCursor?: string;
+}
+
 export interface ProposalsAdapter {
   getProposals: (pagination?: PaginationOptions) => Promise<ProposalPage>;
+  getProposalEvents: (pagination?: PaginationOptions) => Promise<ProposalEventPage>;
   getVotes: (pagination?: PaginationOptions) => Promise<VotePage>;
   getExternalLink: () => Promise<ExternalLink>;
 }
