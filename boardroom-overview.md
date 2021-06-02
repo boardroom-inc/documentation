@@ -14,10 +14,6 @@ The following diagram illustrates the major components of the Boardroom system a
 
 Our governance aggregation portal. Powered by the [Boardroom API](boardroom-api/boardroom-api.md) \(for aggregated read-only data\) and the [Governance SDK](sdk/governance-sdk.md) \(for client-side interactions transactions\). Portal Users are protocol stakeholders that want to engage in protocol governance across any of our supported protocols.
 
-{% hint style="info" %}
-Checkout the Boardroom Portal [here](https://app.boardroom.info).
-{% endhint %}
-
 ### Third-party Experience
 
 External applications or experiences built on top of the Boardroom API. These can be apps, platforms, or dApps that want to integrate information or aggregated data about protocol governance for their end users.
