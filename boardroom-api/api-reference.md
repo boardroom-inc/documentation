@@ -179,8 +179,8 @@ Protocol cname, e.g. "aave"
 {% endapi-method-path-parameters %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="states" type="string" required=false %}
-A CSV list of proposal states. Only proposals currently in one of the provided states will be returned. Valid states are: **pending**, **active**, **closed**, **canceled**, **queued**, **executed**
+{% api-method-parameter name="status" type="string" required=false %}
+Filter proposals by their current status. Can be **pending**, **active**, or **closed**.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="cursor" type="string" required=false %}
@@ -234,6 +234,22 @@ Max number of items to return
           "total": 18378.75,
           "choice": 2
         }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12472698
+          },
+          "event": "queued",
+          "timestamp": 1621532858
+        },
+        {
+          "time": {
+            "blockNumber": 12485775
+          },
+          "event": "executed",
+          "timestamp": 1621708768
+        }
       ]
     },
     {
@@ -268,6 +284,22 @@ Max number of items to return
           "total": 22899.395,
           "choice": 2
         }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12465825
+          },
+          "event": "queued",
+          "timestamp": 1621440489
+        },
+        {
+          "time": {
+            "blockNumber": 12479085
+          },
+          "event": "executed",
+          "timestamp": 1621618907
+        }
       ]
     },
     {
@@ -301,6 +333,22 @@ Max number of items to return
         {
           "total": 5.9100003,
           "choice": 2
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12351969
+          },
+          "event": "queued",
+          "timestamp": 1619920848
+        },
+        {
+          "time": {
+            "blockNumber": 12370865
+          },
+          "event": "executed",
+          "timestamp": 1620172850
         }
       ]
     },
@@ -340,6 +388,22 @@ Max number of items to return
           "total": 0,
           "choice": 2
         }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12253447
+          },
+          "event": "queued",
+          "timestamp": 1618606937
+        },
+        {
+          "time": {
+            "blockNumber": 12266840
+          },
+          "event": "executed",
+          "timestamp": 1618785180
+        }
       ]
     },
     {
@@ -372,6 +436,22 @@ Max number of items to return
         {
           "total": 1438679.1,
           "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12127223
+          },
+          "event": "queued",
+          "timestamp": 1616929230
+        },
+        {
+          "time": {
+            "blockNumber": 12140390
+          },
+          "event": "executed",
+          "timestamp": 1617104284
         }
       ]
     }
@@ -442,6 +522,22 @@ Proposal refId
         "total": 18378.75,
         "choice": 2
       }
+    ],
+    "events": [
+      {
+        "time": {
+          "blockNumber": 12472698
+        },
+        "event": "queued",
+        "timestamp": 1621532858
+      },
+      {
+        "time": {
+          "blockNumber": 12485775
+        },
+        "event": "executed",
+        "timestamp": 1621708768
+      }
     ]
   }
 }
@@ -493,64 +589,64 @@ Pagination cursor
 {
   "data": [
     {
-      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4ZDY4MTE0MTJlMzFmYmMwN2MyNmVjNGMxZjU2ZjhmNjdlMGU0N2Q2ZQ==",
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4ZWQ0MDljOWZmNjBmMzAyMGFiZjkwMTJiY2Q0NWZjMjk0ZjU2MDhmZg==",
       "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0Ng==",
       "protocol": "compound",
       "adapter": "default",
       "proposalId": "46",
-      "address": "0xd6811412E31fBc07C26Ec4C1f56F8F67e0E47D6E",
-      "power": 15007.64,
+      "address": "0xeD409c9fF60f3020abF9012bcd45Fc294f5608fF",
+      "power": 325761.12,
       "reason": "",
       "choice": 1,
       "time": {
-        "blockNumber": 12464079
+        "blockNumber": 12455528
       },
-      "timestamp": 1621417754
+      "timestamp": 1621302816
     },
     {
-      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4MWRkNzU3MjcwMjI5NWEzMDIwMWM0ZTQ4ZDE5YzQwYmY0ZWFlNTk2Mg==",
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4NjYyNjU5M2MyMzdmNTMwZDE1YWU5OTgwYTk1ZWY5MzhhYzE1YzM1Yw==",
       "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0Ng==",
       "protocol": "compound",
       "adapter": "default",
       "proposalId": "46",
-      "address": "0x1dD7572702295a30201c4e48d19C40bF4EAe5962",
-      "power": 0.04958785,
+      "address": "0x6626593C237f530D15aE9980A95ef938Ac15c35c",
+      "power": 126146.29,
       "reason": "",
       "choice": 1,
       "time": {
-        "blockNumber": 12464079
+        "blockNumber": 12459521
       },
-      "timestamp": 1621417754
+      "timestamp": 1621355919
     },
     {
-      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4ZTI1ZDVjODc2ZTI0YzUyZjA5Mzg5NjdmYjZlMTY0YmI3MGJiMjM2Mg==",
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4YWM1NzIwZDZlZTJkNzg3MmI4ODkxNGM5YzVmYTliZjM4ZTcyZmFmNg==",
       "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0Ng==",
       "protocol": "compound",
       "adapter": "default",
       "proposalId": "46",
-      "address": "0xE25d5C876e24C52f0938967fb6e164bB70Bb2362",
-      "power": 0.007827868,
+      "address": "0xAC5720d6EE2d7872b88914C9c5Fa9BF38e72FaF6",
+      "power": 105138.67,
       "reason": "",
       "choice": 1,
       "time": {
-        "blockNumber": 12463726
+        "blockNumber": 12453734
       },
-      "timestamp": 1621412794
+      "timestamp": 1621278331
     },
     {
-      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4OWI2OGMxNGU5MzYxMDRlOWE3YTI0YzcxMmJlZWNkYzIyMDAwMjk4NA==",
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4ODE2OTUyMmMyYzU3ODgzZThlZjgwYzQ5OGFhYjc4MjBkYTUzOTgwNg==",
       "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0Ng==",
       "protocol": "compound",
       "adapter": "default",
       "proposalId": "46",
-      "address": "0x9B68c14e936104e9a7a24c712BEecdc220002984",
-      "power": 10646.543,
+      "address": "0x8169522c2C57883E8EF80C498aAB7820dA539806",
+      "power": 101000.02,
       "reason": "",
       "choice": 1,
       "time": {
-        "blockNumber": 12463230
+        "blockNumber": 12461712
       },
-      "timestamp": 1621405865
+      "timestamp": 1621385394
     },
     {
       "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4NTRhMzdkOTNlNTdjNWRhNjU5ZjUwODA2OWNmNjVhMzgxYjYxZTE4OQ==",
