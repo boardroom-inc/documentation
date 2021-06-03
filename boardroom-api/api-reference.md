@@ -4,7 +4,7 @@ description: HTTP API request and response reference.
 
 # API Reference
 
-{% api-method method="get" host="https://api.boardroom.com" path="/v1/protocols" %}
+{% api-method method="get" host="https://api.boardroom.info" path="/v1/protocols" %}
 {% api-method-summary %}
 List Protocols
 {% endapi-method-summary %}
@@ -75,14 +75,166 @@ Pagination cursor
           "marketPrices": [
             {
               "currency": "usd",
-              "price": 381.02
+              "price": 397.94
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cname": "banklessvault",
+      "name": "Bankless DAO",
+      "totalProposals": 3,
+      "totalVotes": 2538,
+      "uniqueVoters": 1598,
+      "icons": [
+        {
+          "adapter": "default",
+          "size": "thumb",
+          "url": "https://assets.coingecko.com/coins/images/15227/thumb/j4WEJrwU.png?1622615796"
+        },
+        {
+          "adapter": "default",
+          "size": "small",
+          "url": "https://assets.coingecko.com/coins/images/15227/small/j4WEJrwU.png?1622615796"
+        },
+        {
+          "adapter": "default",
+          "size": "large",
+          "url": "https://assets.coingecko.com/coins/images/15227/large/j4WEJrwU.png?1622615796"
+        }
+      ],
+      "tokens": [
+        {
+          "adapter": "default",
+          "symbol": "bank",
+          "network": "ethereum",
+          "contractAddress": "0x2d94aa3e47d9d5024503ca8491fce9a2fb4da198",
+          "marketPrices": [
+            {
+              "currency": "usd",
+              "price": 0.02940635
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cname": "compound",
+      "name": "Compound",
+      "totalProposals": 46,
+      "totalVotes": 2633,
+      "uniqueVoters": 941,
+      "icons": [
+        {
+          "adapter": "default",
+          "size": "thumb",
+          "url": "https://assets.coingecko.com/coins/images/10775/thumb/COMP.png?1592625425"
+        },
+        {
+          "adapter": "default",
+          "size": "small",
+          "url": "https://assets.coingecko.com/coins/images/10775/small/COMP.png?1592625425"
+        },
+        {
+          "adapter": "default",
+          "size": "large",
+          "url": "https://assets.coingecko.com/coins/images/10775/large/COMP.png?1592625425"
+        }
+      ],
+      "tokens": [
+        {
+          "adapter": "default",
+          "symbol": "comp",
+          "network": "ethereum",
+          "contractAddress": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+          "marketPrices": [
+            {
+              "currency": "usd",
+              "price": 450.38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cname": "compoundgrants",
+      "name": "Compound Grants",
+      "totalProposals": 2,
+      "totalVotes": 8,
+      "uniqueVoters": 7,
+      "icons": [
+        {
+          "adapter": "default",
+          "size": "thumb",
+          "url": "https://assets.coingecko.com/coins/images/10775/thumb/COMP.png?1592625425"
+        },
+        {
+          "adapter": "default",
+          "size": "small",
+          "url": "https://assets.coingecko.com/coins/images/10775/small/COMP.png?1592625425"
+        },
+        {
+          "adapter": "default",
+          "size": "large",
+          "url": "https://assets.coingecko.com/coins/images/10775/large/COMP.png?1592625425"
+        }
+      ],
+      "tokens": [
+        {
+          "adapter": "default",
+          "symbol": "comp",
+          "network": "ethereum",
+          "contractAddress": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+          "marketPrices": [
+            {
+              "currency": "usd",
+              "price": 450.38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cname": "defidollar",
+      "name": "DefiDollar DAO",
+      "totalProposals": 5,
+      "totalVotes": 10,
+      "uniqueVoters": 10,
+      "icons": [
+        {
+          "adapter": "default",
+          "size": "thumb",
+          "url": "https://assets.coingecko.com/coins/images/12959/thumb/DFD.jpg?1604415975"
+        },
+        {
+          "adapter": "default",
+          "size": "small",
+          "url": "https://assets.coingecko.com/coins/images/12959/small/DFD.jpg?1604415975"
+        },
+        {
+          "adapter": "default",
+          "size": "large",
+          "url": "https://assets.coingecko.com/coins/images/12959/large/DFD.jpg?1604415975"
+        }
+      ],
+      "tokens": [
+        {
+          "adapter": "default",
+          "symbol": "dfd",
+          "network": "ethereum",
+          "contractAddress": "0x20c36f062a31865bed8a5b1e512d9a1a20aa333a",
+          "marketPrices": [
+            {
+              "currency": "usd",
+              "price": 0.472084
             }
           ]
         }
       ]
     }
   ],
-  "nextCursor": "eyJjbmFtZSI6ImFhdmUifQ=="
+  "nextCursor": "eyJjbmFtZSI6ImRlZmlkb2xsYXIifQ=="
 }
 ```
 {% endapi-method-response-example %}
@@ -90,7 +242,7 @@ Pagination cursor
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.boardroom.com" path="/v1/protocols/:cname" %}
+{% api-method method="get" host="https://api.boardroom.info" path="/v1/protocols/:cname" %}
 {% api-method-summary %}
 Get Protocol Details
 {% endapi-method-summary %}
@@ -161,7 +313,7 @@ Protocol cname, e.v. "aave"
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.boardroom.com" path="/v1/protocols/:cname/proposals" %}
+{% api-method method="get" host="https://api.boardroom.info" path="/v1/protocols/:cname/proposals" %}
 {% api-method-summary %}
 Get Protocol Proposals
 {% endapi-method-summary %}
@@ -464,7 +616,7 @@ Max number of items to return
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.boardroom.com" path="/v1/proposals/:refId" %}
+{% api-method method="get" host="https://api.boardroom.info" path="/v1/proposals/:refId" %}
 {% api-method-summary %}
 Get Proposal Details
 {% endapi-method-summary %}
