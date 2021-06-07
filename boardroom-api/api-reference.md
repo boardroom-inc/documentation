@@ -313,9 +313,55 @@ Protocol cname, e.v. "aave"
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="get" host="https://api.boardroom.info" path="/v1/proposals" %}
+{% api-method-summary %}
+List Proposals
+{% endapi-method-summary %}
+
+{% api-method-description %}
+List proposals across all protocols
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+Filter proposals by their current status. Can be **pending**, **active**, or **closed**
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="cursor" type="string" required=false %}
+Pagination cursor
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="limit" type="number" required=false %}
+Max number of items to return
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 {% api-method method="get" host="https://api.boardroom.info" path="/v1/protocols/:cname/proposals" %}
 {% api-method-summary %}
-Get Protocol Proposals
+List Protocol Proposals
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -701,7 +747,7 @@ Proposal refId
 
 {% api-method method="get" host="https://api.boardroom.com" path="/v1/proposals/:refId/votes" %}
 {% api-method-summary %}
-Get Proposal Votes
+List Proposal Votes
 {% endapi-method-summary %}
 
 {% api-method-description %}
