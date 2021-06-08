@@ -324,14 +324,8 @@ List proposals across all protocols
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
 {% api-method-query-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
+{% api-method-parameter name="status" type="string" required=false %}
 Filter proposals by their current status. Can be **pending**, **active**, or **closed**
 {% endapi-method-parameter %}
 
