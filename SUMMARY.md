@@ -6,6 +6,19 @@
 ## 📲 Project Integrations
 
 * [Getting Started](project-integrations/getting-started.md)
+* [Adding Your Project](project-integrations/adding-your-project/README.md)
+  * [Protocol Information](project-integrations/adding-your-project/protocol-information.md)
+  * [Unlocking the Hub](project-integrations/adding-your-project/unlocking-the-hub.md)
+  * [Treasury Information](project-integrations/adding-your-project/treasury-information.md)
+
+## Contributors
+
+* [Getting Started](contributors/getting-started.md)
+* [Editing Project Data](contributors/editing-project-data/README.md)
+  * [Protocol Metadata](contributors/editing-project-data/protocol-metadata.md)
+* [Adding Resources](contributors/adding-resources/README.md)
+  * [Adding Content](contributors/adding-resources/adding-content.md)
+  * [Other Content](contributors/adding-resources/other-content.md)
 
 ## 🏛 Boardroom Portal
 
