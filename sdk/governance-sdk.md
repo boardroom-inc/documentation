@@ -8,7 +8,7 @@ description: >-
 
 The **Governance SDK** is a portable, protocol agnostic governance interoperability framework built for NodeJS and the browser. It makes it easier for developers to query and interact with protocol governance in a normalized way by leveraging community-authored protocol integrations.
 
-Both the [Boardroom API](../boardroom-api/boardroom-api.md) and the [Boardroom Portal](../boardroom-portal/boardroom-portal.md) use the Governance SDK directly.
+Both the [Boardroom API](../boardroom-api/boardroom-api.md) and the [Boardroom Portal]() use the Governance SDK directly.
 
 {% page-ref page="quick-start.md" %}
 

@@ -8,7 +8,7 @@ description: >-
 
 The **Boardroom API** is a centralized HTTP API that uses the open-source [Governance SDK](../sdk/governance-sdk.md) to continually index and aggregate governance data across all integrated protocols at scale. 
 
-We believe that free and open access to aggregated governance data is a crucial tool in navigating the rapidly growing ecosystem of stakeholder owned crypto networks, so we've made the same API we use to power the [Boardroom Portal](../boardroom-portal/boardroom-portal.md) publically available.
+We believe that free and open access to aggregated governance data is a crucial tool in navigating the rapidly growing ecosystem of stakeholder owned crypto networks, so we've made the same API we use to power the [Boardroom Portal]() publically available.
 
 {% page-ref page="api-reference.md" %}
 

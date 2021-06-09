@@ -19,7 +19,7 @@ The Boardroom contributor program allows community members to add relevant and p
 * **Resources**
 * **Calendar Events**
 
-![A Project&apos;s Navigation Sidebar on the Boardroom Portal](../.gitbook/assets/image%20%286%29.png)
+![A Project&apos;s Navigation Sidebar on the Boardroom Portal](../../.gitbook/assets/image%20%286%29.png)
 
 ### Protocol Information Repository 
 

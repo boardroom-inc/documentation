@@ -3,26 +3,20 @@
 * [Introduction](README.md)
 * [Boardroom Overview](boardroom-overview.md)
 
-## 📲 Project Integrations
+## 🏛 Boardroom Portal <a id="boardroom-portal-1"></a>
 
-* [Getting Started](project-integrations/getting-started.md)
-* [Adding Your Project](project-integrations/adding-your-project/README.md)
-  * [Protocol Information](project-integrations/adding-your-project/protocol-information.md)
-  * [Unlocking the Hub](project-integrations/adding-your-project/unlocking-the-hub.md)
-  * [Treasury Information](project-integrations/adding-your-project/treasury-information.md)
-
-## Contributors
-
-* [Getting Started](contributors/getting-started.md)
-* [Editing Project Data](contributors/editing-project-data/README.md)
-  * [Protocol Metadata](contributors/editing-project-data/protocol-metadata.md)
-* [Adding Resources](contributors/adding-resources/README.md)
-  * [Adding Content](contributors/adding-resources/adding-content.md)
-  * [Other Content](contributors/adding-resources/other-content.md)
-
-## 🏛 Boardroom Portal
-
-* [Boardroom Portal](boardroom-portal/boardroom-portal.md)
+* [Getting Started](boardroom-portal-1/getting-started.md)
+* [Adding Your Project](boardroom-portal-1/adding-your-project/README.md)
+  * [1. Add Protocol Information](boardroom-portal-1/adding-your-project/protocol-information.md)
+  * [2. Add Treasury Information](boardroom-portal-1/adding-your-project/treasury-information.md)
+  * [3. Claim Your Space](boardroom-portal-1/adding-your-project/unlocking-the-hub.md)
+* [Contributors](boardroom-portal-1/contributors/README.md)
+  * [Getting Started](boardroom-portal-1/contributors/getting-started.md)
+  * [Editing Project Data](boardroom-portal-1/contributors/editing-project-data/README.md)
+    * [Protocol Metadata](boardroom-portal-1/contributors/editing-project-data/protocol-metadata.md)
+  * [Adding Resources](boardroom-portal-1/contributors/adding-resources/README.md)
+    * [Adding Content](boardroom-portal-1/contributors/adding-resources/adding-content.md)
+    * [Other Content](boardroom-portal-1/contributors/adding-resources/other-content.md)
 
 ## ⚙️ Governance SDK <a id="sdk"></a>
 

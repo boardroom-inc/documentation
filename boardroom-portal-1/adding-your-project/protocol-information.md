@@ -1,4 +1,4 @@
-# Protocol Information
+# 1. Add Protocol Information
 
 All project addition and edits occur on the public [Project Information repository on Github](https://github.com/boardroom-inc/protocol-Info), where all information seen in the Boardroom governance portal is uploaded, stored, and maintained. These docs will walk you through how to add the necessary project information to this repository in a few simple steps, to get your project added to the Boardroom Portal frontend.
 
