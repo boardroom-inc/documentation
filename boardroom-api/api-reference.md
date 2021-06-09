@@ -864,3 +864,286 @@ Pagination cursor
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="get" host="https://api.boardroom.com" path="/v1/voters/:address/votes" %}
+{% api-method-summary %}
+List Voter Votes
+{% endapi-method-summary %}
+
+{% api-method-description %}
+List all votes cast by a specific voter
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="address" type="string" required=true %}
+The wallet address of the voter
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="cname" type="string" required=false %}
+Only return votes from a specific protocol
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="cursor" type="string" required=false %}
+Pagination Cursor
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="limit" type="number" required=false %}
+Max number of items to return
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+  "data": [
+    {
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ2OjB4YWM1NzIwZDZlZTJkNzg3MmI4ODkxNGM5YzVmYTliZjM4ZTcyZmFmNg==",
+      "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0Ng==",
+      "protocol": "compound",
+      "adapter": "default",
+      "proposalId": "46",
+      "address": "0xAC5720d6EE2d7872b88914C9c5Fa9BF38e72FaF6",
+      "power": 105138.67,
+      "reason": "",
+      "choice": 1,
+      "time": {
+        "blockNumber": 12453734
+      },
+      "timestamp": 1621278331,
+      "proposalInfo": {
+        "title": "Add LINK Support",
+        "startTime": {
+          "blockNumber": 12446760
+        },
+        "endTime": {
+          "blockNumber": 12466470
+        },
+        "startTimestamp": 1621185107,
+        "endTimestamp": 1621449322,
+        "choices": [
+          "AGAINST",
+          "FOR",
+          "ABSTAIN"
+        ],
+        "events": [
+          {
+            "time": {
+              "blockNumber": 12472698
+            },
+            "event": "queued",
+            "timestamp": 1621532858
+          },
+          {
+            "time": {
+              "blockNumber": 12485775
+            },
+            "event": "executed",
+            "timestamp": 1621708768
+          }
+        ]
+      }
+    },
+    {
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ1OjB4YWM1NzIwZDZlZTJkNzg3MmI4ODkxNGM5YzVmYTliZjM4ZTcyZmFmNg==",
+      "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0NQ==",
+      "protocol": "compound",
+      "adapter": "default",
+      "proposalId": "45",
+      "address": "0xAC5720d6EE2d7872b88914C9c5Fa9BF38e72FaF6",
+      "power": 105138.67,
+      "reason": "",
+      "choice": 1,
+      "time": {
+        "blockNumber": 12453734
+      },
+      "timestamp": 1621278331,
+      "proposalInfo": {
+        "title": "Add TUSD Support",
+        "startTime": {
+          "blockNumber": 12444468
+        },
+        "endTime": {
+          "blockNumber": 12464178
+        },
+        "startTimestamp": 1621154606,
+        "endTimestamp": 1621419034,
+        "choices": [
+          "AGAINST",
+          "FOR",
+          "ABSTAIN"
+        ],
+        "events": [
+          {
+            "time": {
+              "blockNumber": 12465825
+            },
+            "event": "queued",
+            "timestamp": 1621440489
+          },
+          {
+            "time": {
+              "blockNumber": 12479085
+            },
+            "event": "executed",
+            "timestamp": 1621618907
+          }
+        ]
+      }
+    },
+    {
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQ0OjB4YWM1NzIwZDZlZTJkNzg3MmI4ODkxNGM5YzVmYTliZjM4ZTcyZmFmNg==",
+      "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0NA==",
+      "protocol": "compound",
+      "adapter": "default",
+      "proposalId": "44",
+      "address": "0xAC5720d6EE2d7872b88914C9c5Fa9BF38e72FaF6",
+      "power": 105137.89,
+      "reason": "",
+      "choice": 1,
+      "time": {
+        "blockNumber": 12332418
+      },
+      "timestamp": 1619659670,
+      "proposalInfo": {
+        "title": "Legacy market maintenance: WBTC and REP",
+        "startTime": {
+          "blockNumber": 12331844
+        },
+        "endTime": {
+          "blockNumber": 12351554
+        },
+        "startTimestamp": 1619651997,
+        "endTimestamp": 1619915227,
+        "choices": [
+          "AGAINST",
+          "FOR",
+          "ABSTAIN"
+        ],
+        "events": [
+          {
+            "time": {
+              "blockNumber": 12351969
+            },
+            "event": "queued",
+            "timestamp": 1619920848
+          },
+          {
+            "time": {
+              "blockNumber": 12370865
+            },
+            "event": "executed",
+            "timestamp": 1620172850
+          }
+        ]
+      }
+    },
+    {
+      "refId": "dm90ZTpjb21wb3VuZDpkZWZhdWx0OjQzOjB4YWM1NzIwZDZlZTJkNzg3MmI4ODkxNGM5YzVmYTliZjM4ZTcyZmFmNg==",
+      "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6ZGVmYXVsdDo0Mw==",
+      "protocol": "compound",
+      "adapter": "default",
+      "proposalId": "43",
+      "address": "0xAC5720d6EE2d7872b88914C9c5Fa9BF38e72FaF6",
+      "power": 105129.9,
+      "reason": "",
+      "choice": 1,
+      "time": {
+        "blockNumber": 12239631
+      },
+      "timestamp": 1618422394,
+      "proposalInfo": {
+        "title": "Governance Analysis Period",
+        "startTime": {
+          "blockNumber": 12235672
+        },
+        "endTime": {
+          "blockNumber": 12252952
+        },
+        "startTimestamp": 1618369223,
+        "endTimestamp": 1618600389,
+        "choices": [
+          "AGAINST",
+          "FOR",
+          "ABSTAIN"
+        ],
+        "events": [
+          {
+            "time": {
+              "blockNumber": 12253447
+            },
+            "event": "queued",
+            "timestamp": 1618606937
+          },
+          {
+            "time": {
+              "blockNumber": 12266840
+            },
+            "event": "executed",
+            "timestamp": 1618785180
+          }
+        ]
+      }
+    },
+    {
+      "refId": "dm90ZTpjb21wb3VuZDphcmNoaXZlOjQyOjB4YWM1NzIwZDZlZTJkNzg3MmI4ODkxNGM5YzVmYTliZjM4ZTcyZmFmNg==",
+      "proposalRefId": "cHJvcG9zYWw6Y29tcG91bmQ6YXJjaGl2ZTo0Mg==",
+      "protocol": "compound",
+      "adapter": "archive",
+      "proposalId": "42",
+      "address": "0xAC5720d6EE2d7872b88914C9c5Fa9BF38e72FaF6",
+      "power": 105130.22,
+      "choice": 1,
+      "time": {
+        "blockNumber": 12109242
+      },
+      "timestamp": 1616690802,
+      "proposalInfo": {
+        "title": "Migration to Governor Bravo",
+        "startTime": {
+          "blockNumber": 12109017
+        },
+        "endTime": {
+          "blockNumber": 12126297
+        },
+        "startTimestamp": 1616687925,
+        "endTimestamp": 1616917224,
+        "choices": [
+          "AGAINST",
+          "FOR"
+        ],
+        "events": [
+          {
+            "time": {
+              "blockNumber": 12127223
+            },
+            "event": "queued",
+            "timestamp": 1616929230
+          },
+          {
+            "time": {
+              "blockNumber": 12140390
+            },
+            "event": "executed",
+            "timestamp": 1617104284
+          }
+        ]
+      }
+    }
+  ],
+  "nextCursor": "eyJyZWZJZCI6ImRtOTBaVHBqYjIxd2IzVnVaRHBoY21Ob2FYWmxPalF5T2pCNFlXTTFOekl3WkRabFpUSmtOemczTW1JNE9Ea3hOR001WXpWbVlUbGlaak00WlRjeVptRm1OZz09IiwidGltZXN0YW1wIjoxNjE2NjkwODAyfQ=="
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
