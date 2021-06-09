@@ -1,6 +1,10 @@
-# Getting Started
+---
+description: Boardroom's governance aggregation and interoperability portal
+---
 
-We're glad you're interested in adding your project to the Boardroom portal! Before getting started, make sure your project is using one of the **currently supported governance frameworks:**
+# Boardroom Portal
+
+We're glad you're interested in adding your project to the Boardroom Portal! Before getting started, make sure your project is using one of the **currently supported governance frameworks:**
 
 | Supported Framework | Documentation  |
 | :--- | :--- |

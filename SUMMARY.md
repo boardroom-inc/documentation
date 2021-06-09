@@ -5,7 +5,7 @@
 
 ## 🏛 Boardroom Portal <a id="boardroom-portal-1"></a>
 
-* [Getting Started](boardroom-portal-1/getting-started.md)
+* [Boardroom Portal](boardroom-portal-1/getting-started.md)
 * [Adding Your Project](boardroom-portal-1/adding-your-project/README.md)
   * [1. Add Protocol Information](boardroom-portal-1/adding-your-project/protocol-information.md)
   * [2. Add Treasury Information](boardroom-portal-1/adding-your-project/treasury-information.md)
