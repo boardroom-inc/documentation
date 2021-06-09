@@ -13,7 +13,7 @@ We believe that free and open access to aggregated governance data is a crucial 
 {% page-ref page="api-reference.md" %}
 
 {% hint style="success" %}
-We are working finalizing our interoperability layer powered by the Governance SDK before making our HTTP API publicly available. If you are looking to integrate governance data into your application, get in touch with us on [Discord](https://discord.gg/UBqtEddhsC), we'd love to hear your ideas and talk about what we have in store 🚀
+If you are looking to integrate governance data into your application, get in touch with us on [Discord](https://discord.gg/UBqtEddhsC), we'd love to hear your ideas and talk about what we have in store 🚀
 {% endhint %}
 
 ## Integrate Your Protocol

@@ -15,7 +15,7 @@ See all available HTTP routes, query parameters, and example responses in the [A
 Pagination is handled via the following two parameters:
 
 * `limit` - **If providing a limit, then the API will only return at most this many results.** Depending on the route, there may be a maximum limit that is enforced. If providing a value for `limit` greater than the max, or for other internal reasons to the platform, you may not always get back as many items as requested with this parameter.
-* `cursor` - **If providing a cursor, then the API will resume the paginated query from previous position**. If a paginated response has more items than was returned, a `nextCursor` value is provided in the response. Passing this value back to the endpoint for a subsequent request will continue paging through the result set. The cursor should be treated as an arbitrary opaque string.
+* `cursor` - **If providing a cursor, then the API will resume the paginated query from a previous position**. If a paginated response has more items than were returned, a `nextCursor` value is provided in the response. Passing this value back to the endpoint for a subsequent request will continue paging through the result set. The cursor should be treated as an arbitrary opaque string.
 
 ### Example
 
