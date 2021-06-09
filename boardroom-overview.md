@@ -1,18 +1,22 @@
 ---
-description: A high level overview of Boardroom system components and product offerings.
+description: A high level overview of Boardroom system components and product offerings
 ---
 
 # Boardroom Overview
 
+
+
+![Click to expand - this diagram illustrates the major components of the Boardroom platform](.gitbook/assets/boardroom-systemarch-overview-small.gif)
+
 ## System Overview
-
-The following diagram illustrates the major components of the Boardroom system and relevant user personas:
-
-![Click to expand](.gitbook/assets/boardroom-systemarch-overview-small.gif)
 
 ### Boardroom Portal
 
 Our governance aggregation portal. Powered by the [Boardroom API](boardroom-api/boardroom-api.md) \(for aggregated read-only data\) and the [Governance SDK](sdk/governance-sdk.md) \(for client-side interactions transactions\). Portal Users are protocol stakeholders that want to engage in protocol governance across any of our supported protocols.
+
+{% page-ref page="boardroom-portal-1/adding-your-project/" %}
+
+{% page-ref page="boardroom-portal-1/contributors/" %}
 
 ### Third-party Experience
 
