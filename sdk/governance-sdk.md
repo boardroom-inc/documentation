@@ -22,5 +22,3 @@ If you are looking to add support for your protocol to the Governance SDK, you'l
 
 {% page-ref page="integrating-your-protocol.md" %}
 
-
-
