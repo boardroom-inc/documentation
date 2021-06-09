@@ -887,7 +887,7 @@ Only return votes from a specific protocol
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="cursor" type="string" required=false %}
-Pagination Cursor
+Pagination cursor
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="limit" type="number" required=false %}
@@ -1140,6 +1140,270 @@ Max number of items to return
     }
   ],
   "nextCursor": "eyJyZWZJZCI6ImRtOTBaVHBqYjIxd2IzVnVaRHBoY21Ob2FYWmxPalF5T2pCNFlXTTFOekl3WkRabFpUSmtOemczTW1JNE9Ea3hOR001WXpWbVlUbGlaak00WlRjeVptRm1OZz09IiwidGltZXN0YW1wIjoxNjE2NjkwODAyfQ=="
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.boardroom.info" path="/v1/protocols/:cname/voters" %}
+{% api-method-summary %}
+List Protocol Voters
+{% endapi-method-summary %}
+
+{% api-method-description %}
+List voters who have voted at least once for a specific protocol
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="cname" type="string" required=false %}
+Protocol cname, eg "compound"
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="cursor" type="string" required=false %}
+Pagination cursor
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="limit" type="number" required=false %}
+Max number of items to return
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+  "data": [
+    {
+      "address": "0xeD409c9fF60f3020abF9012bcd45Fc294f5608fF",
+      "firstVoteCast": 1588127130,
+      "lastVoteCast": 1621302816,
+      "totalVotesCast": 20,
+      "protocols": [
+        {
+          "protocol": "compound",
+          "totalVotesCast": 20,
+          "lastVoteCast": 1621302816,
+          "firstVoteCast": 1588127130,
+          "totalPowerCast": 6515510
+        }
+      ]
+    },
+    {
+      "address": "0x54A37d93E57c5DA659F508069Cf65A381b61E189",
+      "firstVoteCast": 1587974682,
+      "lastVoteCast": 1621387993,
+      "totalVotesCast": 43,
+      "protocols": [
+        {
+          "protocol": "compound",
+          "totalVotesCast": 43,
+          "lastVoteCast": 1621387993,
+          "firstVoteCast": 1587974682,
+          "totalPowerCast": 4146452
+        }
+      ]
+    },
+    {
+      "address": "0x6626593C237f530D15aE9980A95ef938Ac15c35c",
+      "firstVoteCast": 1588013872,
+      "lastVoteCast": 1621355919,
+      "totalVotesCast": 32,
+      "protocols": [
+        {
+          "protocol": "compound",
+          "totalVotesCast": 32,
+          "lastVoteCast": 1621355919,
+          "firstVoteCast": 1588013872,
+          "totalPowerCast": 3287531.8
+        },
+        {
+          "protocol": "uniswap",
+          "totalVotesCast": 1,
+          "lastVoteCast": 1602553638,
+          "firstVoteCast": 1602553638,
+          "totalPowerCast": 14570243
+        }
+      ]
+    },
+    {
+      "address": "0xAC5720d6EE2d7872b88914C9c5Fa9BF38e72FaF6",
+      "firstVoteCast": 1592519749,
+      "lastVoteCast": 1621278331,
+      "totalVotesCast": 27,
+      "protocols": [
+        {
+          "protocol": "compound",
+          "totalVotesCast": 27,
+          "lastVoteCast": 1621278331,
+          "firstVoteCast": 1592519749,
+          "totalPowerCast": 2840942.5
+        }
+      ]
+    },
+    {
+      "address": "0x7e4A8391C728fEd9069B2962699AB416628B19Fa",
+      "firstVoteCast": 1588018398,
+      "lastVoteCast": 1618453041,
+      "totalVotesCast": 27,
+      "protocols": [
+        {
+          "protocol": "compound",
+          "totalVotesCast": 27,
+          "lastVoteCast": 1618453041,
+          "firstVoteCast": 1588018398,
+          "totalPowerCast": 2601041.8
+        },
+        {
+          "protocol": "uniswap",
+          "totalVotesCast": 4,
+          "lastVoteCast": 1622833304,
+          "firstVoteCast": 1602526282,
+          "totalPowerCast": 54288720
+        }
+      ]
+    }
+  ],
+  "nextCursor": "eyJhZGRyZXNzIjoiMHg3ZTRBODM5MUM3MjhmRWQ5MDY5QjI5NjI2OTlBQjQxNjYyOEIxOUZhIiwicG93ZXIiOjI2MDEwNDEuOH0="
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.boardroom.info" path="/v1/voters" %}
+{% api-method-summary %}
+List Voters
+{% endapi-method-summary %}
+
+{% api-method-description %}
+List all voters across all protocols
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-query-parameters %}
+{% api-method-parameter name="cursor" type="string" required=false %}
+Pagination cursor
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="limit" type="number" required=false %}
+Max number of items to return
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+  "data": [
+    {
+      "address": "0x303EeFeDeE1bA8e5d507a55465d946B2fea18583",
+      "firstVoteCast": 1617821053,
+      "lastVoteCast": 1623266018,
+      "totalVotesCast": 11,
+      "protocols": [
+        {
+          "protocol": "banklessvault",
+          "totalVotesCast": 2,
+          "lastVoteCast": 1620927129,
+          "firstVoteCast": 1620171403,
+          "totalPowerCast": 10000
+        },
+        {
+          "protocol": "indexCoop",
+          "totalVotesCast": 9,
+          "lastVoteCast": 1623266018,
+          "firstVoteCast": 1617821053,
+          "totalPowerCast": 28.71445
+        }
+      ]
+    },
+    {
+      "address": "0x8330cC3A4dac3187f76ea4615C13A119a2243521",
+      "firstVoteCast": 1621365327,
+      "lastVoteCast": 1623265924,
+      "totalVotesCast": 10,
+      "protocols": [
+        {
+          "protocol": "indexCoop",
+          "totalVotesCast": 10,
+          "lastVoteCast": 1623265924,
+          "firstVoteCast": 1621365327,
+          "totalPowerCast": 702.1724
+        }
+      ]
+    },
+    {
+      "address": "0xA32E9A93407C629D1a952bdAdc0D2f72887d0326",
+      "firstVoteCast": 1607889944,
+      "lastVoteCast": 1623265720,
+      "totalVotesCast": 57,
+      "protocols": [
+        {
+          "protocol": "indexCoop",
+          "totalVotesCast": 55,
+          "lastVoteCast": 1623265720,
+          "firstVoteCast": 1607889944,
+          "totalPowerCast": 19667.178
+        },
+        {
+          "protocol": "uniswap",
+          "totalVotesCast": 2,
+          "lastVoteCast": 1622790050,
+          "firstVoteCast": 1608632887,
+          "totalPowerCast": 2438.6416
+        }
+      ]
+    },
+    {
+      "address": "0x80bF87E5Ef44D943380279142B2B288EAf73a571",
+      "firstVoteCast": 1618477655,
+      "lastVoteCast": 1623265650,
+      "totalVotesCast": 26,
+      "protocols": [
+        {
+          "protocol": "indexCoop",
+          "totalVotesCast": 26,
+          "lastVoteCast": 1623265650,
+          "firstVoteCast": 1618477655,
+          "totalPowerCast": 535.33997
+        }
+      ]
+    },
+    {
+      "address": "0x06Dc0CBF44EED256C5975210095be703504a4541",
+      "firstVoteCast": 1620164674,
+      "lastVoteCast": 1623265623,
+      "totalVotesCast": 4,
+      "protocols": [
+        {
+          "protocol": "banklessvault",
+          "totalVotesCast": 4,
+          "lastVoteCast": 1623265623,
+          "firstVoteCast": 1620164674,
+          "totalPowerCast": 209104.66
+        }
+      ]
+    }
+  ],
+  "nextCursor": "eyJhZGRyZXNzIjoiMHgwNkRjMENCRjQ0RUVEMjU2QzU5NzUyMTAwOTViZTcwMzUwNGE0NTQxIiwidGltZXN0YW1wIjoxNjIzMjY1NjIzfQ=="
 }
 ```
 {% endapi-method-response-example %}
