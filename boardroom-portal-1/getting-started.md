@@ -18,7 +18,7 @@ From policy ideation to execution, the **Boardroom Portal** helps communities an
 
 ## Adding Your Project 
 
-Adding your project requires a simple three step process, as long as your using a supported framework:
+Adding your project requires a simple three-step process, as long as your using a supported framework:
 
 {% page-ref page="adding-your-project/" %}
 
