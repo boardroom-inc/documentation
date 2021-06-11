@@ -325,6 +325,10 @@ List proposals across all protocols
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-query-parameters %}
+{% api-method-parameter name="cnames" type="string" required=false %}
+A CSV list of protocol cnames. Will only include proposals from protocols in this list if provided.
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="status" type="string" required=false %}
 Filter proposals by their current status. Can be **pending**, **active**, or **closed**
 {% endapi-method-parameter %}
