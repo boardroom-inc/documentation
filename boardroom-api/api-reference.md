@@ -743,7 +743,7 @@ Proposal refId
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.boardroom.com" path="/v1/proposals/:refId/votes" %}
+{% api-method method="get" host="https://api.boardroom.info" path="/v1/proposals/:refId/votes" %}
 {% api-method-summary %}
 List Proposal Votes
 {% endapi-method-summary %}
@@ -868,7 +868,7 @@ Pagination cursor
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.boardroom.com" path="/v1/voters/:address/votes" %}
+{% api-method method="get" host="https://api.boardroom.info" path="/v1/voters/:address/votes" %}
 {% api-method-summary %}
 List Voter Votes
 {% endapi-method-summary %}
@@ -1408,6 +1408,39 @@ Max number of items to return
     }
   ],
   "nextCursor": "eyJhZGRyZXNzIjoiMHgwNkRjMENCRjQ0RUVEMjU2QzU5NzUyMTAwOTViZTcwMzUwNGE0NTQxIiwidGltZXN0YW1wIjoxNjIzMjY1NjIzfQ=="
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.boardroom.info" path="/v1/stats" %}
+{% api-method-summary %}
+Get Global Stats
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Get platform-wide stats
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+	"data": {
+		"totalProposals": 1412,
+		"totalProtocols": 50,
+		"totalUniqueVoters": 24203,
+		"totalVotesCast": 93145
+	}
 }
 ```
 {% endapi-method-response-example %}
