@@ -10,7 +10,7 @@ description: Add your Gnosis Safe via the MultiSafe interface to unlock the Trea
 **This will only work if you're a signer**
 {% endhint %}
 
-Navigate to MultiSafe Sign Up and follow these steps.
+Navigate to [MultiSafe Sign Up](https://app.multisafe.finance/signup#/) and follow these steps.
 
 1. Click on the ‘Import existing safe’ button.
 2. Choose Gnosis safe account, such that all the transaction details are visible on MultiSafe dashboard.
