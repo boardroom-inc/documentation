@@ -9,7 +9,7 @@
 * [Adding Your Project](boardroom-portal-1/adding-your-project/README.md)
   * [1. Add Protocol Information](boardroom-portal-1/adding-your-project/protocol-information.md)
   * [2. Add Treasury Information](boardroom-portal-1/adding-your-project/treasury-information.md)
-  * [3. Claim Your Space](boardroom-portal-1/adding-your-project/unlocking-the-hub.md)
+  * [3. Reach Out](boardroom-portal-1/adding-your-project/unlocking-the-hub.md)
 * [Contributors](boardroom-portal-1/contributors/README.md)
   * [Getting Started](boardroom-portal-1/contributors/getting-started.md)
   * [Editing Project Data](boardroom-portal-1/contributors/editing-project-data/README.md)
