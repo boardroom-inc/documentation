@@ -14,10 +14,12 @@
     <tr>
       <td style="text-align:left">Aave</td>
       <td style="text-align:left">
-        <ul>
-          <li>Test</li>
-          <li>List</li>
-        </ul>
+        <p>Proposals</p>
+        <p>Vote</p>
+        <p>Vote Power</p>
+        <p>Delegation</p>
+        <p>Token</p>
+        <p>Icons</p>
       </td>
       <td style="text-align:left"><a href="https://github.com/boardroom-inc/protocol-Info/tree/main/protocols/aave">view on GitHub</a>
       </td>
