@@ -28,6 +28,7 @@
   * [Token Adapter](sdk/adapters/token-adapter.md)
   * [Proposals Adapter](sdk/adapters/proposals-adapter.md)
 * [Frameworks](sdk/governance-frameworks/README.md)
+  * [Protocols](sdk/governance-frameworks/protocols.md)
   * [Snapshot](sdk/governance-frameworks/snapshot.md)
   * [Compound Governor Alpha](sdk/governance-frameworks/compound-governor-alpha.md)
   * [Compound Governor Bravo](sdk/governance-frameworks/compound-governor-bravo.md)
