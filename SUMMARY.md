@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Boardroom Overview](boardroom-overview.md)
+* [Supported Protocols](protocols.md)
 
 ## 🏛 Boardroom Portal <a id="boardroom-portal-1"></a>
 
@@ -34,7 +35,6 @@
   * [Aave Governance v2](sdk/governance-frameworks/aave-governance-v2.md)
   * [CoinGecko](sdk/governance-frameworks/coingecko.md)
   * [Uniswap V2](sdk/governance-frameworks/uniswap-v2.md)
-* [Protocols](sdk/protocols.md)
 
 ## 🌎 Boardroom API
 

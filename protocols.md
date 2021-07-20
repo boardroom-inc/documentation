@@ -1,4 +1,12 @@
-# Protocols
+# Supported Protocols
+
+Here are the projects that are currently supported by the Boardroom Platform. Each project has a list of implemented [Adapters](sdk/adapters/), which allow querying governance data or executing actions in a standard way. The implemented adapters determine the available functionality for a given project.
+
+All projects listed here are currently integrated with both the [Governance SDK ](sdk/governance-sdk.md)and the [Boardroom API](boardroom-api/boardroom-api.md). If there is a link in the Protocol Info column, the project is also enabled in the [Boardroom Portal](boardroom-portal-1/getting-started.md). If not, there will be a link to instructions on [Adding Your Project](boardroom-portal-1/adding-your-project/).
+
+{% hint style="info" %}
+**Don't see your project in this list?** Join the [Boardroom Discord](https://discord.gg/BwDfpveu) server and chat with us about onboarding.
+{% endhint %}
 
 ## All Integrated Protocols
 
