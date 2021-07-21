@@ -36,7 +36,6 @@ Update the `index.json` file to define your project metadata.
 | `description` | `string` | A short blurb about the protocol. |
 | `path` | `string` | The Boardroom portal slug for the protocol. |
 | `type` | `"snapshot" \| "compoundish"` | The governance type of the protocol. |
-| `tokenContractAddress` | `string` | The Ethereum address of the token contract. |
 | `isEnabled` | `boolean` | A flag defining whether or not the protocol is enabled. |
 | `discourseForum.url` | `string` | The URL to the protocol Discourse forum. |
 | `discourseForum.categoryId` | `string` | The category ID of the protocol Discourse forum to be sourced. |
@@ -45,10 +44,6 @@ Update the `index.json` file to define your project metadata.
 ### Overview
 
 Update the `overview.md` file with a high-level description of your project and its governance process \(see [Index](https://github.com/boardroom-inc/protocol-Info/blob/main/protocols/indexCoop/overview.md) for an example\).
-
-### Token Contract
-
-Add your token contract \(if applicable\) ABI to the `contracts` folder in a `token.json` file.
 
 ### Resources
 
