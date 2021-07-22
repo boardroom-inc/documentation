@@ -35,20 +35,19 @@ You will want to generally _at least_ provide an Ethereum RPC provider instance,
 As an example, you can use Ethers' `JsonRpcProvider` implementation and point it to a HTTP RPC node from a provider like Infura or Alchemy:
 
 ```typescript
-import { GovernanceSDK } from '@boardroom/gov-sdk';
+import { GovernanceSDK, NetworkTransportResolver } from '@boardroom/gov-sdk';
 import { JsonRpcProvider } from '@ethersproject/providers';
 
 // ...
 
-const jsonRpc = new JsonRpcProvider(process.env.RPC_URL);
-const sdk = new GovernanceSDK({ transports: { jsonRpc } });
+const rpc = new NetworkTransportResolver({
+  1: new JsonRpcProvider(ETH_RPC_NODE)
+});
+
+const sdk = new GovernanceSDK({ transports: { rpc } });
 ```
 
-{% hint style="info" %}
-**Transports are lazily resolved within the Governance SDK**, so you can instantiate the SDK without having to provide implementations for all transports. 
-
-If you attempt to call a method on an [Adapter](adapters/) that uses a transport that was not provided, **you will get a runtime exception.**
-{% endhint %}
+{% page-ref page="transports.md" %}
 
 ## Protocol Iteration and Introspection
 

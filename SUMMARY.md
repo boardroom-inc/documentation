@@ -28,6 +28,9 @@
   * [Icon Adapter](sdk/adapters/icon-adapter.md)
   * [Token Adapter](sdk/adapters/token-adapter.md)
   * [Proposals Adapter](sdk/adapters/proposals-adapter.md)
+  * [Vote Adapter](sdk/adapters/vote-adapter.md)
+  * [Vote Power Adapter](sdk/adapters/vote-power-adapter.md)
+  * [Delegation Adapter](sdk/adapters/delegation-adapter.md)
 * [Frameworks](sdk/governance-frameworks/README.md)
   * [Snapshot](sdk/governance-frameworks/snapshot.md)
   * [Compound Governor Alpha](sdk/governance-frameworks/compound-governor-alpha.md)
@@ -35,6 +38,7 @@
   * [Aave Governance v2](sdk/governance-frameworks/aave-governance-v2.md)
   * [CoinGecko](sdk/governance-frameworks/coingecko.md)
   * [Uniswap V2](sdk/governance-frameworks/uniswap-v2.md)
+* [Transports](sdk/transports.md)
 
 ## 🌎 Boardroom API
 
