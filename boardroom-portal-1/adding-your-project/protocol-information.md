@@ -33,20 +33,10 @@ Update the `index.json` file to define your project metadata.
 | Property | Type | Description |
 | :--- | :--- | :--- |
 | `cname` | `string` | A unique identifier for the project. |
-| `name` | `string` | The human-readable name of the protocol. |
 | `description` | `string` | A short blurb about the protocol. |
 | `path` | `string` | The Boardroom portal slug for the protocol. |
 | `type` | `"snapshot" \| "compoundish"` | The governance type of the protocol. |
-| `suffix` | `string` | The token ticker for the protocol. |
-| `coinGeckoPriceString` | `string` | The CoinGecko token slug for the protocol. |
-| `tokenContractAddress` | `string` | The Ethereum address of the token contract. |
-| `governanceContractAddress` | `string` | The Ethereum address of the governance contract. |
 | `isEnabled` | `boolean` | A flag defining whether or not the protocol is enabled. |
-| `hasOnchain` | `boolean` | A flag defining whether or not the protocol is on-chain. |
-| `isHybrid` | `boolean` | A flag defining whether or not the protocol uses hybrid governance. |
-| `hasDelegation` | `boolean` | A flag defining whether or not the protocol supports delegation. |
-| `snapshotSpaceName` | `string` | The Snapshot hub slug for the protocol. |
-| `invalidSnapshots` | `string[]` | A list of snapshot proposals to be hidden from the `hub-ui` proposal list. |
 | `discourseForum.url` | `string` | The URL to the protocol Discourse forum. |
 | `discourseForum.categoryId` | `string` | The category ID of the protocol Discourse forum to be sourced. |
 | `safeAddress` | `string` | The Ethereum address to the project's Parcel safe. |
@@ -54,15 +44,6 @@ Update the `index.json` file to define your project metadata.
 ### Overview
 
 Update the `overview.md` file with a high-level description of your project and its governance process \(see [Index](https://github.com/boardroom-inc/protocol-Info/blob/main/protocols/indexCoop/overview.md) for an example\).
-
-### Contracts
-
-Add your token and governance contract \(if applicable\) ABIs to the `contracts` folder in the corresponding `token.json` and `governance.json` files.
-
-### Logos
-
-1. Replace **header.png** with your full logo
-2. Replace **logo.png** with your icon logo
 
 ### Resources
 
