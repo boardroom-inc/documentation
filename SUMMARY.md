@@ -2,7 +2,6 @@
 
 * [Welcome](README.md)
 * [Featured Partners](featured-partners.md)
-* [Boardroom Overview](boardroom-overview.md)
 * [Supported Protocols](protocols.md)
 
 ## 🏛 Boardroom Portal <a id="boardroom-portal-1"></a>
