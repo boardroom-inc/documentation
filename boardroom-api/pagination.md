@@ -7,7 +7,7 @@ description: Paging through results in the Boardroom API
 For all API routes that return a list of data, the Boardroom API follows a standardized approach to pagination when returning a subset of all available results.
 
 {% hint style="info" %}
-See all available HTTP routes, query parameters, and example responses in the [API Reference](api-reference.md)
+See all available HTTP routes, query parameters, and example responses in the [API Reference]()
 {% endhint %}
 
 ### Overview
@@ -19,7 +19,7 @@ Pagination is handled via the following two parameters:
 
 ### Example
 
-The **List Proposals** route in the [Boardroom API](api-reference.md) is a paginated route.  If we make the following request:
+The **List Proposals** route in the [Boardroom API]() is a paginated route.  If we make the following request:
 
 ```text
 GET https://api.boardroom.info/v1/proposals?limit=5

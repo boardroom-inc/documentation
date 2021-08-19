@@ -4,6 +4,12 @@ description: How to add support for a new protocol to the Governance SDK.
 
 # Integrating Your Protocol
 
+{% hint style="info" %}
+The Governance SDK is intended to be an open-source project for the community to use and contribute to, but at this time the repo and npm module are private as we finalize some things with the tech and process.
+
+Got some ideas on things you'd want to build or want the latest alpha on our road to open-sourcing the project? [Hit us up on Discord](https://discord.gg/UBqtEddhsC) and let's chat. 👋
+{% endhint %}
+
 Support for a protocol can be added by submitting a pull request for a new protocol integration in the [Governance SDK monorepo](https://github.com/boardroom-inc/governance-sdk).
 
 Protocols that use common governance frameworks or services will require very little code to integrate, but if a protocol does require some special mapping logic or has unique downstream data sources, completely custom protocol integrations can be authored.

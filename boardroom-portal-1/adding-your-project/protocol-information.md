@@ -55,7 +55,7 @@ Add markdown files to the `resources` folder -- these can be weekly governance c
 2. **title**: The title of the event - this will be shown in the month and day view.
 3. **url**: A URL to link to when an event is clicked.
 4. **date**: The UTC date of the event in ISO 8601 format
-4. **type**: The type of event, `"call"` or `"govWeekly"`
+5. **type**: The type of event, `"call"` or `"govWeekly"`
 
 ```javascript
 [

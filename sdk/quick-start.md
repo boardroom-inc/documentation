@@ -4,6 +4,12 @@ description: Simple getting started guide for using the Governance SDK.
 
 # SDK Quick Start
 
+{% hint style="info" %}
+The Governance SDK is intended to be an open-source project for the community to use and contribute to, but at this time the repo and npm module are private as we finalize some things with the tech and process.
+
+Got some ideas on things you'd want to build or want the latest alpha on our road to open-sourcing the project? [Hit us up on Discord](https://discord.gg/UBqtEddhsC) and let's chat. 👋
+{% endhint %}
+
 ## Installing the SDK
 
 The Governance SDK is a NodeJS module \(with native TypeScript types\) that can be installed via npm or yarn:

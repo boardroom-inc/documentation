@@ -30,7 +30,7 @@ A free and publicly accessible HTTP API that surfaces information and aggregated
 
 ### Governance SDK
 
-An open-source governance interoperability framework. Powers the Boardroom API which uses it to query governance data, and can be used by clients to directly access governance data from downstream data sources.
+An open-source governance interoperability framework. Powers the Boardroom API which uses it to query governance data, and can be used by clients to directly interact with downstream governance data sources.
 
 ### Protocol Integrations
 
