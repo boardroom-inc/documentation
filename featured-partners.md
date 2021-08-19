@@ -1,5 +1,7 @@
 ---
-description: Explore how other teams use Zerion's API to power their amazing applications
+description: >-
+  Explore how other teams use Boardroom's API to power their amazing
+  applications
 ---
 
 # Featured Partners
