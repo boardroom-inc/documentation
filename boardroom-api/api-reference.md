@@ -8,5 +8,5 @@ The Boardroom API request and response payloads can be reference via our interac
 🚀 The above link can be used to make actual requests against the Boardroom API and is an excellent way to start exploring our governance data!
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 

@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Welcome](README.md)
+* [Featured Partners](featured-partners.md)
 * [Boardroom Overview](boardroom-overview.md)
 * [Supported Protocols](protocols.md)
 
@@ -18,6 +19,12 @@
   * [Adding Resources](boardroom-portal-1/contributors/adding-resources/README.md)
     * [Adding Content](boardroom-portal-1/contributors/adding-resources/adding-content.md)
     * [Other Content](boardroom-portal-1/contributors/adding-resources/other-content.md)
+
+## 🌎 Boardroom API
+
+* [Boardroom API](boardroom-api/boardroom-api.md)
+* [API Reference](boardroom-api/api-reference.md)
+* [Pagination](boardroom-api/pagination.md)
 
 ## ⚙️ Governance SDK <a id="sdk"></a>
 
@@ -39,12 +46,6 @@
   * [CoinGecko](sdk/governance-frameworks/coingecko.md)
   * [Uniswap V2](sdk/governance-frameworks/uniswap-v2.md)
 * [Transports](sdk/transports.md)
-
-## 🌎 Boardroom API
-
-* [Boardroom API](boardroom-api/boardroom-api.md)
-* [API Reference](boardroom-api/api-reference.md)
-* [Pagination](boardroom-api/pagination.md)
 
 ## Reference
 

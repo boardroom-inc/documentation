@@ -1,14 +1,16 @@
 ---
-description: Documentation for the Boardroom API and Governance SDK.
+description: >-
+  This documentation is a place for developers looking to integrate or build on
+  top of Boardroom using the Boardroom API and Governance SDK.
 ---
 
-# Introduction
+# Welcome
 
 ![](.gitbook/assets/full-logo-dark.png)
 
-Boardroom is a protocol-agnostic governance and management platform built to improve distributed decision making across crypto networks. We believe these networks will uproot traditional management and ownership structures. They have already demonstrated a powerful new economic model for building software applications, wherein users build and operate products and services they use every day. In exchange for their contributions, many of these platforms reward users with a direct ownership stake which aligns their success with that of the platform.
+Boardroom is a protocol-agnostic governance and management platform built to improve distributed decision-making across crypto networks. The platform is home to hundreds of **DAOs**, helping their members frictionlessly participate in their governance.
 
-With this ownership comes a responsibility to steward governance, communication, and engagement to ensure a powerful alignment between diverse owners.
+Find some options below on how we can work together. If you need some inspiration, check out our [Featured Partners](featured-partners.md) section.
 
 ## Integrate Your Protocol with Boardroom
 
@@ -20,7 +22,9 @@ To see if your project is already integrated, check out our [Supported Protocols
 
 ## Integrate Governance Data In Your Application
 
-Boardroom provides [The Boardroom API](boardroom-api/boardroom-api.md) as a open, public resource for anybody looking to use our aggregated governance data \(provided by the [Governance SDK](sdk/governance-sdk.md)\) in their client or server applications. Use our HTTP API to fetch governance data for specific protocols or aggregated across multiple protocols that we support.
+Boardroom provides [The Boardroom API](boardroom-api/boardroom-api.md) as an open, public resource for anybody looking to use our aggregated governance data \(provided by the [Governance SDK](sdk/governance-sdk.md)\) in their client or server applications. Use our HTTP API to fetch governance data for specific protocols or aggregated across multiple protocols that we support.
+
+{% page-ref page="boardroom-api/boardroom-api.md" %}
 
 ### Directly Integrate with the Governance SDK
 
