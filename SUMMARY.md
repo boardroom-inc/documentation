@@ -9,15 +9,7 @@
 * [Boardroom Portal](boardroom-portal-1/getting-started.md)
 * [Adding Your Project](boardroom-portal-1/adding-your-project/README.md)
   * [1. Add Protocol Information](boardroom-portal-1/adding-your-project/protocol-information.md)
-  * [2. Add Treasury Information](boardroom-portal-1/adding-your-project/treasury-information.md)
-  * [3. Reach Out](boardroom-portal-1/adding-your-project/unlocking-the-hub.md)
-* [Contributors](boardroom-portal-1/contributors/README.md)
-  * [Getting Started](boardroom-portal-1/contributors/getting-started.md)
-  * [Editing Project Data](boardroom-portal-1/contributors/editing-project-data/README.md)
-    * [Protocol Metadata](boardroom-portal-1/contributors/editing-project-data/protocol-metadata.md)
-  * [Adding Resources](boardroom-portal-1/contributors/adding-resources/README.md)
-    * [Adding Content](boardroom-portal-1/contributors/adding-resources/adding-content.md)
-    * [Other Content](boardroom-portal-1/contributors/adding-resources/other-content.md)
+  * [2. Reach Out](boardroom-portal-1/adding-your-project/unlocking-the-hub.md)
 
 ## 🌎 Boardroom API
 
@@ -46,18 +38,25 @@
   * [Uniswap V2](sdk/governance-frameworks/uniswap-v2.md)
 * [Transports](sdk/transports.md)
 
-## Reference
-
-* [Archive](reference/archive/README.md)
-  * [Other Content](reference/archive/other-content.md)
-  * [Adding Content](reference/archive/adding-content.md)
-  * [Protocol Metadata](reference/archive/protocol-metadata.md)
-  * [Getting Started](reference/archive/untitled.md)
-
 ## 📚 Additional Resources
 
 * [Boardroom Portal](https://app.boardroom.info)
 * [Discord](https://discord.gg/UBqtEddhsC)
 * [Twitter](https://twitter.com/boardroom_info)
 * [GitHub](https://github.com/boardroom-inc)
+
+## Reference
+
+* [Archive](reference/archive/README.md)
+  * [Contributors](reference/archive/contributors/README.md)
+    * [Getting Started](reference/archive/contributors/getting-started.md)
+    * [Editing Project Data](reference/archive/contributors/editing-project-data/README.md)
+      * [Protocol Metadata](reference/archive/contributors/editing-project-data/protocol-metadata.md)
+    * [Adding Resources](reference/archive/contributors/adding-resources/README.md)
+      * [Adding Content](reference/archive/contributors/adding-resources/adding-content.md)
+      * [Other Content](reference/archive/contributors/adding-resources/other-content.md)
+  * [Other Content](reference/archive/other-content.md)
+  * [Adding Content](reference/archive/adding-content.md)
+  * [Protocol Metadata](reference/archive/protocol-metadata.md)
+  * [Getting Started](reference/archive/untitled.md)
 

@@ -2,6 +2,10 @@
 
 All project addition and edits occur on the public [Project Information repository on Github](https://github.com/boardroom-inc/protocol-Info), where all information seen in the Boardroom governance portal is uploaded, stored, and maintained. These docs will walk you through how to add the necessary project information to this repository in a few simple steps, to get your project added to the Boardroom Portal frontend.
 
+{% hint style="info" %}
+Make sure that the Governance Framework the project is using is supported by Boardroom. You can check the list of supported frameworks [here](../../sdk/governance-frameworks/#all-frameworks).
+{% endhint %}
+
 ## Add a new project
 
 Fork the [protocol-info repo](https://github.com/boardroom-inc/protocol-Info) to your GitHub account, then clone your forked repo:
@@ -39,7 +43,7 @@ Update the `index.json` file to define your project metadata.
 | `isEnabled` | `boolean` | A flag defining whether or not the protocol is enabled. |
 | `discourseForum.url` | `string` | The URL to the protocol Discourse forum. |
 | `discourseForum.categoryId` | `string` | The category ID of the protocol Discourse forum to be sourced. |
-| `safeAddress` | `string` | The Ethereum address to the project's Parcel safe. |
+| `safeAddress` | `string` | The Ethereum address to the project's Treasury address. |
 
 ### Overview
 

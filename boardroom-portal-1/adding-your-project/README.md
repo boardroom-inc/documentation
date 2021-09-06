@@ -12,8 +12,6 @@ description: >-
 
 **Step 2 - Add Treasury Information via MultiSafe**
 
-{% page-ref page="treasury-information.md" %}
-
 **Step 3 - Claim Your Space in the Boardroom Portal**
 
 {% page-ref page="unlocking-the-hub.md" %}

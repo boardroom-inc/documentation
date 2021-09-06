@@ -32,7 +32,7 @@ If your project's governance framework isn't supported, you can add it to the Bo
 
 Maintining your project's information, content, calendar events, etc... is simple to do through the public protocol information repository:
 
-{% page-ref page="contributors/getting-started.md" %}
+{% page-ref page="../reference/archive/contributors/getting-started.md" %}
 
 If you have any questions, don't hesitate to reach out on Discord or ping the Intercom bot  ↘️
 
