@@ -38,6 +38,10 @@
   * [Uniswap V2](sdk/governance-frameworks/uniswap-v2.md)
 * [Transports](sdk/transports.md)
 
+## Bots
+
+* [Boardroom Discord Bot](bots/boardroom-discord-bot.md)
+
 ## 📚 Additional Resources
 
 * [Boardroom Portal](https://app.boardroom.info)
