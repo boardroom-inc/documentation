@@ -1,3 +1,9 @@
+---
+description: >-
+  This page will guide you through adding your project's information to the
+  protocol-info repo
+---
+
 # 1. Add Protocol Information
 
 All project addition and edits occur on the public [Project Information repository on Github](https://github.com/boardroom-inc/protocol-Info), where all information seen in the Boardroom governance portal is uploaded, stored, and maintained. These docs will walk you through how to add the necessary project information to this repository in a few simple steps, to get your project added to the Boardroom Portal frontend.
@@ -26,9 +32,9 @@ Copy the `protocols/__example` folder to a new folder under `protocols`:
 $ cp -r protocols/__example protocols/your-project-name
 ```
 
-## Update project
+## Update Your Project
 
-Within your new protocol folder, update the info and assets for your project.
+Within your new \(or existing\) protocol folder, update the info and assets for your project.
 
 ### Project metadata
 
@@ -48,6 +54,19 @@ Update the `index.json` file to define your project metadata.
 ### Overview
 
 Update the `overview.md` file with a high-level description of your project and its governance process \(see [Index](https://github.com/boardroom-inc/protocol-Info/blob/main/protocols/indexCoop/overview.md) for an example\).
+
+### Forum
+
+After you've specified your Discourse Forum URL and the Category that you want to showcase in the `index.json` .    we will need you to whitelist our URLs on the Discourse Admin interface:
+
+1. Login as an Admin in your Discourse Forum
+2. Click on the dropdown menu on the top right
+3. Navigate to Admin Settings
+4. Search for ‘cors’ in Settings
+5. Add the following URLs: 
+   1. [https://dgov-staging.netlify.app/](https://dgov-staging.netlify.app/)
+   2. [https://app.boardroom.info/](http://app.boardroom.info/)
+   3. \*--dgov-staging.netlify.app
 
 ### Resources
 
