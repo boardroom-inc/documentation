@@ -38,7 +38,7 @@
   * [Uniswap V2](sdk/governance-frameworks/uniswap-v2.md)
 * [Transports](sdk/transports.md)
 
-## Bots
+## 🤖 Boardroom Bots <a id="bots"></a>
 
 * [Boardroom Discord Bot](bots/boardroom-discord-bot.md)
 
