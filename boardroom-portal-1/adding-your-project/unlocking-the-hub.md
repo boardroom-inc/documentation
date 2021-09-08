@@ -7,6 +7,6 @@ Ping the following channel \(🪄new-integrations\) and include a link to your '
 {% embed url="https://discord.gg/Q7h2RcPPKQ" %}
 
 {% hint style="info" %}
-We'll respond with and expected timeline for the integration and release! 
+We'll respond with an expected timeline for the integration and release! 
 {% endhint %}
 
