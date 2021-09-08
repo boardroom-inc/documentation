@@ -10,9 +10,7 @@ description: >-
 
 {% page-ref page="protocol-information.md" %}
 
-**Step 2 - Add Treasury Information via MultiSafe**
-
-**Step 3 - Claim Your Space in the Boardroom Portal**
+**Step 2 - Reach out to the team**
 
 {% page-ref page="unlocking-the-hub.md" %}
 
