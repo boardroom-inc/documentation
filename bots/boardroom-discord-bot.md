@@ -1,14 +1,22 @@
+---
+description: >-
+  A DAO Bot that easily lets you track and subscribe to governance activity in
+  your Discord server
+---
+
 # Boardroom Discord Bot
 
+This is a bot that interacts with [Boardroom's API](../boardroom-api/boardroom-api.md) and subscribes to new events for all [supported protocols](../protocols.md). There are two sets of commands: Commands to get **general information** and commands for **subscriptions**.
+
+_Subscriptions are run through every 30 seconds, but the checks are only done based on the `frequency` argument. By default, this is every 15 minutes._
+
+{% hint style="info" %}
+**Install the Bot by** [**following this link**](https://discord.com/api/oauth2/authorize?client_id=887036149556719678&permissions=2147485696&scope=applications.commands%20bot) **and refer to the Commands outlined below** 👇
+{% endhint %}
+
+## Deploy Instructions \(Optional\)
+
 \*\*\*\*[**See the Bot Repo here**](https://github.com/boardroom-inc/boardroom-discord-bot)\*\*\*\*
-
-A bot to interact with Boardroom's API and subscribe to new events.
-
-There are two sets of commands: Commands to get general information and commands for subscriptions.
-
-Subscriptions are run through every 30 seconds, but the checks are only done based on the `frequency` argument. By default, this is every 15 minutes.
-
-## Set up
 
 This bot uses AWS DynamoDB to store the subscriptions, so the `aws-cli` must be set up in the machine running it, with a table called `subscriptions` and a primary key called `id`. You can see a CDK example [here](https://github.com/Zerquix18/boardroom-bot-cdk/blob/master/lib/boardroom-stack-stack.ts#L28).
 
