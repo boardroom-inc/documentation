@@ -8,15 +8,18 @@ description: >-
 
 **Step 1 - Add Project Information:**
 
-{% page-ref page="protocol-information.md" %}
+{% content-ref url="protocol-information.md" %}
+[protocol-information.md](protocol-information.md)
+{% endcontent-ref %}
 
-**Step 2 - Reach out to the team**
+**Step 2 - Submit Request**
 
-{% page-ref page="unlocking-the-hub.md" %}
+{% content-ref url="unlocking-the-hub.md" %}
+[unlocking-the-hub.md](unlocking-the-hub.md)
+{% endcontent-ref %}
 
 {% hint style="info" %}
 **That's it! Feel free to reach out with any questions on** [**our Discord**](https://discord.com/invite/CEZ8WfuK8s)\*\*\*\*
 {% endhint %}
 
 \*\*\*\*
-

@@ -4,12 +4,12 @@
 * [Featured Partners](featured-partners.md)
 * [Supported Protocols](protocols.md)
 
-## 🏛 Boardroom Portal <a id="boardroom-portal-1"></a>
+## 🏛 Adding Your Project
 
-* [Boardroom Portal](boardroom-portal-1/getting-started.md)
-* [Adding Your Project](boardroom-portal-1/adding-your-project/README.md)
-  * [1. Add Protocol Information](boardroom-portal-1/adding-your-project/protocol-information.md)
-  * [2. Reach Out](boardroom-portal-1/adding-your-project/unlocking-the-hub.md)
+* [Integrations](adding-your-project/getting-started.md)
+* [Adding Your Project](adding-your-project/adding-your-project/README.md)
+  * [1. Add Protocol Information](adding-your-project/adding-your-project/protocol-information.md)
+  * [2. Submit Request](adding-your-project/adding-your-project/unlocking-the-hub.md)
 
 ## 🌎 Boardroom API
 
@@ -17,7 +17,7 @@
 * [API Reference](boardroom-api/api-reference.md)
 * [Pagination](boardroom-api/pagination.md)
 
-## ⚙️ Governance SDK <a id="sdk"></a>
+## ⚙️ Governance SDK <a href="sdk" id="sdk"></a>
 
 * [Governance SDK](sdk/governance-sdk.md)
 * [SDK Quick Start](sdk/quick-start.md)
@@ -38,7 +38,7 @@
   * [Uniswap V2](sdk/governance-frameworks/uniswap-v2.md)
 * [Transports](sdk/transports.md)
 
-## 🤖 Boardroom Bots <a id="bots"></a>
+## 🤖 Boardroom Bots <a href="bots" id="bots"></a>
 
 * [Boardroom Discord Bot](bots/boardroom-discord-bot.md)
 
@@ -63,4 +63,3 @@
   * [Adding Content](reference/archive/adding-content.md)
   * [Protocol Metadata](reference/archive/protocol-metadata.md)
   * [Getting Started](reference/archive/untitled.md)
-
