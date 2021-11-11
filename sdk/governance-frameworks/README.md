@@ -20,6 +20,7 @@ As the crypto ecosystem evolves and new approaches and frameworks for governance
 * [Compound Governor Alpha](compound-governor-alpha.md) - Compound on-chain governance
 * [Compound Governor Bravo](compound-governor-bravo.md) - Compound on-chain governance
 * [Aave Governance V2](aave-governance-v2.md) - Aave on-chain governance
+* [Nouns DAO Governor](nouns-dao-governor.md) - Nouns DAO on-chain governance
 * [CoinGecko](coingecko.md) - Token info and market stats
 * [Uniswap V2](uniswap-v2.md) - Token market price
 
