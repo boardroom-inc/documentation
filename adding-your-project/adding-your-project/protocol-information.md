@@ -34,45 +34,63 @@ $ cp -r protocols/__example protocols/your-project-name
 
 ## Update Your Project
 
-Within your new \(or existing\) protocol folder, update the info and assets for your project.
+Within your new (or existing) protocol folder, update the info and assets for your project.
 
-### Project metadata
+### 1. Project metadata
 
 Update the `index.json` file to define your project metadata.
 
-| Property | Type | Description |
-| :--- | :--- | :--- |
-| `cname` | `string` | A unique identifier for the project. |
-| `description` | `string` | A short blurb about the protocol. |
-| `path` | `string` | The Boardroom portal slug for the protocol. |
-| `type` | `"snapshot" \| "compoundish"` | The governance type of the protocol. |
-| `isEnabled` | `boolean` | A flag defining whether or not the protocol is enabled. |
-| `discourseForum.url` | `string` | The URL to the protocol Discourse forum. |
-| `discourseForum.categoryId` | `string` | The category ID of the protocol Discourse forum to be sourced. |
-| `safeAddress` | `string` | The Ethereum address to the project's Treasury address. |
+| Property                    | Type                          | Description                                                    |
+| --------------------------- | ----------------------------- | -------------------------------------------------------------- |
+| `cname`                     | `string`                      | A unique identifier for the project.                           |
+| `description`               | `string`                      | A short blurb about the protocol.                              |
+| `path`                      | `string`                      | The Boardroom portal slug for the protocol.                    |
+| `type`                      | `"snapshot" \| "compoundish"` | The governance type of the protocol.                           |
+| `isEnabled`                 | `boolean`                     | A flag defining whether or not the protocol is enabled.        |
+| `discourseForum.url`        | `string`                      | The URL to the protocol Discourse forum.                       |
+| `discourseForum.categoryId` | `string`                      | The category ID of the protocol Discourse forum to be sourced. |
+| `treasuryAddress`           | `string`                      | The Ethereum address to the project's Treasury address.        |
 
-### Overview
+### 2. Overview File
 
-Update the `overview.md` file with a high-level description of your project and its governance process \(see [Index](https://github.com/boardroom-inc/protocol-Info/blob/main/protocols/indexCoop/overview.md) for an example\).
+Update the `overview.md` file with a high-level description of your project and its governance process (see [Index](https://github.com/boardroom-inc/protocol-Info/blob/main/protocols/indexCoop/overview.md) for an example).
 
-### Forum
+**Overview**&#x20;
 
-After you've specified your Discourse Forum URL and the Category that you want to showcase in the `index.json` .    we will need you to whitelist our URLs on the Discourse Admin interface:
+* How are you working towards your mission?&#x20;
+* Ex: Protocol overview, DAO structure overview
+
+**Governance**
+
+* &#x20;How is your governance structured?
+* Is it on-chain or off-chain or both?
+* A short blurb about your goverance token.
+* How are proposals created and reviewed?
+
+**Additional links**
+
+* Links to your social media profiles&#x20;
+* Links to your gov-platform&#x20;
+* Any relevant links like your website, whitepaper, etc.
+
+### 3. Forum
+
+After you've specified your Discourse Forum URL and the Category that you want to showcase in the `index.json` . we will need you to whitelist our URLs on the Discourse Admin interface:
 
 1. Login as an Admin in your Discourse Forum
 2. Click on the dropdown menu on the top right
 3. Navigate to Admin Settings
 4. Search for ‘cors’ in Settings
-5. Add the following URLs: 
-   1. [https://dgov-staging.netlify.app/](https://dgov-staging.netlify.app/)
-   2. [https://app.boardroom.info/](http://app.boardroom.info/)
+5. Add the following URLs:
+   1. [https://dgov-staging.netlify.app/](https://dgov-staging.netlify.app)
+   2. [https://app.boardroom.info/](http://app.boardroom.info)
    3. \*--dgov-staging.netlify.app
 
-### Resources
+### 4. Resources
 
-Add markdown files to the `resources` folder -- these can be weekly governance call notes, development and product updates, etc. Categorize these resources into subfolders \(see [Index](https://github.com/boardroom-inc/protocol-Info/tree/main/protocols/indexCoop/resources) for an example\).
+Add markdown files to the `resources` folder -- these can be weekly governance call notes, development and product updates, etc. Categorize these resources into subfolders (see [Index](https://github.com/boardroom-inc/protocol-Info/tree/main/protocols/indexCoop/resources) for an example).
 
-### Events
+### 5. Events
 
 1. Add one or more new events to the `events.json` file of the protocol using the following format:
 2. **title**: The title of the event - this will be shown in the month and day view.
@@ -107,4 +125,3 @@ $ git push origin your-project-name
 ```
 
 Submit a pull request to the [protocol-info repo](https://github.com/boardroom-inc/protocol-Info). The Boardroom team will then review and merge your pull request after verifying the changes.
-
