@@ -19,6 +19,7 @@ As the crypto ecosystem evolves and new approaches and frameworks for governance
 * [Snapshot](snapshot.md) - Off-chain signaling for proposals
 * [Compound Governor Alpha](compound-governor-alpha.md) - Compound on-chain governance
 * [Compound Governor Bravo](compound-governor-bravo.md) - Compound on-chain governance
+* [Open Zeppelin Governor](open-zeppelin-governor.md) - Open Zeppelin on-chain governance
 * [Aave Governance V2](aave-governance-v2.md) - Aave on-chain governance
 * [Nouns DAO Governor](nouns-dao-governor.md) - Nouns DAO on-chain governance
 * [Moloch Governor](moloch-governor.md) - Moloch DAO on-chain governance
