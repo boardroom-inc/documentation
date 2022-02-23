@@ -6,11 +6,15 @@ description: >-
 
 # Adding Your Project
 
+Follow these steps to submit your DAO:
 
+{% content-ref url="protocol-information.md" %}
+[protocol-information.md](protocol-information.md)
+{% endcontent-ref %}
 
-{% embed url="https://f9hpzhbysnb.typeform.com/to/dGwjOn2w" %}
-
-{% embed url="https://boardroom.io/add-a-dao" %}
+{% content-ref url="2.-submit-your-metadata.md" %}
+[2.-submit-your-metadata.md](2.-submit-your-metadata.md)
+{% endcontent-ref %}
 
 {% hint style="info" %}
 **That's it! Feel free to reach out with any questions on** [**our Discord**](https://discord.com/invite/CEZ8WfuK8s)
