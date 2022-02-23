@@ -9,7 +9,6 @@
 * [Integrations](adding-your-project/getting-started.md)
 * [Adding Your Project](adding-your-project/adding-your-project/README.md)
   * [1. Add Protocol Information](adding-your-project/adding-your-project/protocol-information.md)
-  * [2. Submit Request](adding-your-project/adding-your-project/unlocking-the-hub.md)
 
 ## 🌎 Boardroom API
 
@@ -17,7 +16,7 @@
 * [API Reference](boardroom-api/api-reference.md)
 * [Pagination](boardroom-api/pagination.md)
 
-## ⚙️ Governance SDK <a href="sdk" id="sdk"></a>
+## ⚙️ Governance SDK <a href="#sdk" id="sdk"></a>
 
 * [Governance SDK](sdk/governance-sdk.md)
 * [SDK Quick Start](sdk/quick-start.md)
@@ -38,7 +37,7 @@
   * [Uniswap V2](sdk/governance-frameworks/uniswap-v2.md)
 * [Transports](sdk/transports.md)
 
-## 🤖 Boardroom Bots <a href="bots" id="bots"></a>
+## 🤖 Boardroom Bots <a href="#bots" id="bots"></a>
 
 * [Boardroom Discord Bot](bots/boardroom-discord-bot.md)
 
@@ -46,7 +45,7 @@
 
 * [Boardroom Portal](https://app.boardroom.info)
 * [Discord](https://discord.gg/UBqtEddhsC)
-* [Twitter](https://twitter.com/boardroom_info)
+* [Twitter](https://twitter.com/boardroom\_info)
 * [GitHub](https://github.com/boardroom-inc)
 
 ## Reference
