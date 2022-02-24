@@ -34,6 +34,8 @@
   * [Compound Governor Alpha](sdk/governance-frameworks/compound-governor-alpha.md)
   * [Compound Governor Bravo](sdk/governance-frameworks/compound-governor-bravo.md)
   * [Aave Governance v2](sdk/governance-frameworks/aave-governance-v2.md)
+  * [Nouns DAO Governor](sdk/governance-frameworks/nouns-dao-governor.md)
+  * [Moloch Governor](sdk/governance-frameworks/moloch-governor.md)
   * [CoinGecko](sdk/governance-frameworks/coingecko.md)
   * [Uniswap V2](sdk/governance-frameworks/uniswap-v2.md)
 * [Transports](sdk/transports.md)
