@@ -3,7 +3,7 @@
 Compound's Governor Alpha is a set of smart contracts that allow for on-chain snapshotting of token balances via a custom ERC-20 contract and on-chain submission, voting, and execution of proposals.
 
 {% hint style="info" %}
-You can view the Compound governance contracts their [@compound-finance/compound-protocol](https://www.coingecko.com/en/api) GitHub repo.
+You can view the Compound governance contracts their [@compound-finance/compound-protocol](https://github.com/compound-finance/compound-protocol/tree/master/contracts/Governance) GitHub repo.
 {% endhint %}
 
 ## Using the Compound Governor Alpha Adapter

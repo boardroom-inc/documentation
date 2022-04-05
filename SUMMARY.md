@@ -8,8 +8,8 @@
 
 * [Integrations](adding-your-project/getting-started.md)
 * [Adding Your Project](adding-your-project/adding-your-project/README.md)
-  * [1. Add Protocol Information](adding-your-project/adding-your-project/protocol-information.md)
-  * [2. Submit Request](adding-your-project/adding-your-project/unlocking-the-hub.md)
+  * [1. Review Requirements](adding-your-project/adding-your-project/protocol-information.md)
+  * [2. Submit Your Metadata](adding-your-project/adding-your-project/2.-submit-your-metadata.md)
 
 ## 🌎 Boardroom API
 
@@ -18,7 +18,7 @@
 * [API Reference](boardroom-api/api-reference.md)
 * [Pagination](boardroom-api/pagination.md)
 
-## ⚙️ Governance SDK <a href="sdk" id="sdk"></a>
+## ⚙️ Governance SDK <a href="#sdk" id="sdk"></a>
 
 * [Governance SDK](sdk/governance-sdk.md)
 * [SDK Quick Start](sdk/quick-start.md)
@@ -35,11 +35,13 @@
   * [Compound Governor Alpha](sdk/governance-frameworks/compound-governor-alpha.md)
   * [Compound Governor Bravo](sdk/governance-frameworks/compound-governor-bravo.md)
   * [Aave Governance v2](sdk/governance-frameworks/aave-governance-v2.md)
+  * [Nouns DAO Governor](sdk/governance-frameworks/nouns-dao-governor.md)
+  * [Moloch Governor](sdk/governance-frameworks/moloch-governor.md)
   * [CoinGecko](sdk/governance-frameworks/coingecko.md)
   * [Uniswap V2](sdk/governance-frameworks/uniswap-v2.md)
 * [Transports](sdk/transports.md)
 
-## 🤖 Boardroom Bots <a href="bots" id="bots"></a>
+## 🤖 Boardroom Bots <a href="#bots" id="bots"></a>
 
 * [Boardroom Discord Bot](bots/boardroom-discord-bot.md)
 
@@ -47,7 +49,7 @@
 
 * [Boardroom Portal](https://app.boardroom.info)
 * [Discord](https://discord.gg/UBqtEddhsC)
-* [Twitter](https://twitter.com/boardroom_info)
+* [Twitter](https://twitter.com/boardroom\_info)
 * [GitHub](https://github.com/boardroom-inc)
 
 ## Reference
