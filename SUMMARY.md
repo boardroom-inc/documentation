@@ -14,6 +14,7 @@
 ## 🌎 Boardroom API
 
 * [Boardroom API](boardroom-api/boardroom-api.md)
+* [Request an API Key](boardroom-api/api-keys.md)
 * [API Reference](boardroom-api/api-reference.md)
 * [Pagination](boardroom-api/pagination.md)
 
