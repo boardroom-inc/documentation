@@ -7,9 +7,7 @@
 ## 🏛 Adding Your Project
 
 * [Integrations](adding-your-project/getting-started.md)
-* [Adding Your Project](adding-your-project/adding-your-project/README.md)
-  * [1. Review Requirements](adding-your-project/adding-your-project/protocol-information.md)
-  * [2. Submit Your Metadata](adding-your-project/adding-your-project/2.-submit-your-metadata.md)
+* [Add a DAO](adding-your-project/2.-submit-your-metadata.md)
 
 ## 🌎 Boardroom API
 

@@ -4,7 +4,7 @@ description: Boardroom's governance aggregation and interoperability portal
 
 # Integrations
 
-The **Boardroom Portal** currently support the following governance frameworks:
+The **Boardroom Portal** currently supports the following governance frameworks:
 
 | Supported Frameworks        | Documentation                                                                                                                                                    |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -16,22 +16,14 @@ The **Boardroom Portal** currently support the following governance frameworks:
 
 ## Adding Your Project
 
-Adding your project requires a simple two-step process, as long as your using a supported framework:
+Adding your project ris as simple as submitting a form, as long as you're using a supported framework:
 
-{% content-ref url="adding-your-project/protocol-information.md" %}
-[protocol-information.md](adding-your-project/protocol-information.md)
-{% endcontent-ref %}
-
-{% content-ref url="adding-your-project/2.-submit-your-metadata.md" %}
-[2.-submit-your-metadata.md](adding-your-project/2.-submit-your-metadata.md)
+{% content-ref url="2.-submit-your-metadata.md" %}
+[2.-submit-your-metadata.md](2.-submit-your-metadata.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
 If your project's governance framework isn't supported, you can add it to the Boardroom SDK. See the docs below or reach out to us on Discord.&#x20;
 {% endhint %}
 
-
-
 If you have any questions, don't hesitate to reach out on Discord or ping the Intercom bot ↘️
-
-Let's dive in!
