@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Featured Partners](featured-partners.md)
 * [Supported Protocols](protocols.md)
 
 ## 🏛 Adding Your Project

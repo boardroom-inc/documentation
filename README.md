@@ -10,8 +10,6 @@ description: >-
 
 Boardroom is a protocol-agnostic governance platform. The platform is home to hundreds of **DAOs**, helping their members frictionlessly participate in their governance.
 
-Find some options below on how we can work together. If you need some inspiration, check out our [Featured Partners](featured-partners.md) section.
-
 ## Add Your DAO to Boardroom
 
 To see if your project is already integrated, check out our [Supported Protocols](protocols.md) page.
