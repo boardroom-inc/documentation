@@ -8,6 +8,10 @@
 * [Integrations](adding-your-project/getting-started.md)
 * [Add a DAO](adding-your-project/2.-submit-your-metadata.md)
 
+## 📊 Boardroom Dashboard
+
+* [Overview](boardroom-dashboard/2.-submit-your-metadata.md)
+
 ## 🌎 Boardroom API
 
 * [Boardroom API](boardroom-api/boardroom-api.md)
