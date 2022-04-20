@@ -1,12 +1,10 @@
 # Open Zeppelin Governor
 
-This modular system of Governor contracts allows the deployment on-chain voting protocols similar to Compound’s Governor Alpha & Bravo and beyond, through the ability to easily customize multiple aspects of the protocol.
+This modular system of Governor contracts allows the deployment of on-chain voting protocols similar to Compound’s Governor Alpha & Bravo and beyond, through the ability to easily customize multiple aspects of the protocol.
 
-{% hint style="info" %}
-You can view the Open Zeppelin governance contracts their [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/governance) GitHub repo.
-{% endhint %}
+You can view the Open Zeppelin governance contracts in their [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/governance) GitHub repo.
 
-## Using the Open Zeppelin Adapter
+### Using the Open Zeppelin Adapter
 
 As an example, ENS is currently using the Open Zeppelin contracts for their on-chain governance. The contract address is `0x323A76393544d5ecca80cd6ef2A560C6a395b7E3`:
 
@@ -14,7 +12,7 @@ As an example, ENS is currently using the Open Zeppelin contracts for their on-c
 
 The contract address and token address is all we need to instantiate a `OpenZeppelinGovernorAdapter` instance:
 
-```typescript
+```
 import { ProtocolRegistrationFunction } from '@boardroom/gov-lib';
 import { OpenZeppelinGovernorAdapter } from '@boardroom/gov-adapters';
 
@@ -42,4 +40,3 @@ export const registerENS: ProtocolRegistrationFunction = (register, transports) 
   });
 };
 ```
-
