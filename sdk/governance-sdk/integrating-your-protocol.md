@@ -2,7 +2,7 @@
 description: How to add support for a new protocol to the Governance SDK.
 ---
 
-# Integrating Your Protocol
+# ➕ Integrating Your Protocol
 
 {% hint style="info" %}
 The Governance SDK is intended to be an open-source project for the community to use and contribute to, but at this time the repo and npm module are private as we finalize some things with the tech and process.
@@ -30,7 +30,7 @@ You can see all integration files here:
 
 ### Example - Index Coop
 
-Index Coop uses Snapshot for signed off-chain signaling of proposals, and is listed on CoinGecko. We can use the [prebuilt adapters](governance-frameworks/) to quickly integrate this protocol with the Governance SDK:
+Index Coop uses Snapshot for signed off-chain signaling of proposals, and is listed on CoinGecko. We can use the [prebuilt adapters](../governance-frameworks/) to quickly integrate this protocol with the Governance SDK:
 
 ```typescript
 import { ProtocolRegistrationFunction } from '@boardroom-labs/gov-lib';
@@ -58,4 +58,3 @@ export const register: ProtocolRegistrationFunction = (register, transports) => 
 * The `register` function can be called multiple times to register multiple protocols in the same registration function, though unrelated protocols should still be implemented in separate modules.
 * A protocol must, at minimum, specify the `cname` and `name` for that protocol. All other fields are optional
 * Ensure that the `index.ts` file in `./packages/gov-protocols/src` is updated if a new integration file is added
-

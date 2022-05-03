@@ -1,10 +1,10 @@
 ---
-description: 'Reference, integration, and usage information for adapters and transports.'
+description: Reference, integration, and usage information for adapters and transports.
 ---
 
 # Adapters
 
-**Adapters** are what connect the messy world of external data sources for different protocols \(blockchain, IPFS, web2 APIs, etc\) into the normalized world of the [Governance SDK](../governance-sdk.md).
+**Adapters** are what connect the messy world of external data sources for different protocols (blockchain, IPFS, web2 APIs, etc) into the normalized world of the [Governance SDK](../governance-sdk/).
 
 **Adapter Interfaces** define standardized units of composable governance functionality. Each adapter interface handles a single, focused area of responsibility such as interacting with [proposals](proposals-adapter.md) or querying [token information](token-adapter.md).
 
@@ -20,12 +20,11 @@ A Governance SDK protocol integration is composed of one or more adapter impleme
 
 ## Transports
 
-Adapter implementations are the only part of the Governance SDK stack that directly interact with downstream data sources. Transport interfaces are defined by the SDK, which also ships standard implementations that can be used. Custom transport implementations can be [passed to the SDK during instantiation](../quick-start.md#creating-the-sdk-instance) to override their behavior
+Adapter implementations are the only part of the Governance SDK stack that directly interact with downstream data sources. Transport interfaces are defined by the SDK, which also ships standard implementations that can be used. Custom transport implementations can be [passed to the SDK during instantiation](../governance-sdk/quick-start.md#creating-the-sdk-instance) to override their behavior
 
 The following transports are passed to the protocol registration function and should be used when accessing external resources to facilitate testing and ensure external requests happen in a standardized way
 
 * `ipfs` - Request files from the IPFS network
 * `jsonRpc` - Interact with an Ethereum-compatible blockchain over an RPC node
 * `http` - Make standard HTTP requests
-* `graph` - Make GraphQL requests \(over HTTP\)
-
+* `graph` - Make GraphQL requests (over HTTP)

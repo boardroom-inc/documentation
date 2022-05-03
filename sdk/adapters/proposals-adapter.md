@@ -68,7 +68,7 @@ export interface ProposalsAdapter {
 
 ## Usage
 
-To [query](../quick-start.md#querying-protocol-data) this information from the Governance SDK:
+To [query](../governance-sdk/quick-start.md#querying-protocol-data) this information from the Governance SDK:
 
 ```typescript
 const protocol = sdk.getProtocol(cname);
@@ -143,4 +143,3 @@ export const register: ProtocolRegistrationFunction = (register, transports) => 
 ```
 
 Adapters will implement a default behavior for this, for on-chain governance contracts it will simply surface an Etherscan link if not customized like the above snippet.
-

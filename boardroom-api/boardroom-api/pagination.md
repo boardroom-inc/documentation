@@ -2,12 +2,12 @@
 description: Paging through results in the Boardroom API
 ---
 
-# Pagination
+# 📃 Pagination
 
 For all API routes that return a list of data, the Boardroom API follows a standardized approach to pagination when returning a subset of all available results.
 
 {% hint style="info" %}
-See all available HTTP routes, query parameters, and example responses in the [API Reference]()
+See all available HTTP routes, query parameters, and example responses in the [API Reference](pagination.md)
 {% endhint %}
 
 ### Overview
@@ -19,9 +19,9 @@ Pagination is handled via the following two parameters:
 
 ### Example
 
-The **List Proposals** route in the [Boardroom API]() is a paginated route.  If we make the following request:
+The **List Proposals** route in the [Boardroom API](pagination.md) is a paginated route. If we make the following request:
 
-```text
+```
 GET https://api.boardroom.info/v1/proposals?limit=5
 ```
 
@@ -50,11 +50,10 @@ Then the following response is returned:
 
 Since a `nextCursor` value was provided, there are more items to this response. To get the next page, we use the `nextCursor` value from the response in the subsequent request as the `cursor` parameter:
 
-```text
+```
 GET https://api.boardroom.info/v1/proposals?limit=5&cursor=eyJyZWZJZ...
 ```
 
 {% hint style="info" %}
 If `nextCursor` is returned, there are more pages. If it's missing in the response, there are no more pages in the list.
 {% endhint %}
-

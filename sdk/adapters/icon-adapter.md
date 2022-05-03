@@ -21,7 +21,7 @@ export interface IconAdapter {
 
 ## Usage
 
-To [query](../quick-start.md#querying-protocol-data) this information from the Governance SDK:
+To [query](../governance-sdk/quick-start.md#querying-protocol-data) this information from the Governance SDK:
 
 ```typescript
 const protocol = sdk.getProtocol(cname);
@@ -58,4 +58,3 @@ export class HardcodedIconAdapter implements IconAdapter {
   
 }
 ```
-

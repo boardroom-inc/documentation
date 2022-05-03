@@ -28,7 +28,7 @@ export interface TokenAdapter {
 
 ## Usage
 
-To [query](../quick-start.md#querying-protocol-data) this information from the Governance SDK:
+To [query](../governance-sdk/quick-start.md#querying-protocol-data) this information from the Governance SDK:
 
 ```typescript
 const protocol = sdk.getProtocol(cname);
@@ -44,4 +44,3 @@ The following pre-built adapters implement the `TokenAdapter` interface:
 
 * [CoinGecko](../governance-frameworks/coingecko.md)
 * [Uniswap V2](../governance-frameworks/uniswap-v2.md)
-

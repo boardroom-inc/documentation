@@ -2,7 +2,7 @@
 description: Simple getting started guide for using the Governance SDK.
 ---
 
-# SDK Quick Start
+# ⏩ SDK Quick Start
 
 {% hint style="info" %}
 The Governance SDK is intended to be an open-source project for the community to use and contribute to, but at this time the repo and npm module are private as we finalize some things with the tech and process.
@@ -12,7 +12,7 @@ Got some ideas on things you'd want to build or want the latest alpha on our roa
 
 ## Installing the SDK
 
-The Governance SDK is a NodeJS module \(with native TypeScript types\) that can be installed via npm or yarn:
+The Governance SDK is a NodeJS module (with native TypeScript types) that can be installed via npm or yarn:
 
 ```bash
 npm i @boardroom/gov-sdk
@@ -21,7 +21,7 @@ npm i @boardroom/gov-sdk
 The Governance SDK will work both in server-side NodeJS environments as well as the Browser with a compilation tool like webpack or Babel.
 
 {% hint style="info" %}
-If you are wanting to build applications or experiences on top of read-only or aggregate governance data, or are not building for a NodeJS or browser environment, check out the [Boardroom API](../boardroom-api/boardroom-api.md) for quickly integrating data sourced by the Governance SDK.
+If you are wanting to build applications or experiences on top of read-only or aggregate governance data, or are not building for a NodeJS or browser environment, check out the [Boardroom API](../../boardroom-api/boardroom-api/) for quickly integrating data sourced by the Governance SDK.
 {% endhint %}
 
 ## Creating the SDK Instance
@@ -36,7 +36,7 @@ The Governance SDK can be provided with transport-specific overrides to inject t
 
 ### Injecting Transports
 
-You will want to generally _at least_ provide an Ethereum RPC provider instance, as that powers most read-only operations such as computing snapshot voting power or reading from on-chain governance contracts. 
+You will want to generally _at least_ provide an Ethereum RPC provider instance, as that powers most read-only operations such as computing snapshot voting power or reading from on-chain governance contracts.
 
 As an example, you can use Ethers' `JsonRpcProvider` implementation and point it to a HTTP RPC node from a provider like Infura or Alchemy:
 
@@ -53,11 +53,13 @@ const rpc = new NetworkTransportResolver({
 const sdk = new GovernanceSDK({ transports: { rpc } });
 ```
 
-{% page-ref page="transports.md" %}
+{% content-ref url="../transports.md" %}
+[transports.md](../transports.md)
+{% endcontent-ref %}
 
 ## Protocol Iteration and Introspection
 
-The `GovernanceSDK` instance is primarily used to get access to `Protocol` instances. Protocols are surfaced as normalized objects that are composed of various [Adapter](adapters/) implementations.
+The `GovernanceSDK` instance is primarily used to get access to `Protocol` instances. Protocols are surfaced as normalized objects that are composed of various [Adapter](../adapters/) implementations.
 
 Iterate through all supported protocols:
 
@@ -85,7 +87,7 @@ const info = await aave.adapter('token').getInfo('usd');
 
 ## Querying Protocol Data
 
-All protocol interaction happens via [Adapters](adapters/), which are bound units of governance functionality that a protocol may implement:
+All protocol interaction happens via [Adapters](../adapters/), which are bound units of governance functionality that a protocol may implement:
 
 ```typescript
 // this will throw if the protocol does not implement a TreasuryAdapter
@@ -101,4 +103,3 @@ if (protocol.hasAdapter('proposals')) {
 {% hint style="info" %}
 **Using the Governance SDK directly means your code will be directly invoking downstream data sources,** such as reading from the Snapshot API, or querying the blockchain over an RPC node.
 {% endhint %}
-

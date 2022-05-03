@@ -4,7 +4,7 @@ description: Details on pre-built governance adapters for common frameworks and 
 
 # Frameworks
 
-Most [protocol integrations](../integrating-your-protocol.md) will not need to implement adapters completely from scratch. For instance, several protocols make use of off-chain signalling for proposals via Snapshot, while others may use a copy of Compound's Governor contracts.
+Most [protocol integrations](../governance-sdk/integrating-your-protocol.md) will not need to implement adapters completely from scratch. For instance, several protocols make use of off-chain signalling for proposals via Snapshot, while others may use a copy of Compound's Governor contracts.
 
 The Governance SDK ships with framework implementations that can be used as adapters by instantiating a framework instance with a minimal set of configuration, keeping protocol integrations very simple.
 
@@ -29,4 +29,3 @@ As the crypto ecosystem evolves and new approaches and frameworks for governance
 {% hint style="info" %}
 We're always working to provide pre-built adapters for the most common frameworks, services, and governance contracts in the SDK. Reach out on [Discord](https://discord.gg/UBqtEddhsC) or consider contributing directly to the project if there's a framework you'd like to see supported.
 {% endhint %}
-

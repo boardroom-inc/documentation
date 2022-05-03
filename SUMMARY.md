@@ -5,25 +5,41 @@
 
 ## 🏛 Adding Your Project
 
-* [Integrations](adding-your-project/getting-started.md)
-* [Add a DAO](adding-your-project/2.-submit-your-metadata.md)
+* [➕ Add a DAO](adding-your-project/2.-submit-your-metadata.md)
 
 ## 📊 Boardroom Dashboard
 
-* [Overview](boardroom-dashboard/2.-submit-your-metadata.md)
+* [Boardroom Dashboard](boardroom-dashboard/2.-submit-your-metadata/README.md)
+  * [For Voters](boardroom-dashboard/2.-submit-your-metadata/for-voters/README.md)
+    * [💻 Your Dashboard](boardroom-dashboard/2.-submit-your-metadata/for-voters/your-dashboard.md)
+    * [👤 Your Profile](boardroom-dashboard/2.-submit-your-metadata/for-voters/your-profile.md)
+    * [Proposals](boardroom-dashboard/2.-submit-your-metadata/for-daos/vote-page/proposals.md)
+    * [👥 Delegate](boardroom-dashboard/2.-submit-your-metadata/for-daos/delegate-discovery.md)
+  * [For DAOs](boardroom-dashboard/2.-submit-your-metadata/for-daos/README.md)
+    * [📖 Overview Page](boardroom-dashboard/2.-submit-your-metadata/for-daos/overview-page.md)
+    * [🗣 Discussions Page](boardroom-dashboard/2.-submit-your-metadata/for-daos/discussions-page.md)
+    * [👥 Delegate Discovery](boardroom-dashboard/2.-submit-your-metadata/for-daos/delegate-discovery.md)
+    * [🗳 Vote Page](boardroom-dashboard/2.-submit-your-metadata/for-daos/vote-page/README.md)
+      * [📄 Proposals](boardroom-dashboard/2.-submit-your-metadata/for-daos/vote-page/proposals.md)
+    * [💁 Resources](boardroom-dashboard/2.-submit-your-metadata/for-daos/resources.md)
+  * [For Delegates](boardroom-dashboard/2.-submit-your-metadata/for-delegates/README.md)
+    * [Delegate Discovery](https://app.gitbook.com/o/-LaSm8bsprupYvpRf0af/s/-LaSm8c0q5LBKC-c7-iC/\~/changes/VbvwJWAItZriZEqJGpWo/boardroom-dashboard/features/for-daos/delegate-discovery)
+* [Guides](boardroom-dashboard/guides/README.md)
+  * [🗳 Casting a Vote](boardroom-dashboard/guides/casting-a-vote.md)
+  * [👥 Delegating Your Vote](boardroom-dashboard/guides/delegating-your-vote.md)
+  * [👤 Edit Your Profile](boardroom-dashboard/guides/edit-your-profile.md)
 
 ## 🌎 Boardroom API
 
-* [Boardroom API](boardroom-api/boardroom-api.md)
-* [Request an API Key](boardroom-api/api-keys.md)
-* [API Reference](boardroom-api/api-reference.md)
-* [Pagination](boardroom-api/pagination.md)
+* [Boardroom API](boardroom-api/boardroom-api/README.md)
+  * [🔑 Request an API Key](boardroom-api/boardroom-api/api-keys.md)
+  * [📃 Pagination](boardroom-api/boardroom-api/pagination.md)
 
-## ⚙️ Governance SDK <a href="#sdk" id="sdk"></a>
+## 🏗 Governance SDK <a href="#sdk" id="sdk"></a>
 
-* [Governance SDK](sdk/governance-sdk.md)
-* [SDK Quick Start](sdk/quick-start.md)
-* [Integrating Your Protocol](sdk/integrating-your-protocol.md)
+* [Governance SDK](sdk/governance-sdk/README.md)
+  * [⏩ SDK Quick Start](sdk/governance-sdk/quick-start.md)
+  * [➕ Integrating Your Protocol](sdk/governance-sdk/integrating-your-protocol.md)
 * [Adapters](sdk/adapters/README.md)
   * [Icon Adapter](sdk/adapters/icon-adapter.md)
   * [Token Adapter](sdk/adapters/token-adapter.md)
@@ -43,13 +59,13 @@
   * [Uniswap V2](sdk/governance-frameworks/uniswap-v2.md)
 * [Transports](sdk/transports.md)
 
-## 🤖 Boardroom Bots <a href="#bots" id="bots"></a>
+## 🤖 Boardroom Bot <a href="#bots" id="bots"></a>
 
-* [Boardroom Discord Bot](bots/boardroom-discord-bot.md)
+* [💬 Discord Bot](bots/boardroom-discord-bot.md)
 
 ## 📚 Additional Resources
 
-* [Boardroom Portal](https://app.boardroom.info)
+* [Boardroom Dashboard](https://boardroom.io)
 * [Discord](https://discord.gg/UBqtEddhsC)
 * [Twitter](https://twitter.com/boardroom\_info)
 * [GitHub](https://github.com/boardroom-inc)
