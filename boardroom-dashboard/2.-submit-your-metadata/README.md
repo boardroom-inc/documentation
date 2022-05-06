@@ -22,20 +22,20 @@ The Boardroom Dashboard enables users to participate in governance by empowering
 
 ### **DAOs**
 
-{% content-ref url="for-daos/overview-page.md" %}
-[overview-page.md](for-daos/overview-page.md)
+{% content-ref url="for-daos/overview.md" %}
+[overview.md](for-daos/overview.md)
 {% endcontent-ref %}
 
-{% content-ref url="for-daos/discussions-page.md" %}
-[discussions-page.md](for-daos/discussions-page.md)
+{% content-ref url="for-daos/discussions.md" %}
+[discussions.md](for-daos/discussions.md)
 {% endcontent-ref %}
 
-{% content-ref url="for-daos/delegate-discovery.md" %}
-[delegate-discovery.md](for-daos/delegate-discovery.md)
+{% content-ref url="for-daos/delegates.md" %}
+[delegates.md](for-daos/delegates.md)
 {% endcontent-ref %}
 
-{% content-ref url="for-daos/vote-page/" %}
-[vote-page](for-daos/vote-page/)
+{% content-ref url="for-daos/governance/" %}
+[governance](for-daos/governance/)
 {% endcontent-ref %}
 
 {% content-ref url="for-daos/resources.md" %}
@@ -44,8 +44,8 @@ The Boardroom Dashboard enables users to participate in governance by empowering
 
 ### Delegates and Investors
 
-{% content-ref url="for-daos/delegate-discovery.md" %}
-[delegate-discovery.md](for-daos/delegate-discovery.md)
+{% content-ref url="for-daos/delegates.md" %}
+[delegates.md](for-daos/delegates.md)
 {% endcontent-ref %}
 
 ****
