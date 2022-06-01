@@ -8,7 +8,7 @@ The **Boardroom API** is a centralized HTTP API that uses the open-source [Gover
 
 The request and response payloads can be referenced via our interactive Swagger documentation
 
-**See it here:** [**https://swagger.boardroom.info/**](https://swagger.boardroom.info)****
+**See it here:** [**https://swagger.boardroom.info/**](https://swagger.boardroom.info/)****
 
 _🚀 The above link can be used to make actual requests against the Boardroom API and is an excellent way to start exploring our governance data!_
 

@@ -6,11 +6,11 @@ description: An overview of the dashboard and its features
 
 ## About
 
-The Boardroom Dashboard enables users to participate in governance by empowering voters, DAOs, and delegates to create proposals, vote, and enable delegation.
+The Boardroom Dashboard enables users to learn, engage, and participate in their DAOs by empowering stakeholders and delegates to follow, contextualize, govern, and communicate on important decisions.
 
 ## Features
 
-### Voters
+### For Participants
 
 {% content-ref url="for-voters/your-dashboard.md" %}
 [your-dashboard.md](for-voters/your-dashboard.md)
@@ -20,7 +20,7 @@ The Boardroom Dashboard enables users to participate in governance by empowering
 [your-profile.md](for-voters/your-profile.md)
 {% endcontent-ref %}
 
-### **DAOs**
+### **For DAOs**
 
 {% content-ref url="for-daos/overview.md" %}
 [overview.md](for-daos/overview.md)
@@ -42,15 +42,11 @@ The Boardroom Dashboard enables users to participate in governance by empowering
 [resources.md](for-daos/resources.md)
 {% endcontent-ref %}
 
-### Delegates and Investors
+### For Delegates
 
 {% content-ref url="for-daos/delegates.md" %}
 [delegates.md](for-daos/delegates.md)
 {% endcontent-ref %}
-
-****
-
-****
 
 ****
 

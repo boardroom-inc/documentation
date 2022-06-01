@@ -1,15 +1,15 @@
 ---
 description: >-
-  Boardroom is a protocol-agnostic governance platform. The platform is home to
-  hundreds of DAOs, helping their members frictionlessly participate in their
-  governance.
+  Boardroom is a DAO governance and intelligence platform, connecting
+  decision-makers to accurate information about their communities to help them
+  make faster, smarter decisions.
 ---
 
 # Welcome
 
-![](<.gitbook/assets/image (13).png>)
+![](<.gitbook/assets/image (26).png>)
 
-## Learn About Our Products
+## Our Products
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
@@ -27,7 +27,7 @@ description: >-
 [boardroom-discord-bot.md](bots/boardroom-discord-bot.md)
 {% endcontent-ref %}
 
-## Add Your DAO
+## Add A DAO
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)

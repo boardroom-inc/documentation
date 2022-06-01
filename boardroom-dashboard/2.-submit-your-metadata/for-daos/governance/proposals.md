@@ -2,7 +2,7 @@
 
 Each Proposal page contains a description of the given proposal, generally containing a short summary of the proposed changes, goals and motivations for the proposed actions, and an implementation spec.
 
-![](<../../../../.gitbook/assets/image (25).png>)
+![](<../../../../.gitbook/assets/image (7).png>)
 
 The current results module shows the current vote tally for or against for active proposals, or the outcome for closed and executed proposal.
 
