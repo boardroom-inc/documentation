@@ -15,8 +15,10 @@ _🚀 The above link can be used to make actual requests against the Boardroom A
 ## **API Keys**
 
 The API will soon require the use of keys, request one at the link below.
+
 Once you have an api key add it as a 'key' query parameter to all of your requests to the boardroom.
-For Example: https://api.boardroom.info/v1/protocols?limit=5&key=your-api-key
+
+**For example:** https://api.boardroom.info/v1/protocols?limit=5&key=your-api-key
 
 {% content-ref url="api-keys.md" %}
 [api-keys.md](api-keys.md)
