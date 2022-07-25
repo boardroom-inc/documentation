@@ -18,16 +18,15 @@
   * [For DAOs](boardroom-dashboard/2.-submit-your-metadata/for-daos/README.md)
     * [📖 Overview](boardroom-dashboard/2.-submit-your-metadata/for-daos/overview.md)
     * [🗣 Discussions](boardroom-dashboard/2.-submit-your-metadata/for-daos/discussions.md)
-    *
     * [🗳 Governance](boardroom-dashboard/2.-submit-your-metadata/for-daos/governance/README.md)
-      *
     * [💁 Resources](boardroom-dashboard/2.-submit-your-metadata/for-daos/resources.md)
   * [For Delegates](boardroom-dashboard/2.-submit-your-metadata/for-delegates/README.md)
     * [Delegate Discovery](https://app.gitbook.com/o/-LaSm8bsprupYvpRf0af/s/-LaSm8c0q5LBKC-c7-iC/\~/changes/VbvwJWAItZriZEqJGpWo/boardroom-dashboard/features/for-daos/delegate-discovery)
 * [Guides](boardroom-dashboard/guides/README.md)
   * [🗳 Casting a Vote](boardroom-dashboard/guides/casting-a-vote.md)
   * [👥 Delegating Your Vote](boardroom-dashboard/guides/delegating-your-vote.md)
-  * [👤 Edit Your Profile](boardroom-dashboard/guides/edit-your-profile.md)
+  * [👤 Edit Your Profile](boardroom-dashboard/guides/edit-your-profile/README.md)
+    * [Add a Delegate Pitch](boardroom-dashboard/guides/edit-your-profile/add-a-delegate-pitch.md)
 
 ## 🌎 Boardroom API
 
