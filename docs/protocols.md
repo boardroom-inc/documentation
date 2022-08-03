@@ -1,7 +1,6 @@
 ---
-description: >-
-  A list of the DAOs we currently support, alongside the governance systems they
-  use.
+description: 'A list of the DAOs we currently support, alongside the governance systems they use.'
+stoplight-id: 6bc13ad72cc8a
 ---
 
 # Supported DAOs
