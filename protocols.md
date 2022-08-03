@@ -16,4 +16,4 @@ All projects listed here are currently integrated with both the [Governance SDK 
 
 ## Live DAOs:
 
-{% embed url="https://boardroom-live-integrations.vercel.app/integrations" %}
+{% embed url="https://boardroom-live-integrations.netlify.app/integrations" %}
