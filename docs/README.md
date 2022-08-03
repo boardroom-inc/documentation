@@ -1,8 +1,6 @@
 ---
-description: >-
-  Boardroom is a DAO governance and intelligence platform, connecting
-  decision-makers to accurate information about their communities to help them
-  make faster, smarter decisions.
+description: 'Boardroom is a DAO governance and intelligence platform, connecting decision-makers to accurate information about their communities to help them make faster, smarter decisions.'
+stoplight-id: 674b27b261c3c
 ---
 
 # Welcome
