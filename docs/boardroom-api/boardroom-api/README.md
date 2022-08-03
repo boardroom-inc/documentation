@@ -2,27 +2,45 @@
 description: Access to Boardroom's aggregated governance data for your applications.
 ---
 
-# Boardroom API
+# Governance API
 
-The **Boardroom API** is a centralized HTTP API that uses the open-source [Governance SDK](../../sdk/governance-sdk/) to continually index and aggregate governance data across all integrated protocols at scale.
+The Governance API helps projects and developers keep their users informed and engaged accross governance systems that anchor hundreds of communities. You can find most of the data used to power our <a href="https://boardroom.io/" target="_blank">Dashboard</a> here.
 
-The request and response payloads can be referenced via our interactive Swagger documentation
+### What will you find in these docs?
 
-**See it here:** [**https://swagger.boardroom.info/**](https://swagger.boardroom.info/)****
+For 175+ DAOs, you can query governance data for:
+- DAOs
+- Proposals
+- Voters
+- Votes
+- Delegates
+- Delegations
 
-_🚀 The above link can be used to make actual requests against the Boardroom API and is an excellent way to start exploring our governance data!_
+<!-- theme: info -->
 
-## **API Keys**
+> **Be sure to request your API Keys at the bottom of this page**
 
-The API will soon require the use of keys, request one at the link below.
-Once you have an api key add it as a 'key' query parameter to all of your requests to the boardroom api.
+### What is the Governance API?
 
-**For example:** https://api.boardroom.info/v1/protocols?limit=5&key=your-api-key
+Boardroom's Governance API allows you to quickly get all the information you need to know about DAOs and their governance from the blockchain (i.e. Ethereum, Optimism, etc). Rather than searching, indexing, and storing data yourself - you can now make one request to fetch specific governance information, like:
 
-{% content-ref url="api-keys.md" %}
-[api-keys.md](api-keys.md)
-{% endcontent-ref %}
+- All proposals voted on by an Ethereum address
+- Delegate vote activity
 
-{% hint style="success" %}
-If you are looking to integrate governance data into your application, get in touch with us on [Discord](https://discord.gg/UBqtEddhsC), we'd love to hear your ideas and talk about what we have in store 🚀
-{% endhint %}
+### What can I make?
+
+Using the Boardroom Governance API allows you to both fetch and display governance data for your users, making it easy to build all kinds of DAO projects and governance portals. To take some inspiration from existing products, here are some examples you can explore:
+
+- The Governance API powers nominee wallet profiles in the [Synthetix Governance Nominations Portal](https://blog.synthetix.io/v3gm/)
+
+### Request an API Key
+
+The API requires the use of keys, request one at the link below. Once you have an API key add it as a 'key' query parameter to all of your requests to the boardroom API
+
+*For example: https://api.boardroom.info/v1/protocols?limit=5&key=your-api-key*
+
+<a href="https://f9hpzhbysnb.typeform.com/to/IL64W5dT"><button style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Request Keys</button><a/>
+
+<!-- theme: info -->
+
+> Please reach out on <a href="https://discord.gg/CEZ8WfuK8s" target="_blank">**Discord**</a> at any time with questions.           
