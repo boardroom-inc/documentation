@@ -1,5 +1,6 @@
 ---
 description: Paging through results in the Boardroom API
+stoplight-id: 89887a597bc49
 ---
 
 # 📃 Pagination
