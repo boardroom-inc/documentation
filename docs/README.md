@@ -5,28 +5,22 @@ stoplight-id: 674b27b261c3c
 
 # Welcome
 
-![](<.gitbook/assets/image (26).png>)
-
 ## Our Products
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+**[Governance Dashboard](boardroom-dashboard/2.-submit-your-metadata/README.md)**
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+The Boardroom Governance Dashboard helps users manage their decision making process by providing all the information they need in one place.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+**[Governance API](https://docs.boardroom.io/docs/api)**
 
-{% content-ref url="bots/boardroom-discord-bot.md" %}
-[boardroom-discord-bot.md](bots/boardroom-discord-bot.md)
-{% endcontent-ref %}
+Dive into governance data for hundreds of DAOs by plugging into our Governance API - use these docs to make requests against the API and start exploring!
+
+**[Boardroom Learn]()**
+
+COMING SOON - Learn about DAOs and their governance and explore our simple guides to become an active governor in no time.
 
 ## Add A DAO
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+**[Add Your Project](adding-your-project/2.-submit-your-metadata.md)**
+
+Learn about DAOs and their governance and explore our simple guides to become an active governor in no time.
