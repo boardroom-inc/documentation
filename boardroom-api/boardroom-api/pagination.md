@@ -1,15 +1,14 @@
 ---
 description: Paging through results in the Boardroom API
-stoplight-id: 89887a597bc49
 ---
 
 # 📃 Pagination
 
 For all API routes that return a list of data, the Boardroom API follows a standardized approach to pagination when returning a subset of all available results.
 
-<!-- theme: info -->
-
-> See all available HTTP routes, query parameters, and example responses in the [API Reference](pagination.md)
+{% hint style="info" %}
+See all available HTTP routes, query parameters, and example responses in the [API Reference](pagination.md)
+{% endhint %}
 
 ### Overview
 
@@ -55,5 +54,6 @@ Since a `nextCursor` value was provided, there are more items to this response. 
 GET https://api.boardroom.info/v1/proposals?limit=5&cursor=eyJyZWZJZ...
 ```
 
-<!-- theme: info -->
-> If `nextCursor` is returned, there are more pages. If it's missing in the response, there are no more pages in the list.
+{% hint style="info" %}
+If `nextCursor` is returned, there are more pages. If it's missing in the response, there are no more pages in the list.
+{% endhint %}
