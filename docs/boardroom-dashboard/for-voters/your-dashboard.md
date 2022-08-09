@@ -1,10 +1,8 @@
----
-description: >-
-  The Dashboard shows proposal information for all DAOs integrated on the
-  Boardroom platform.
----
-
 # 💻 Your Dashboard
+
+The Dashboard page shows proposal information for all DAOs integrated on the Boardroom platform.
+
+***
 
 The Dashboard page surfaces:
 
@@ -12,36 +10,40 @@ The Dashboard page surfaces:
 2. Recent governance activity (e.g. votes and proposals) associated with your wallet
 3. Notification preferences
 
-
+***
 
 ## Connect Wallet
 
-* Connect your wallet by selecting the "Connect Wallet" button from the top right corner of any page of Boardroom
+Connect your wallet by selecting the "Connect Wallet" button from the top right corner of any page of Boardroom.
 
-![](<../../../.gitbook/assets/image (32).png>)
+![Connect Wallet](../../../assets/images/connect-wallet.png)
+
+***
 
 ## View Proposals
 
-Select the "Dashboard" button to view the "Daily Brief" page - a list of proposals from DAOs on the Boardroom platform
+Select the "Dashboard" button to view the "Feed" page - a list of proposals from DAOs on the Boardroom platform.
 
-![](<../../../.gitbook/assets/image (23).png>)
+![View Proposals](../../../assets/images/dashboard-feed.png)
 
 1. **Filter** proposals by Active/Closed/Pending using the dropdown selector
-2. **Toggle** the "Your DAOs" selector to view proposals associated with tokens held by the connected wallet&#x20;
+2. **Toggle** the "Your DAOs" selector to view proposals associated with tokens held by the connected wallet
+
+***
 
 ## View Vote and Proposal History
 
 Select the "Activity" page to view a your vote history and proposal history
 
-
+***
 
 ## Edit Email Notifications
 
-Select the "Preferences" page to subscribe to an email digest with proposals from projects you are interested in
+Select the "Preferences" page to subscribe to an email digest with proposals from projects you are interested in.
 
-![](<../../../.gitbook/assets/image (14).png>)
+![Email Notifications](../../../assets/images/email-notifications.png)
 
-1. Enter your email in the "Your Email" Field
-2. Select the DAOs you are interested in receiving proposal updates&#x20;
+1. Enter your email in the "Your Email" field
+2. Select the DAOs you are interested in receiving proposal updates
 3. Select "Save Preferences"
 
