@@ -12,24 +12,12 @@ DAOs use the Boardroom dashboard to:
 
 **Each DAO project has the following items:**
 
-{% content-ref url="overview.md" %}
-[overview.md](overview.md)
-{% endcontent-ref %}
+[Proposals Page](governance/proposals.md)
 
-{% content-ref url="discussions.md" %}
-[discussions.md](discussions.md)
-{% endcontent-ref %}
+[Discussions Page](discussions.md)
 
-{% content-ref url="delegates.md" %}
-[delegates.md](delegates.md)
-{% endcontent-ref %}
+[Members Page](governance/README.md)
 
-{% content-ref url="governance/" %}
-[governance](governance/)
-{% endcontent-ref %}
-
-{% content-ref url="resources.md" %}
-[resources.md](resources.md)
-{% endcontent-ref %}
+[Information Page](information.md)
 
 ****

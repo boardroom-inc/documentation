@@ -1,11 +1,24 @@
-# 🗳 Vote Page
+# 🗳 Members Page
 
-The Vote page surfaces a DAO's proposal history and voter list.
+The Members page surfaces a DAO's delegate and voter list.
 
-The proposal section highlights a list of the most recent proposals associated with a DAO. If a DAO has multiple governance frameworks, proposals are filterable by On-Chain and Off-Chain options.
+## 👥 Delegates
 
-![](<../../../../.gitbook/assets/image (12).png>)
+The Delegates tab enables stakeholders to browse profiles of delegates and delegate their vote power. After finding a suitable delegate, tokenholders can delegate their vote from within the page by selecting the "Delegate Votes" button on a given delegates profile.
 
-The voter section outlines a list of voters sorted by their vote power. The voter list can be sorted by total votes cast and last cast power.
+![](<../../../.gitbook/assets/image (31).png>)
 
-![](<../../../../.gitbook/assets/image (16).png>)
+Delegate profiles contain:
+
+1. History of their votes
+2. Number of delegators
+3. Voting weight
+4. Proposal history
+
+After connecting their wallet, delegates can also share additional information about themselves and their voting behavior within their profile.
+
+## ✅ Voters
+
+The Voters tab outlines a list of voters sorted by their vote power. The voter list can be sorted by total votes cast and last cast power.
+
+

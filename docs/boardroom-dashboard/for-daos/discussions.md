@@ -1,10 +1,8 @@
 ---
-description: '[Under Construction] This section is currently being built.'
+description: 'The Discussions Page surfaces an embedded version of a DAO's Discourse'
 ---
 
 # 🗣 Discussions Page
-
-The Discussions page surfaces a embedded version of a DAO's Discourse
 
 ![](<../../../.gitbook/assets/image (17).png>)
 
