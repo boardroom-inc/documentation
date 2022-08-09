@@ -1,8 +1,10 @@
 # 👥 Delegate Discovery
 
-The Delegates Page enables stakeholders to browse profiles of delegates and delegate their vote power. After finding a suitable delegate, tokenholders can delegate their vote from within the page by selecting the "Delegate Votes" button on a given delegates profile.
+***
 
-![](<../../../.gitbook/assets/image (31).png>)
+The Delegates page enables stakeholders to browse profiles of delegates and delegate their vote power. After finding a suitable delegate, tokenholders can delegate their vote from within the page by selecting the "Delegate Votes" button on a given delegates profile.
+
+![Delegates Page](../../../assets/images/ens-delegates.png)
 
 Delegate profiles contain:
 

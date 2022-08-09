@@ -1,8 +1,8 @@
----
-description: An all-in-one aggregator for every DAO community
----
-
 # For DAOs
+
+An all-in-one aggregator for every DAO community.
+
+***
 
 DAOs use the Boardroom dashboard to:
 
@@ -12,12 +12,10 @@ DAOs use the Boardroom dashboard to:
 
 **Each DAO project has the following items:**
 
-[Proposals Page](governance/proposals.md)
+[Proposals Page](proposals.md)
 
 [Discussions Page](discussions.md)
 
 [Members Page](governance/README.md)
 
 [Information Page](information.md)
-
-****
