@@ -1,3 +1,7 @@
+---
+stoplight-id: 6f4825ab55685
+---
+
 # 🗳 Members Page
 
 The Members page surfaces a DAO's delegate and voter list.

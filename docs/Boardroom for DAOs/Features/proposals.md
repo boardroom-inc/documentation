@@ -1,3 +1,7 @@
+---
+stoplight-id: c8ec2be07c039
+---
+
 # 📄 Proposals Page
 
 ***

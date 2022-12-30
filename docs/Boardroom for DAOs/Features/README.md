@@ -1,3 +1,7 @@
+---
+stoplight-id: 935782cf1aab6
+---
+
 # For DAOs
 
 An all-in-one aggregator for every DAO community.
