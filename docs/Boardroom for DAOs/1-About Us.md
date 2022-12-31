@@ -7,7 +7,6 @@ stoplight-id: 36km3juffzawp
 ## The governance interface built for token holders.
 
 ![image.png](../../assets/images/image-35.png)
-
 The success and sustainability of your project relies on the participation and decision-making of your community. By providing your voters with access to a comprehensive and user-friendly DAO governance dashboard, you can help to increase transparency and participation in the governance of your project.
 
 > Boardroom currently supports over 250 projects and can support projects built on any governance system. [Learn more here.](../2-protocols.md)
