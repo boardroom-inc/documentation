@@ -4,16 +4,19 @@ stoplight-id: d38s5vzb9qion
 
 # Partner with Boardroom
 
-The beginning of an awesome article...
+*The Boardroom Facilitators program partners Boardroom with DAOs and Foundations to ensure their token holders have the access to best in class governance tooling to engage and participate in the governance and decision-making of the project.*
 
-## Standard Integration
+| |Featured Partners |    |   
+|   :----:   |    :----:   |    :----:   |  
+|![image.png](../../assets/images/EgfXUXyUwAAAiZM.jpeg)|![image.png](../../assets/images/Qué-es-AAVE.jpeg)|![image.png](../../assets/images/optimism-logo.png)|
+| Explore Aave Weekly Governance updates published in collaboration with Aave Grants | Explore Aave Weekly Governance updates published in collaboration with Aave Grants | Explore the Delegate Discovery site launched in conjuntion with a delegation incentive campaign|
 
 ## Facilitators Program
 
 ### Delegate Boost
-The Boardroom Facilitators program allows DAOs and Foundations to subsidize the cost of Boardroom Boost for a minumum of 50 delegates 
+The Boardroom Facilitators program allows DAOs and Foundations to subsidize the cost of Boardroom Boost for a minumum of 50 delegates at a 15% discounted rate. The DAO project will receive one year, 100% discount codes to distribute to their top delegates. 
 
-> Boardroom Boost ../Boardroom Boost/About-Boost.md
+> Learn more about the benefits of **Boardroom Boost** for voters and delegates [**here**](../Boardroom-Boost/About-Boost.md).
 
 
 <a href="https://calendly.com/d/d5z-6wd-6vs/facilitators-program-onboarding"><button style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Get a Quote ➤</button><a/>
@@ -21,6 +24,7 @@ The Boardroom Facilitators program allows DAOs and Foundations to subsidize the 
 
 
 ### Coverage
+In addition to the 
 
 **Why sign up for Boardroom coverage?**
 
