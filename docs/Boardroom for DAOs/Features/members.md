@@ -4,7 +4,7 @@ stoplight-id: 6f4825ab55685
 
 # 🗳 Members Page
 
-The Members page surfaces a DAO's delegate and voter list.
+The Members page surfaces a DAO's delegate and voter list. Browse an example.
 
 ***
 
@@ -12,7 +12,7 @@ The Members page surfaces a DAO's delegate and voter list.
 
 The Delegates tab enables stakeholders to browse profiles of delegates and delegate their vote power. After finding a suitable delegate, tokenholders can delegate their vote from within the page by selecting the "Delegate Votes" button on a given delegates profile.
 
-![Delegates Tab](../../../../assets/images/ens-delegates.png)
+![Delegates Tab](../../../assets/images/ens-delegates.png)
 
 Delegate profiles contain:
 
@@ -29,4 +29,4 @@ After connecting their wallet, delegates can also share additional information a
 
 The Voters tab outlines a list of voters sorted by their vote power. The voter list can be sorted by total votes cast and last cast power.
 
-![Voters Tab](../../../../assets/images/ens-voters.png)
+![Voters Tab](../../../assets/images/ens-voters.png)

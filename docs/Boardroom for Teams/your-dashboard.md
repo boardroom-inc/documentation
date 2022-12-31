@@ -1,3 +1,7 @@
+---
+stoplight-id: e7d8954b21b2c
+---
+
 # 💻 Your Dashboard
 
 The Dashboard page shows proposal information for all DAOs integrated on the Boardroom platform.
