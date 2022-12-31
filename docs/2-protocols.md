@@ -8,10 +8,33 @@ Here are the projects that are currently supported by the Boardroom Platform. Ea
 
 All projects listed here are currently integrated with both the [Governance SDK ](sdk/governance-sdk/)and the [Boardroom API](boardroom-api/boardroom-api/). If there is a link in the Protocol Info column, the project is also enabled in the [Boardroom Portal](broken-reference/). If not, there will be a link to instructions on [Adding Your Project](broken-reference/).
 
-<!-- theme: info -->
-
-> **Don't see your project on the list below?** Check out the [Add a DAO](adding-your-project/2.-submit-your-metadata.md) page.
-
 ## Live DAOs:
 
 <a href="https://boardroom-live-integrations.netlify.app/integrations" target='_blank'><button style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">View Projects</button><a/>
+
+<!-- theme: info -->
+
+> **Don't see your project on the list below?** Add your project below.
+
+## Add a Project
+
+Fill out this simple form and tell us a bit more about your DAO: 
+
+<a href="https://f9hpzhbysnb.typeform.com/to/T1DZZaDr" target='_blank'><button style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Add Your DAO</button><a/>
+
+
+<!-- theme: info -->
+
+> The Platform currently supports the following governance frameworks:
+
+| Supported Frameworks        | Documentation                                                                                                                                                    |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ⚡ Snapshot                  | [Learn More](https://docs.snapshot.org/)                                  |
+| 📄 Governor Alpha and Bravo | [Learn More](https://docs.compound.finance/v2/governance/)    |
+| 📄 Open Zeppelin Governor   | ​[Learn More](https://docs.openzeppelin.com/contracts/4.x/api/governance)    |
+| 👻 Aave Governance v2       | [Learn More](https://docs.aave.com/governance/)              |
+| 🖼️ Nouns Governor      | [Learn More]() |
+| 🖼️ Nouns Builder     | [Learn More](https://docs.zora.co/docs/smart-contracts/nouns-builder/intro) |
+| 👹 Moloch Governor (V2)     | [Learn More]()       |
+
+That's it! Feel free to reach out with any questions on [**our Discord**](https://discord.com/invite/CEZ8WfuK8s).

@@ -4,9 +4,10 @@ stoplight-id: 674b27b261c3c
 ---
 
 # Welcome
-Web3 offers an unprecedented vision in which users own and control the products that they use. 
+<!-- theme: info -->
+>Web3 offers an unprecedented vision in which users own and control the products that they use.
 
-Boardroom is your key into this new world: A suite of tools that help owners, from institutions to contributors, influence the direction of the projects in their portfolio by making faster, smarter, and more informed decisions. 
+**Boardroom** is your key into this new world: A suite of tools that help owners, from institutions to contributors, influence the direction of the projects in their portfolio by making faster, smarter, and more informed decisions. 
 
 Boardroom helps its users to easily:
 
@@ -17,16 +18,14 @@ Boardroom helps its users to easily:
 
 ## Our Products
 
-**[Governance Dashboard](https://boardroom.io/portal)**
-
+**[Governance Dashboard](https://boardroom.io/portal)** -
 The Boardroom Governance Dashboard helps users manage their decision making process by providing all the information they need in one place.
 
-**[Governance API](https://docs.boardroom.io/docs/api)**
-
+**[Governance API](https://docs.boardroom.io/docs/api)** - 
 Dive into governance data for hundreds of DAOs by plugging into our Governance API - use these docs to make requests against the API and start exploring!
 
 ## Add A DAO
 
-**[Add Your Project](adding-your-project/2.-submit-your-metadata.md)**
+**[Add Your Project](2-protocols.md)**
 
 Learn about DAOs and their governance and explore our simple guides to become an active governor in no time.

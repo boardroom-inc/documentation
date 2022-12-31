@@ -1,7 +1,6 @@
 ---
-description: >-
-  A DAO Bot that easily lets you track and subscribe to governance activity in
-  your Discord server
+description: A DAO Bot that easily lets you track and subscribe to governance activity in your Discord server
+stoplight-id: dd732e166b3f7
 ---
 
 # 💬 Discord Bot
