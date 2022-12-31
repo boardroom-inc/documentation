@@ -17,7 +17,7 @@ The success and sustainability of your project relies on the participation and d
 Our [Governance API](https://docs.boardroom.io/docs/api) also makes this data free and accessible for any stakeholder or developer. This interface can ensure that your community is well-informed and actively engaged in the decision-making processes of your organization:
 
 ## Features
-|[**Project Proposals**](proposals.md)|[**Forum Discussions**](discussions.md)|[**Members and Voters**](Features/members.md)|[**Project Information**](information.md)|
+|![image.png](../../assets/images/image-36.png)[**Project Proposals**](proposals.md)|![image.png](../../assets/images/image-38.png)[**Forum Discussions**](discussions.md)|![image.png](../../assets/images/image-39.png)[**Members and Voters**](Features/members.md)|![image.png](../../assets/images/image-40.png)[**Project Information**](information.md)|
 | :---        |    :----:   |   :----:   |          ---: |
 
 
