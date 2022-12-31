@@ -2,9 +2,9 @@
 stoplight-id: 36km3juffzawp
 ---
 
-# Boardroom for DAOs
+# About Us
 
-## The governance manager built for your token holders.
+## The governance interface built for your token holders.
 
 The success and sustainability of your project relies on the participation and decision-making of your community. By providing your voters with access to a comprehensive and user-friendly DAO governance dashboard, you can help to increase transparency and participation in the governance of your project.
 
