@@ -6,8 +6,8 @@ stoplight-id: 36km3juffzawp
 <!-- theme: info -->
 > ### The all-in-one governance interface built for token holders.
 
-|      | ![image.png](../../assets/images/image-35.png) |   |
-| :---        |    :----:   |          ---: |
+| ![image.png](../../assets/images/image-35.png) |![image.png](../../assets/images/image-42.png)|
+|    :----:   |    :----:   |
 
 
 The success and sustainability of your project relies on the participation and decision-making of your community. By providing your voters with access to a comprehensive and user-friendly governance dashboard, you can help to increase transparency and participation in the decision-making of your project.
