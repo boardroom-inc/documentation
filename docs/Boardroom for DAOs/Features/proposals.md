@@ -4,11 +4,9 @@ stoplight-id: c8ec2be07c039
 
 # Proposals Page
 
-***
+> This page highlights a list of the most recent proposals associated with a DAO. If a DAO has multiple governance frameworks, proposals are filterable.
 
-This page highlights a list of the most recent proposals associated with a DAO. If a DAO has multiple governance frameworks, proposals are filterable by On-Chain and Off-Chain options.
-
-Each Proposal page contains a description of the given proposal, generally containing a short summary of the proposed changes, goals and motivations for the proposed actions, and an implementation spec. 
+Each Proposal page contains a description of the given proposal, generally containing a short summary of the proposed changes, goals and motivations for the proposed actions, and an implementation specification. 
 
 ![Proposal Page](../../../assets/images/image-7.png)
 
@@ -18,7 +16,7 @@ The current results module shows the current vote tally for or against for activ
 
 ***
 
-## Vote on a proposal
+## Vote on a Proposal
 
 1. From the "Projects" page, select a DAO you are interested in to view the project's "Proposals" page
 

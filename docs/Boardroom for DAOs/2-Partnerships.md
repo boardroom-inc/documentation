@@ -4,7 +4,7 @@ stoplight-id: d38s5vzb9qion
 
 # Partner with Boardroom
 
-*The [Boardroom Facilitators](url) program partners Boardroom with DAOs and Foundations to ensure their token holders have the access to best in class governance tooling to engage and participate in the governance and decision-making of the project.*
+*The **Facilitators** program partners Boardroom with DAOs and Foundations to ensure their token holders have the access to best in class governance tooling to engage and participate in the governance and decision-making of the project.*
 
 The partnership provides **free subscriptions for top delegates, governance activity coverage, and feature request priority for DAOs.**
 
@@ -23,11 +23,11 @@ The partnership provides **free subscriptions for top delegates, governance acti
 |![image.png](../../assets/images/ftnqdHbiSm.gif)|The Boardroom Facilitators program allows DAOs and Foundations to subsidize the cost of Boardroom Boost for a minumum of 50 delegates at a **15% discounted rate**. The DAO project will receive one year, 100% discount codes to distribute to their top delegates. This program renews every year at which point new codes will be issued for all users. |
 |    :----:   |    :----  |  
 
-> Learn more about the benefits of [**Boardroom Boost**](../Boardroom-Boost/About-Boost.md) subscription for voters and delegates.
+> Learn more about the benefits of [**Boardroom Boost**](../BoardroomBoost/About-Boost.md) subscription for voters and delegates.
 
 ### Weekly Coverage
 
-|![image.png](../../assets/images/image-65.png) | Our analyst provide succint weekly recaps of all governance activity, posted on a weekly basis on the Boardroom interface and governance forums. This content is available for any entity to distribute to token holders how they see fit. Additonally, all project proposals will include an auto generated summary description on the Boardroom Feed.  |
+|![image.png](../../assets/images/image-65.png) | Our analysts provide succint weekly recaps of all governance activity, posted on a weekly basis on the Boardroom interface and governance forums. This content is available for any entity to distribute to token holders how they see fit. Additonally, all project proposals will include an auto generated summary description on the Boardroom Feed.  |
 |    :----:   |    :----  |  
 
 #### **Why is coverage valuable?**
