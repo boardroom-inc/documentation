@@ -26,7 +26,9 @@ The partnership provides **free subscriptions for top delegates, governance acti
 > Learn more about the benefits of [**Boardroom Boost**](../Boardroom-Boost/About-Boost.md) subscription for voters and delegates.
 
 ### Weekly Coverage
-Our analyst provide succint weekly recaps of all governance activity, posted on a weekly basis on the Boardroom interface and governance forums. This content is available for any entity to distribute to token holders how they see fit. Additonally, all project proposals will include an auto generated summary description on the Boardroom Feed. 
+
+|![image.png](../../assets/images/image-65.png) | Our analyst provide succint weekly recaps of all governance activity, posted on a weekly basis on the Boardroom interface and governance forums. This content is available for any entity to distribute to token holders how they see fit. Additonally, all project proposals will include an auto generated summary description on the Boardroom Feed.  |
+|    :----:   |    :----  |  
 
 #### **Why is coverage valuable?**
 
