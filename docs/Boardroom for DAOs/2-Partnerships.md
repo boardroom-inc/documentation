@@ -20,7 +20,7 @@ The partnership provides **free subscriptions for top delegates, governance acti
 
 ### Boost Subscriptions
 
-| | |
+|![image.png](../../assets/images/ftnqdHbiSm.gif) | |
 |    :----:   |    :----  | 
 |![image.png](../../assets/images/ftnqdHbiSm.gif)| The Boardroom Facilitators program allows DAOs and Foundations to subsidize the cost of Boardroom Boost for a minumum of 50 delegates at a 15% discounted rate. The DAO project will receive one year, 100% discount codes to distribute to their top delegates.|   
 
