@@ -2,7 +2,7 @@
 stoplight-id: e7d8954b21b2c
 ---
 
-# 💻 Your Dashboard
+# Your Dashboard
 
 The Dashboard page shows proposal information for all DAOs integrated on the Boardroom platform.
 
@@ -20,7 +20,8 @@ The Dashboard page surfaces:
 
 Connect your wallet by selecting the "Connect Wallet" button from the top right corner of any page of Boardroom.
 
-![Connect Wallet](../../../assets/images/connect-wallet.png)
+|![Connect Wallet](../../assets/images/connect-wallet.png) |  |
+|    :----:   |  :----:  |  
 
 ***
 
@@ -28,7 +29,8 @@ Connect your wallet by selecting the "Connect Wallet" button from the top right 
 
 Select the "Dashboard" button to view the "Feed" page - a list of proposals from DAOs on the Boardroom platform.
 
-![View Proposals](../../../assets/images/dashboard-feed.png)
+|![View Proposals](../../assets/images/dashboard-feed.png)|  |
+|    :----:   |  :----:  |  
 
 1. **Filter** proposals by Active/Closed/Pending using the dropdown selector
 2. **Toggle** the "Your DAOs" selector to view proposals associated with tokens held by the connected wallet
@@ -45,7 +47,8 @@ Select the "Activity" page to view a your vote history and proposal history
 
 Select the "Preferences" page to subscribe to an email digest with proposals from projects you are interested in.
 
-![Email Notifications](../../../assets/images/email-notifications.png)
+|![Email Notifications](../../assets/images/email-notifications.png)|  |
+|    :----:   |  :----:  |  
 
 1. Enter your email in the "Your Email" field
 2. Select the DAOs you are interested in receiving proposal updates

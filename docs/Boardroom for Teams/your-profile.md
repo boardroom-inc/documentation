@@ -2,7 +2,7 @@
 stoplight-id: d171181990610
 ---
 
-# 👤 Your Profile
+# Your Profile
 
 The Profile page highlights a wallet's vote and proposal history. It also allows users to share information about themselves and links to their social media and projects.
 
@@ -12,11 +12,13 @@ The Profile page highlights a wallet's vote and proposal history. It also allows
 
 View your profile by selecting the "Profile" option from the dropdown on the top right corner of any page on Boardroom.
 
-![View Profile](../../../assets/images/view-profile.png)
+|![View Profile](../../assets/images/view-profile.png) |  |
+|    :----:   |  :----:  |  
 
 Select "Edit Profile" to modify your public profile:
 
-![Edit Profile](../../../assets/images/image-18.png)
+|![Edit Profile](../../assets/images/image-18.png) |  |
+|    :----:   |  :----:  |  
 
 From the edit page you can modify:
 

@@ -7,14 +7,14 @@ stoplight-id: 674b27b261c3c
 <!-- theme: info -->
 >Web3 offers an unprecedented vision in which users own and control the products that they use.
 
-**Boardroom** is your key into this new world: A suite of tools that help owners, from institutions to contributors, influence the direction of the projects in their portfolio by making faster, smarter, and more informed decisions. 
+**Boardroom** is your key into this new world: A suite of tools that help owners, from institutions to contributors, influence the direction of the projects in their portfolio by making faster, smarter, and more informed governance decisions. 
 
 Boardroom helps its users to easily:
 
-- Discover and vote on proposals based on your portfolio and ownership
-- Track activity with notifications and calendars updating you on significant events
-- Contextualize decisions with summaries and notes all in one place
-- Govern in any ecosystem by browsing across hundreds of protocols and thousands of delegates 
+- `Discover` and vote on proposals based on your portfolio
+- `Track` activity with notifications and calendars updating you on significant events
+- `Contextualize` decisions with summaries and notes all in one place
+- `Govern` in any ecosystem by browsing across hundreds of protocols and thousands of delegates 
 
 ## Our Products
 
