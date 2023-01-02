@@ -2,7 +2,7 @@
 stoplight-id: e70c3179680f3
 ---
 
-# 📖 Information Page
+# Information Page
 
 The Information Page outlines a DAO's key stats, project description, and governance process.
 

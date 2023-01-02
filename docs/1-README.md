@@ -26,6 +26,4 @@ Dive into governance data for hundreds of DAOs by plugging into our Governance A
 
 ## Add A DAO
 
-**[Add Your Project](2-protocols.md)**
-
-Learn about DAOs and their governance and explore our simple guides to become an active governor in no time.
+**[Add Your Project](2-protocols.md)** - Easily submit a request to add your project to the Boardroom interface to allow your community to interact with your governance process.
