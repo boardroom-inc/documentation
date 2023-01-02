@@ -24,11 +24,11 @@ Providing your community with access to a comprehensive governance dashboard can
 
 *An integration with Boardroom will enabling the following functionality and much more:*
 
-|![image.png](../../assets/images/image-36.png)[**Project Proposals**](Features/proposals.md)|![image.png](../../assets/images/image-38.png)[**Forum Discussions**](Features/discussions.md)|![image.png](../../assets/images/image-39.png)[**Members and Voters**](Features/members.md)|![image.png](../../assets/images/image-40.png)[**Project Information**](Features/information.md)|
+|![image.png](../../assets/images/image-36.png)[**Project Proposals**](Features/1-proposals.md)|![image.png](../../assets/images/image-38.png)[**Forum Discussions**](Features/2-discussions.md)|![image.png](../../assets/images/image-39.png)[**Members and Voters**](FFeatures/3-members.md)|![image.png](../../assets/images/image-40.png)[**Project Information**](Features/4-information.md)|
 |   :----:         |    :----:   |   :----:   |   :----:    |
 |  Browse, track, vote, and leave notes on onchain and offchain proposals. |  View and link out to relevant forum discussions pulled in from Discourse.  |  Explore thousands of delegate and voter profiles to delegate vote power with context.  | Stay up to date on core governance metrics, proposals start and end dates, and treasury information. |
 
 ## Partner with Boardroom
 Ouer **Facilitators Program** partners Boardroom with DAOs and Foundations to subsidize Boardroom Boost subscriptions for their top delegates and voters while creating recurring weekly governance content for all token holders.
 
-<a href="(2-Partnerships.md)"><button style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Explore ➤</button><a/>
+<a href="https://docs.boardroom.io/docs/documentation/d38s5vzb9qion-partner-with-boardroom"><button style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Explore ➤</button><a/>
