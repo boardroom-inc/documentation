@@ -1,5 +1,5 @@
 ---
-stoplight-id: b6qrei01qcrmt
+stoplight-id: e7d8954b21b2c
 ---
 
 # Vote
@@ -16,7 +16,10 @@ The Dashboard page surfaces:
 
 ***
 
-## Connect Wallet
+## Alerting
+
+Select the "Preferences" page to subscribe to an email digest with proposals from projects you are interested in.
+
 
 Connect your wallet by selecting the "Connect Wallet" button from the top right corner of any page of Boardroom.
 
@@ -25,7 +28,7 @@ Connect your wallet by selecting the "Connect Wallet" button from the top right 
 
 ***
 
-## View Proposals
+## Voting
 
 Select the "Dashboard" button to view the "Feed" page - a list of proposals from DAOs on the Boardroom platform.
 
@@ -37,20 +40,7 @@ Select the "Dashboard" button to view the "Feed" page - a list of proposals from
 
 ***
 
-## View Vote and Proposal History
+## Proxy Voting
 
 Select the "Activity" page to view a your vote history and proposal history
-
-***
-
-## Edit Email Notifications
-
-Select the "Preferences" page to subscribe to an email digest with proposals from projects you are interested in.
-
-|![Email Notifications](../../assets/images/email-notifications.png)|  |
-|    :----:   |  :----:  |  
-
-1. Enter your email in the "Your Email" field
-2. Select the DAOs you are interested in receiving proposal updates
-3. Select "Save Preferences"
 

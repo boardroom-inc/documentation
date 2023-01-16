@@ -6,7 +6,7 @@ stoplight-id: d38s5vzb9qion
 
 *The **Facilitators** program partners Boardroom with DAOs and Foundations to ensure their token holders have the access to best in class governance tooling to engage and participate in the governance and decision-making of the project.*
 
-The partnership provides **free subscriptions for top delegates, governance activity coverage, and feature request priority for DAOs.**
+The partnership provides **free premium subscriptions for top delegates, governance activity coverage, and feature request priority for DAOs.**
 
 | |Featured Partners |    |   
 |   :----:   |    :----:   |    :----:   |  
