@@ -4,7 +4,7 @@ stoplight-id: zbsw77pvetvib
 
 # Boost Your Experience
 
-[Boardroom Boost](https://boardroom.io/portal/settings/feed) is an enhanced experience of the governance dashboard built for highly engaged voters and delegates. A boosted account allows a connected wallet to completely customize their governance experience by allowing a user to track specific projects accross the application.
+[Boardroom Boost](https://boardroom.io/portal/settings/feed) is an enhanced experience of the governance dashboard built for highly engaged voters and delegates. A boosted account allows a connected wallet to completely customize their governance experience by allowing a user to track specific projects accross the application as well as post updates to their delegators.
 
 | ![image.png](../../assets/images/image-62.png)|![image.png](../../assets/images/ftnqdHbiSm.gif)|
 |    :----:   |    :----:   |
