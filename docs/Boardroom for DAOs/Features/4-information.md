@@ -2,7 +2,7 @@
 stoplight-id: e70c3179680f3
 ---
 
-# Information Page
+# Overview
 
 > The information page outlines a project's key stats, description, and governance process.
 

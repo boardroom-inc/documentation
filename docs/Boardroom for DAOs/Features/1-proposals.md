@@ -2,7 +2,7 @@
 stoplight-id: c8ec2be07c039
 ---
 
-# Proposals Page
+# Proposals
 
 > This page highlights a list of the most recent proposals associated with a DAO. If a DAO has multiple governance frameworks, proposals are filterable.
 

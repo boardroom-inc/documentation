@@ -2,7 +2,7 @@
 stoplight-id: 7fa4d3e0c9152
 ---
 
-# Discussions Page
+# Discussions
 
 > The discussions page surfaces an embedded version of a project's Discourse forum.
 

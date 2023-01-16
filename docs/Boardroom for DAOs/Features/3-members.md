@@ -2,7 +2,7 @@
 stoplight-id: 6f4825ab55685
 ---
 
-# Members Page
+# Members
 
 > The members page surfaces a DAO's delegate and voters list. [Browse an example.](https://boardroom.io/compound/delegates)
 

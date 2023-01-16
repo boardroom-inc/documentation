@@ -9,19 +9,19 @@ stoplight-id: zbsw77pvetvib
 | ![image.png](../../assets/images/image-62.png)|![image.png](../../assets/images/ftnqdHbiSm.gif)|
 |    :----:   |    :----:   |
 
-#### Custom Filters
+#### Filters
 
 Under the Boosted experience, a user can filter their [feed](https://boardroom.io/portal) to only display proposals for your selected projects.
 
 ![image.png](../../assets/images/image-63.png)
 
-#### Custom Alerts
+#### Alerts
 
 These selections can be also reflected in Email Alerts that allow users to track new and ending proposals accross all supported projects.
 
 ![image.png](../../assets/images/image-64.png)
 
-#### Delegator Communications 
+#### Communications 
 
 Delegates and voters can also post messages for their delegators on Boardroom's new delegation tab:
 
