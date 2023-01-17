@@ -2,7 +2,7 @@
 stoplight-id: d171181990610
 ---
 
-# Your Profile
+# Profile
 
 The Profile page highlights a wallet's vote and proposal history. It also allows users to share information about themselves and links to their social media and projects.
 
