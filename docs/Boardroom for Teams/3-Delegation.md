@@ -2,7 +2,7 @@
 stoplight-id: 7gm50p7ybhvly
 ---
 
-# Vote
+# Delegation
 
 The Dashboard page shows proposal information for all DAOs integrated on the Boardroom platform.
 

@@ -2,7 +2,7 @@
 stoplight-id: cylxe40ogopv9
 ---
 
-# Boardroom Teams
+# Teams Overview
 <!-- theme: info -->
 > ### The web3 dashboard built for active network participants.
 
@@ -21,7 +21,7 @@ iikhkjhjh
 
 ## Workflows
 
-|![image.png](../../assets/images/image-36.png)[**MONITOR**](Features/1-proposals.md)|![image.png](../../assets/images/image-38.png)[**ANALYZE**](Features/2-discussions.md)|![image.png](../../assets/images/image-39.png)[**ENGAGE**](FFeatures/3-members.md)|![image.png](../../assets/images/image-40.png)[**EXECUTE**](Features/4-information.md)|
+|![image.png](../../assets/images/image-36.png)[**MONITOR**](2-Voting.md)|![image.png](../../assets/images/image-38.png)[**ANALYZE**](4-Profile.md)|![image.png](../../assets/images/image-39.png)[**ENGAGE**](3-Delegation.md)|![image.png](../../assets/images/image-40.png)[**EXECUTE**](2-Voting.md)|
 |   :----:         |    :----:   |   :----:   |   :----:    |
 | Stay on top of governance proposals and never miss a decision with our configurable dashboard and alerting system – all built on top of institutional-grade API. Proposals based on your portfolio and ownership. | Analyze and understand your ownership Inform your team with internal notes,Bundle your multiple wallet activity and share with your stakeholders |  Explore thousands of delegate and voter profiles to delegate vote power with context.  | Stay up to date on core governance metrics, proposals start and end dates, and treasury information. |
 
