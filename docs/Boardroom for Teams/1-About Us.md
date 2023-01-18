@@ -16,12 +16,21 @@ Our dashboard helps organizations have a greater impact with governance manageme
 
 
 ## Team Members
-iikhkjhjh
+
+Add an unlimited number of team members to your organization that can view and access our shared team governance feed. All they need is an email address.
+
+Team members can:
+
+- Use a personal or work **email to sign in**
+- View the **proposals** from the team's governance wallets
+- Post **internal notes** on any proposal
+- Post **messages to delegates** on behalf of the team
+
+[Shared Feed Image] [Notes Image]
 
 
 ## Workflows
-
-|![image.png](../../assets/images/image-36.png)[**MONITOR**](2-Voting.md)|![image.png](../../assets/images/image-38.png)[**ANALYZE**](4-Profile.md)|![image.png](../../assets/images/image-39.png)[**ENGAGE**](3-Delegation.md)|![image.png](../../assets/images/image-40.png)[**EXECUTE**](2-Voting.md)|
+|![image.png](../../assets/images/image-76.png)[**MONITOR**](2-Voting.md)|![image.png](../../assets/images/image-75.png)[**ANALYZE**](4-Profile.md)|![image.png](../../assets/images/image-73.png)[**ENGAGE**](3-Delegation.md)|![image.png](../../assets/images/image-78.png)[**EXECUTE**](2-Voting.md)|
 |   :----:         |    :----:   |   :----:   |   :----:    |
 | Stay on top of governance proposals and never miss a decision with our configurable dashboard and alerting system – all built on top of institutional-grade API. Proposals based on your portfolio and ownership. | Analyze and understand your ownership Inform your team with internal notes,Bundle your multiple wallet activity and share with your stakeholders |  Explore thousands of delegate and voter profiles to delegate vote power with context.  | Stay up to date on core governance metrics, proposals start and end dates, and treasury information. |
 
