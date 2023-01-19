@@ -21,10 +21,11 @@ Add an unlimited number of team members to your organization that can view and a
 
 Team members can:
 
-- Use a personal or work **email to sign in**
-- View the **proposals** from the team's governance wallets
-- Post **internal notes** on any proposal
-- Post **messages to delegates** on behalf of the team
+- Sign in using an **email**.
+- Leave internal **notes** on proposals.
+- View a shared **feed** and profile of your main wallets.
+- Download bundled vote **history** for your main wallets.
+- Post **updates** to your delegators on behalf of your team. 
 
 [Shared Feed Image] [Notes Image]
 
@@ -32,9 +33,9 @@ Team members can:
 ## Workflows
 |![image.png](../../assets/images/image-76.png)[**MONITOR**](2-Voting.md)|![image.png](../../assets/images/image-75.png)[**ANALYZE**](4-Profile.md)|![image.png](../../assets/images/image-73.png)[**ENGAGE**](3-Delegation.md)|![image.png](../../assets/images/image-78.png)[**EXECUTE**](2-Voting.md)|
 |   :----:         |    :----:   |   :----:   |   :----:    |
-| Stay on top of governance proposals and never miss a decision with our configurable dashboard and alerting system – all built on top of institutional-grade API. Proposals based on your portfolio and ownership. | Analyze and understand your ownership Inform your team with internal notes,Bundle your multiple wallet activity and share with your stakeholders |  Explore thousands of delegate and voter profiles to delegate vote power with context.  | Stay up to date on core governance metrics, proposals start and end dates, and treasury information. |
+| Stay on top of governance proposals and never miss a decision with our configurable dashboard and alerting system based on your portfolio. | Analyze and understand your influence, inform your team with internal notes, and export multiple wallet activity to share with your stakeholders. | Explore and browse all your delegators and their profiles, and post updates only they can see.  | Cast votes across any supported protocol, even if your wallet isn't connected with our new proxy service. |
 
 ## Onboard Your Team
-Ouer **Facilitators Program** partners Boardroom with DAOs and Foundations to subsidize Boardroom Boost subscriptions for their top delegates and voters while creating recurring weekly governance content for all token holders.
+Set up a 30 minute demo with us and we'll get your team onboarded 
 
 <a href="https://docs.boardroom.io/docs/documentation/d38s5vzb9qion-partner-with-boardroom"><button style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Schedule a Demo ➤</button><a/>

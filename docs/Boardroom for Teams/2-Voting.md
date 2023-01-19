@@ -6,13 +6,13 @@ stoplight-id: e7d8954b21b2c
 
 The Dashboard page shows proposal information for all DAOs integrated on the Boardroom platform.
 
-***
+Your feed surfaces:
 
-The Dashboard page surfaces:
+1. AI generated summaries of your proposals based on you team wallets.
+2. Vote power and a voting modal that works accross 12 governance frameworks.
+3. Internal team notes posted on the proposals.
 
-1. Summary of proposals of governance tokens in your wallet
-2. Recent governance activity (e.g. votes and proposals) associated with your wallet
-3. Notification preferences
+![image.png](../../assets/images/ivQg9Y77MI.gif)
 
 ***
 
