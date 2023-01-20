@@ -14,7 +14,7 @@ The **team profile page** highlights your organization's **bundled** vote and pr
 
 Easily browse all of your previous vote activity accross any project your team is active in, and an unlimited number of wallets. Any team member can also download this activity or share it with relevant stakeholders.
 
-![image.png](../../assets/images/image-82.png)
+![image.png](../../assets/images/image-93.png)
 
 ## Metadata
 
@@ -32,6 +32,5 @@ From the profile edit page you can modify:
 
 From the delegation edit page you can modify:
 
-
-
-
+1. **Delegation Pitch** - Select projects and draft a pitch.
+2. **Verification** - Activate a verified marker on your profile.
