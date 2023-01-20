@@ -16,6 +16,7 @@ Our dashboard helps organizations have a greater impact with governance manageme
 
 
 ## Team Members
+> **Boardroom Teams enables a global shared view for all team members, regardless of how they signed in.**
 
 Add an unlimited number of team members to your organization that can view and access our shared team governance feed. All they need is an email address.
 
@@ -27,7 +28,7 @@ Team members can:
 - Download bundled vote **history** for your main wallets.
 - Post **updates** to your delegators on behalf of your team. 
 
-[Shared Feed Image] [Notes Image]
+![image.png](../../assets/images/image-84.png)
 
 
 ## Workflows

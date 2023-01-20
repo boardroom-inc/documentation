@@ -3,8 +3,7 @@ stoplight-id: 7gm50p7ybhvly
 ---
 
 # Delegation
-#### The delegation page shows proposal information for all DAOs integrated on the Boardroom platform.
-
+*The delegation page shows proposal information for all DAOs integrated on the Boardroom platform.*
 
 ![Connect Wallet](../../assets/images/V0GclZfwVz.gif) 
 
@@ -13,15 +12,17 @@ stoplight-id: 7gm50p7ybhvly
 
 ## Messaging
 
-Stay in the know with an email digest of active and ending proposals from projects you are interested in.
+Post updates to your delegators accross all of your governance wallets and ecosystems. Only wallets that are currently delegating to any of your addresses are able to view the updates. 
 
-![image.png](../../assets/images/image-81.png)
+Anyone can delegate voting on this page - this is a great landing to encourage delegations to your organization! 
+
+![image.png](../../assets/images/image-82.png)
 
 ***
 
 ## Delegations
 
-Connect your wallet by selecting the "Connect Wallet" button from the top right corner of any page of Boardroom.
+Request delegations for any protocol in which your organization is an active delegate.
 
 ***
 

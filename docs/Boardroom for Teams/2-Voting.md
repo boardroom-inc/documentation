@@ -5,8 +5,6 @@ stoplight-id: e7d8954b21b2c
 # Voting
 #### The team feed page shows proposal information for all DAOs integrated on the Boardroom platform. 
 
-> This page view is shared accross all team members, regardless of how they signed in.
-
 Using your custom filtering, your feed surfaces:
 
 1. AI generated summaries of your proposals based on you team wallets.
@@ -22,6 +20,14 @@ Using your custom filtering, your feed surfaces:
 Stay in the know with an email digest of active and ending proposals from projects you are interested in.
 
 ![image.png](../../assets/images/image-81.png)
+
+***
+
+## Notes
+
+Post internal team notes with research on proposals, vote recommendations, or any other relevant updates that can help your team make a more informed governance decision.
+
+![image.png](../../assets/images/image-85.png)
 
 ***
 
