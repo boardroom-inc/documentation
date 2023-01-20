@@ -4,19 +4,17 @@ stoplight-id: d171181990610
 
 # Profile
 
-The Profile page highlights your organization's **bundled** vote and proposal history, accross an unlimited number of governance wallets. 
+The **team profile page** highlights your organization's **bundled** vote and proposal history, accross an unlimited number of governance wallets. You can download your entire history as a csv and share the profile on socials.
+
+![image.png](../../assets/images/tZgRPT8w4C.gif)
 
 ***
 
-## Messaging
+## Vote History
 
-Post updates to your delegators accross all of your governance wallets and ecosystems. Only wallets that are currently delegating to any of your addresses are able to view the updates. Anyone can delegate voting on this page - this is a great landing to encourage delegations to your organization! 
+skljfnlja
 
 ![image.png](../../assets/images/image-82.png)
-
-It also allows users to share information about themselves and links to their social media and projects.
-
-
 
 ## View Your Profile and Vote Power
 
