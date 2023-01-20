@@ -12,23 +12,17 @@ The **team profile page** highlights your organization's **bundled** vote and pr
 
 ## Vote History
 
-skljfnlja
+Easily browse all of your previous vote activity accross any project your team is active in, and an unlimited number of wallets. Any team member can also download this activity or share it with relevant stakeholders.
 
 ![image.png](../../assets/images/image-82.png)
 
-## View Your Profile and Vote Power
+## Metadata
 
-View your profile by selecting the "Profile" option from the dropdown on the top right corner of any page on Boardroom.
+Add an array of contextual information to your team profile to share with interested parties.
 
-|![View Profile](../../assets/images/view-profile.png) |  |
-|    :----:   |  :----:  |  
+![image.png](../../assets/images/o03BT7jtbt.gif)
 
-Select "Edit Profile" to modify your public profile:
-
-|![Edit Profile](../../assets/images/image-18.png) |  |
-|    :----:   |  :----:  |  
-
-From the edit page you can modify:
+From the profile edit page you can modify:
 
 1. **Display Name** - Name associated with your wallet and profile
 2. **ENS** - Your ETH address
@@ -36,6 +30,7 @@ From the edit page you can modify:
 4. **Twitter** - Share your Twitter handle
 5. **Website** - Share a link to your personal site or project
 
+From the delegation edit page you can modify:
 
 
 

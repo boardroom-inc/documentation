@@ -24,6 +24,8 @@ Anyone can delegate voting on this page - this is a great landing to encourage d
 
 Request delegations for any protocol in which your organization is an active delegate.
 
+![image.png](../../assets/images/image-35.png)
+
 ***
 
 
