@@ -6,27 +6,28 @@ stoplight-id: zbsw77pvetvib
 
 [Boardroom Boost](https://boardroom.io/feed/settings/feed) is an enhanced experience of the governance dashboard built for highly engaged voters and delegates. A boosted account allows a connected wallet to completely customize their governance experience by allowing a user to track specific projects accross the application as well as post updates to their delegators.
 
-| ![image.png](../../assets/images/image-62.png)|![image.png](../../assets/images/ftnqdHbiSm.gif)|
+| ![image.png](../../assets/images/image-94.png)|![image.png](../../assets/images/ftnqdHbiSm.gif)|
 |    :----:   |    :----:   |
 
-#### Filters
+#### Customize Your Projects
 
 Under the Boosted experience, a user can filter their [feed](https://boardroom.io/feed) to only display proposals for your selected projects.
 
-![image.png](../../assets/images/image-63.png)
+|![image.png](../../assets/images/image-63.png)|![image.png](../../assets/images/ftnqdHbiSm.gif)|
+|    :----:   |    :----:   |
 
-#### Alerts
-
-These selections can be also reflected in Email Alerts that allow users to track new and ending proposals accross all supported projects.
-
-![image.png](../../assets/images/image-64.png)
-
-#### Communications 
+#### Post Messages For Your Delegators 
 
 Delegates and voters can also post messages for their delegators on Boardroom's new delegation tab:
 
 |![image.png](../../assets/images/image-66.png)|![image.png](../../assets/images/image-67.png)|
 |    :----:   |    :----:   |
+
+#### Sign Up For Custom Notifications
+
+These selections can be also reflected in [Email Alerts](https://boardroom.io/feed/settings/notifications) that allow users to track new and ending proposals accross all supported projects.
+
+![image.png](../../assets/images/image-64.png)
 
 This functionality gives delegates the power to customize their entire voting experiance as well as a direct line of communication to their delegators, an experience easily accessible from a single governance portal. 
 
