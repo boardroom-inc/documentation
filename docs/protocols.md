@@ -13,6 +13,6 @@ All projects listed here are currently integrated with both the [Governance SDK 
 
 > **Don't see your project on the list below?** Check out the [Add a DAO](adding-your-project/2.-submit-your-metadata.md) page.
 
-## Live DAOs:
+## Live DAOs on Boardroom:
 
 <a href="https://boardroom.notion.site/boardroom/cc12f08c59dd440d9a6085e34c9fd579?v=8046a946ffa34fcf8d790b41b65846df" target='_blank'><button style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">View Projects</button><a/>
